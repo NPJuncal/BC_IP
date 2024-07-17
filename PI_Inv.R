@@ -1,7 +1,7 @@
 # Iberian Peninsula Blue Carbon inventory #
 
 
-setwd("C:/Users/npjun/Dropbox/Seagrasses/Inventarios P. Iberica/R")
+setwd("C:/Users/npjun/Dropbox/Seagrasses/Inventarios P. Iberica/R Project/BC_IP")
 
 #Libraries#
 
@@ -431,7 +431,7 @@ estimate_flux<- function(df=NULL,TimeFrame=100) {
 }
 
 
-# Loading and clean the data set ----------------------------------------------------
+# Loading and clean the soil data set ----------------------------------------------------
 
 File<-"Raw.csv"
 
@@ -723,7 +723,7 @@ sum(m.ErrorExt$Ecosystem=="Seagrass"&m.ErrorExt$variable=="Error.25"&!is.na(m.Er
 
 
 
-ext_plot<-grid.arrange(maxp3, maxp1, maxp2, ncol=2, # fig Sx supp material
+ext_plot<-grid.arrange(maxp3, maxp1, maxp2, ncol=2, # fig S4 supp material
              layout_matrix = rbind(c(1, 2),
                                    c(3, 3)))
 ggsave(path = Folder,"Extrapolation plot.jpg",ext_plot, units="cm", width = 20, height = 20)
@@ -740,7 +740,7 @@ BCF<-estimate_flux(A)
 
 write.csv(BCF,file.path(Folder,"Flux_core.csv"))
 
-# rescatamos cores younger than 100 but older than 80 years
+# retrieve cores younger than 100 but older than 80 years
 
 for (i in 1:nrow(BCF)) {
   
@@ -801,8 +801,6 @@ sum_comp_flux<-data.frame(matrix(NA, nrow = 6, ncol = 3))
 colnames(sum_comp_flux)<-c("time_frame", "mean", "SE")
 
 
-
-
 sum_comp_flux$time_frame<-c(50, 100, 200, 500, 1000, 2000)
 sum_comp_flux$mean<-as.vector(colMeans(comp_flux[,c(4:9)], na.rm=TRUE))
 sum_comp_flux$SE<-as.numeric(lapply(comp_flux[,c(4:9)], std.error))
@@ -820,11 +818,15 @@ ggplot(sum_comp_flux, aes(time_frame, mean))+
   geom_errorbar(aes(ymin=mean-SE, ymax=mean+SE))
 
 
-ggplot(comp_flux_m, aes(variable, value))+ # Fig Sx supp material
+plot_S5<-ggplot(comp_flux_m, aes(variable, value))+ # Fig S5 supp material
   ylab(expression(paste("OC flux (kg"," ", m^-2,yr^-1, ")")))+ xlab("Time frame")+
   scale_color_manual(values=c("black", "blue"))+
   geom_point(aes(color=ref))+
   geom_errorbar(aes(ymin=value-SE, ymax=value+SE), color="blue", width=.5, linewidth=1)
+
+
+ggsave(path = Folder,"Sup S5.jpg",plot_S5, units="cm", width = 12, height = 10)
+
 
 
 # Sediment accumulation rates and age of first meter ----------------------
@@ -900,7 +902,7 @@ TOC.Planta <- as.data.frame(tapply(D$TOC, list(D$Specie, D$Tissue), mean))
 TOC.Planta.2 <- as.data.frame(tapply(D$TOC, list(D$Ecosystem, D$Tissue), mean))
 
 
-#S3 supp material
+#Table3 supp material
 
 TOC.Planta_av<-rbind(TOC.Planta, TOC.Planta.2)
 
@@ -1013,7 +1015,7 @@ for (i in 1:nrow(BCF)) {
 
 }
 
-####### Add here the stocks already estimated fluxes (A. Camacho) con cbin a BCF
+####### Add here the stocks already estimated fluxes con cbin a BCF
 
 
 #File<-"P.Flux.csv"
@@ -1192,8 +1194,6 @@ ggsave(path = Folder,"Sampling sites.jpg",final, units="cm", width = 20, height 
 
 
 
-
-
 # Summary table -----------------------------------------------------------
 
 # Tabla de areas
@@ -1280,8 +1280,6 @@ write.csv(Summary,file.path(Folder,"Summary table.csv"))
 
 # Comparisons among categories --------------------------------------------
 
-
-
 # normal distribution and significat differences among ecosystems
 
 shapiro.test(BC_PI$Mean_Biomass)
@@ -1293,8 +1291,10 @@ ggplot(BC_PI, aes(x=Mean_Biomass)) +
 
 
 # boxplots and significant diferences
-##### OJO, el geom_signif solo tiene encenta datos dentro de la grafica. 
-#al poner ylim se carga datos. Asegurarse que con y sin ylim la significancia es la misma
+##### WARNING, geom_signif function only tests data from the plot
+# if we use ylim to exclude parts of the plot, that will exclude values in those areas from
+# the geom_signif test.
+# make sure that the level of signif is the same with and without ylim
 
 EB<-ggplot(BC_PI,aes(Ecosystem, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg"," ", m^-2, ")")))+
   geom_boxplot()+
@@ -1371,16 +1371,10 @@ pairwise.wilcox.test(BC_PI$Mean_Flux, BC_PI$Ecosystem, #### are significantly di
 
 # Seagrass ----------------------------------------------------------------
 
-Sg<-subset(BC_PI, Ecosystem=='Seagrass')
-Sg<-subset(Sg, !Genus=="Mixed Seagrass")
-
+Sg<- subset(BC_PI, Ecosystem=="Seagrass")
 
 Sg$Genus <- factor(Sg$Genus, levels = c("Posidonia oceanica","Cymodocea nodosa","Zostera marina","Zostera noltii"),ordered = TRUE)
 
-ggplot(Sg,aes(Genus, Mean_Biomass))+
-  geom_boxplot()+
-  geom_jitter(aes(color=factor(Coast)))+
-  ylim(0,2)
 
 # normal distribution
 
@@ -1400,27 +1394,6 @@ for (ids in unique(Sg$Genus)){
 
 }
 
-ggplot(Sg,aes(Genus, Mean_Biomass))+
-  geom_boxplot()+
-  geom_jitter(aes(color=factor(Coast)))
-
-ggplot(Sg,aes(Genus, Mean_Flux))+
-  geom_boxplot()+
-  geom_jitter(aes(color=factor(Coast)))
-
-
-#significative difrences
-
-pairwise.wilcox.test(Sg$Mean_Biomass, Sg$Genus, #### are significantly different (p < 0.05)
-                     p.adjust.method = "BH")
-
-pairwise.wilcox.test(Sg$Mean_Stock, Sg$Genus, #### are significantly different (p < 0.05)
-                     p.adjust.method = "BH")
-# without Z. marina
-Sg2<-subset(Sg, !Genus=="Zostera marina")
-
-pairwise.wilcox.test(Sg2$Mean_Flux, Sg2$Genus, #### are significantly different (p < 0.05)
-                     p.adjust.method = "BH")
 
 # seagrass summary plot
 
@@ -1509,43 +1482,6 @@ Sm = filter(Sm, !is.na(Site.ID))
 Sm$Tidal.R <- factor(Sm$Tidal.R, levels = c("High","Medium","Low","Microtidal"),ordered = TRUE)
 
 
-#significative difrences
-
-pairwise.wilcox.test(Sm$Mean_Flux, Sm$Tidal.R, #### are significantly different (p < 0.05)
-                     p.adjust.method = "BH")
-
-# without microtidal
-
-Sm2<-subset(Sm, !Tidal.R=="Microtidal")
-
-pairwise.wilcox.test(Sm2$Mean_Biomass, Sm2$Tidal.R, #### are significantly different (p < 0.05)
-                     p.adjust.method = "BH")
-
-pairwise.wilcox.test(Sm2$Mean_Flux, Sm2$Tidal.R, #### are significantly different (p < 0.05)
-                     p.adjust.method = "BH")
-
-# summary figure
-
-ggplot(Sm,aes(Tidal.R, Mean_Flux))+
-  geom_boxplot()+
-  geom_jitter(aes(color=factor(Coast)))
-
-ggplot(Sm,aes(Tidal.R, Mean_Stock))+
-  geom_boxplot()+
-  geom_jitter(aes(color=factor(Coast)))
-
-
-shapiro.test(Sm$Mean_Stock) ### normality (>0.05 normal, <0.05 no normal)
-
-ggplot(Sm, aes(x=Mean_Stock)) +
-  geom_histogram()
-
-
-#sumary plot salt marshes
-
-#Delet umpublished data from Senillar de Moraira and Albufera de Adra from the image (geom_jitter)
-
-
 SS<-ggplot(Sm,aes(Tidal.R, Mean_Stock))+ ylab(expression(paste("Soil C stock (kg"," ", m^-2, ")")))+
   geom_boxplot()+
   #ylim(0,50)+
@@ -1621,10 +1557,14 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
 ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, height = 20)
 
 
-#### only pvalues significatives
-## chekear si ylim esta variando la significacion!
 
+# Figure 4 ----------------------------------------------------------------
 
+#### only pvalues significatives. If not the plot is too overcrowded
+##### WARNING, geom_signif function only tests data from the plot
+# if we use ylim to exclude parts of the plot, that will exclude values in those areas from
+# the geom_signif test.
+# make sure that the level of signif is the same with and without ylim
 
         SS<-  ggplot(Sg,aes(Genus, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
@@ -1690,11 +1630,7 @@ ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, he
                       tip_length = 0.01)
         
         
-        
-        SgPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Seagrass specie")
-        ggsave(path = Folder,"Summary seagrass.jpg",SgPlot, units="cm", width = 13, height = 20)
-        
-        
+
         
         ### add significance *** to high and medium
         SS<-ggplot(Sm,aes(Tidal.R, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
@@ -1759,10 +1695,12 @@ ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, he
                       y_position = 0.05,
                       step_increase = 0.05,
                       tip_length = 0.01)
+ 
         
-        SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
-        ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, height = 20)
-
+   ####Falta el codigo de la figuraaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!!!!!!!!     
+        
+        
+        
 
 # significant differences withing ecosystems -------------------------------
 
