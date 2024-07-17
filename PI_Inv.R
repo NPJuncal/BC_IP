@@ -1371,6 +1371,13 @@ pairwise.wilcox.test(BC_PI$Mean_Flux, BC_PI$Ecosystem, #### are significantly di
 
 # Seagrass ----------------------------------------------------------------
 
+#### only pvalues significatives. If not the plot is too overcrowded
+##### WARNING, geom_signif function only tests data from the plot
+# if we use ylim to exclude parts of the plot, that will exclude values in those areas from
+# the geom_signif test.
+# make sure that the level of signif is the same with and without ylim
+
+
 Sg<- subset(BC_PI, Ecosystem=="Seagrass")
 
 Sg$Genus <- factor(Sg$Genus, levels = c("Posidonia oceanica","Cymodocea nodosa","Zostera marina","Zostera noltii"),ordered = TRUE)
@@ -1560,11 +1567,13 @@ ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, he
 
 # Figure 4 ----------------------------------------------------------------
 
+
 #### only pvalues significatives. If not the plot is too overcrowded
 ##### WARNING, geom_signif function only tests data from the plot
 # if we use ylim to exclude parts of the plot, that will exclude values in those areas from
 # the geom_signif test.
 # make sure that the level of signif is the same with and without ylim
+
 
         SS<-  ggplot(Sg,aes(Genus, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
@@ -1629,6 +1638,9 @@ ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, he
                       step_increase = 0.05,
                       tip_length = 0.01)
         
+        SgPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Seagrass specie")
+        
+        ggsave(path = Folder,"Summary seagrass.jpg",SgPlot, units="cm", width = 13, height = 20)
         
 
         
@@ -1696,12 +1708,12 @@ ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, he
                       step_increase = 0.05,
                       tip_length = 0.01)
  
+        SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
+        ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, height = 20)
         
-   ####Falta el codigo de la figuraaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!!!!!!!!     
         
         
-        
-
+#AQUI!!!!
 # significant differences withing ecosystems -------------------------------
 
 
