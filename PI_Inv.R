@@ -732,10 +732,6 @@ ggsave(path = Folder,"Extrapolation plot.jpg",ext_plot, units="cm", width = 20, 
 # C fluxes estimation AV 100 years ----------------------------------------
 
 
-#modificar para incluir ata 80
-
-
-
 BCF<-estimate_flux(A)
 
 write.csv(BCF,file.path(Folder,"Flux_core.csv"))
@@ -1380,6 +1376,8 @@ pairwise.wilcox.test(BC_PI$Mean_Flux, BC_PI$Ecosystem, #### are significantly di
 
 Sg<- subset(BC_PI, Ecosystem=="Seagrass")
 
+Sg<-subset(Sg, !Genus=="Mixed Seagrass")
+
 Sg$Genus <- factor(Sg$Genus, levels = c("Posidonia oceanica","Cymodocea nodosa","Zostera marina","Zostera noltii"),ordered = TRUE)
 
 
@@ -1476,7 +1474,7 @@ F100<-ggplot(Sg,aes(Genus, Mean_Flux))+ ylab(expression(paste("C flux last 100 y
 
 SgPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Seagrass specie")
 
-ggsave(path = Folder,"Summary seagrass.jpg",SgPlot, units="cm", width = 13, height = 20)
+#ggsave(path = Folder,"Summary seagrass.jpg",SgPlot, units="cm", width = 13, height = 20)
 
 
 # Salt marshes ------------------------------------------------------------
@@ -1561,7 +1559,7 @@ F100<-ggplot(Sm,aes(Tidal.R, Mean_Flux))+ ylab(expression(paste("C flux last 100
 
 
 SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
-ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, height = 20)
+#ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, height = 20)
 
 
 
@@ -1712,33 +1710,6 @@ ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, he
         ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, height = 20)
         
         
-        
-#AQUI!!!!
-# significant differences withing ecosystems -------------------------------
-
-
-temp1<-Sg[,c(6, 13, 15, 17)]
-temp2<-Sm[,c(8, 13, 15, 17)]
-names(temp2)[names(temp2) == 'Tidal.R'] <- 'Genus'
-
-comp<-rbind(temp1, temp2)
-
-# stock
-pairwise.wilcox.test(comp$Mean_Stock, comp$Genus, #### are significantly different (p < 0.05)
-                     p.adjust.method = "BH")
-#biomass
-comp2<-subset(comp, !Genus == "Microtidal")
-
-pairwise.wilcox.test(comp2$Mean_Biomass, comp2$Genus, #### are significantly different (p < 0.05)
-                     p.adjust.method = "BH")
-
-#flux
-comp3<-subset(comp2, !Genus == "Zostera marina" )
-pairwise.wilcox.test(comp3$Mean_Flux, comp3$Genus, #### are significantly different (p < 0.05)
-                     p.adjust.method = "BH")
-
-
-
 
 # Comparison with literature data ----------------------------------------
 
@@ -1797,82 +1768,6 @@ pairwise.wilcox.test(subset(comp_sg_f, Specie == "Zostera noltii")$Stock, subset
 
 
 
-# mapa cymo
-
-
-cymo_bio = filter(comp_sg, !is.na(Biomass) & Specie=="Cymodocea nodosa")
-cymo_posi = filter(comp_sg, !is.na(Biomass) & Specie=="Posidonia oceanica")
-
-
-## median biomass
-
-aggregate(sed_rate$Age, by=list(sed_rate$Ecosystem), FUN=median, na.rm=T)
-
-#Cymo Canarias
-median(arrange(cymo_bio, lat)[c(1:18),"Biomass"])
-
-# Inventory no Canary Island
-median(arrange((subset(cymo_bio, ref=="This Study")), lat)[-c(1:18),"Biomass"] )
-
-#other published data
-median(subset(cymo_bio, ref=="Published")[,"Biomass"])
-
-
-
-
-posi1<-ggplot(cymo_posi, aes(long,lat, color=Biomass))+ ylab("Latitude")+ xlab("Longitude")+
-  geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
-  geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
-  coord_map(xlim = c(-20, 40),ylim = c(27, 45))+
-  labs(tag = "A") +
-  scale_colour_gradient(high = "#132B43", low = "#56B1F7")+
-  geom_point(aes(shape=cymo_posi$ref),size=2.5)+
-  theme(plot.tag = element_text())
-
-posi2<-ggplot(cymo_posi, aes(long, Biomass))+ xlab("Longitude")+ 
-  ylab(expression(paste("AG Biomass C stock (kg"," ", m^-2, ")")))+
-  labs(tag = "B") +
-  geom_point(aes(color=ref))+
-  theme(legend.position = "none", 
-        plot.tag = element_text())
-  
-posi3<-ggplot(cymo_posi, aes(long, Biomass))+ xlab("Longitude")+ 
-  geom_point(aes(color=ref))+
-  labs(tag = "C") +
-  ylim(0, 0.5)+
-  theme(axis.title.y=element_blank())
-
-
-PosiBiomass<-grid.arrange(posi1, posi2, posi3, nrow=2, 
-                          layout_matrix = cbind(c(1,2), c(1,3)),
-                          top="Posidonia oceanica biomass")
-
-
-ggsave(path = Folder,"Posidonia biomass.jpg",SgPlot, units="cm", width = 13, height = 20)
-
-
-
-ggplot(cymo_bio, aes(long,lat, color=Biomass))+ ylab("Latitude")+ xlab("Longitude")+
-  geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
-  geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
-  coord_map(xlim = c(-20, 40),ylim = c(27, 45))+
-  labs(tag = "A") +
-  scale_colour_gradient(high = "#132B43", low = "#56B1F7")+
-  geom_point(aes(shape=cymo_bio$ref),size=2.5)+
-  theme(plot.tag = element_text())
-
-
-
-
-## median posi this study others
-
-
-aggregate(cymo_posi[,c("Biomass", "Stock", "Flux.100")], by=list(cymo_posi$ref), FUN=median, na.rm=TRUE)
-
-aggregate(cymo_posi[,c("Biomass", "Stock", "Flux.100")], by=list(cymo_posi$ref), FUN=max, na.rm=TRUE)
-
-aggregate(subset(BC_PI, Genus=="Cymodocea nodosa")[,c("Mean_Biomass")], by=list((subset(BC_PI, Genus=="Cymodocea nodosa"))[,"Coast"]), FUN=median, na.rm=TRUE)
-
 
 # salt marshes
 
@@ -1922,46 +1817,117 @@ pairwise.wilcox.test(comp_sm_f$Biomass, comp_sm_f$Tidal.R, #### are significantl
                      p.adjust.method = "BH")
 
 
-
-# figure comparison seagrass and salt marsh with literature data
- comp_g<-rbind(comp_sg[,-2], comp_sm[,-2])
- #temp<-comp_g
- #temp$ref<-"All"
- #comp_g<-rbind(comp_g, temp)
- 
- 
- 
-
-pl_g1<-ggplot(comp_g,aes(Ecosystem, Biomass, color=factor(ref)))+ ylab(expression(paste("AG Biomass C stock (kg"," ", m^-2, ")")))+
-   geom_boxplot()+
-   geom_point(position = position_jitterdodge())+
-   ylim(0,2)
- 
-pl_g2<-ggplot(comp_g,aes(Ecosystem, Stock, color=factor(ref)))+ ylab(expression(paste("Soil C stock (kg"," ", m^-2, ")")))+
-   geom_boxplot()+
-   geom_point(position = position_jitterdodge())+
-   ylim(0,40)
- 
- 
-pl_g3<-ggplot(comp_g,aes(Ecosystem, Flux.100, color=factor(ref)))+ ylab(expression(paste("Soil C flux (kg"," ", m^-2,y^-1, ")")))+
-   geom_boxplot()+
-   geom_point(position = position_jitterdodge()) 
-
-
-comp_lit_g<-grid.arrange(pl_g1, pl_g2, pl_g3,nrow=1)
-
-ggsave(path = Folder,"Comparissom with literature data by ecosystem.jpg",comp_lit_g, units="cm", width = 40, height = 10)
-
-
 pairwise.wilcox.test(comp_g$Flux.100, comp_g$Ecosystem, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
  
- 
+
+
+# Cymodocea and Posidonia biomass maps (FS1 and S2) -----------------------
+
+
+# mapa cymo
+
+
+cymo_bio = filter(comp_sg, !is.na(Biomass) & Specie=="Cymodocea nodosa")
+cymo_posi = filter(comp_sg, !is.na(Biomass) & Specie=="Posidonia oceanica")
+
+
+
+#Cymo Canarias
+median(arrange(cymo_bio, lat)[c(1:18),"Biomass"])
+
+# Inventory no Canary Island
+median(arrange((subset(cymo_bio, ref=="This Study")), lat)[-c(1:18),"Biomass"] )
+
+#other published data
+median(subset(cymo_bio, ref=="Published")[,"Biomass"])
+
+# map Cymo
+
+cymo1<-ggplot(cymo_bio, aes(long,lat, color=Biomass))+ ylab("Latitude")+ xlab("Longitude")+
+  geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
+  geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
+  coord_map(xlim = c(-20, 40),ylim = c(27, 45))+
+  labs(tag = "A") +
+  scale_colour_gradient(high = "#132B43", low = "#56B1F7")+
+  geom_point(aes(shape=cymo_bio$ref),size=2.5)+
+  theme(plot.tag = element_text(),
+        legend.title=element_blank())
+
+cymo2<-ggplot(cymo_bio, aes(long, Biomass))+ xlab("Longitude")+ 
+  ylab(expression(paste("AG Biomass C stock (kg"," ", m^-2, ")")))+
+  labs(tag = "B") +
+  geom_point(aes(color=ref))+
+  theme(legend.position = "none", 
+        plot.tag = element_text())
+
+cymo3<-ggplot(cymo_bio, aes(long, Biomass))+ xlab("Longitude")+ 
+  geom_point(aes(color=ref))+
+  labs(tag = "C") +
+  ylim(0, 0.5)+
+  theme(axis.title.y=element_blank())
+
+
+CymoBiomass<-grid.arrange(cymo1, cymo2, cymo3, nrow=2, 
+                          layout_matrix = cbind(c(1,2), c(1,3)),
+                          top="Cymodocea nodosa biomass")
+
+ggsave(path = Folder,"Cymo biomass.jpg",CymoBiomass, units="cm", width = 13, height = 20)
+
+
+
+
+
+#Posidonia maps
+
+posi1<-ggplot(cymo_posi, aes(long,lat, color=Biomass))+ ylab("Latitude")+ xlab("Longitude")+
+  geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
+  geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
+  coord_map(xlim = c(-20, 40),ylim = c(27, 45))+
+  labs(tag = "A") +
+  scale_colour_gradient(high = "#132B43", low = "#56B1F7")+
+  geom_point(aes(shape=cymo_posi$ref),size=2.5)+
+  theme(plot.tag = element_text(),
+        legend.title=element_blank())
+
+posi2<-ggplot(cymo_posi, aes(long, Biomass))+ xlab("Longitude")+ 
+  ylab(expression(paste("AG Biomass C stock (kg"," ", m^-2, ")")))+
+  labs(tag = "B") +
+  geom_point(aes(color=ref))+
+  theme(legend.position = "none", 
+        plot.tag = element_text())
+
+posi3<-ggplot(cymo_posi, aes(long, Biomass))+ xlab("Longitude")+ 
+  geom_point(aes(color=ref))+
+  labs(tag = "C") +
+  ylim(0, 0.5)+
+  theme(axis.title.y=element_blank())
+
+
+PosiBiomass<-grid.arrange(posi1, posi2, posi3, nrow=2, 
+                          layout_matrix = cbind(c(1,2), c(1,3)),
+                          top="Posidonia oceanica biomass")
+
+
+ggsave(path = Folder,"Posidonia biomass.jpg",SgPlot, units="cm", width = 13, height = 20)
+
+
+
+## median posi this study others
+
+
+aggregate(cymo_posi[,c("Biomass", "Stock", "Flux.100")], by=list(cymo_posi$ref), FUN=median, na.rm=TRUE)
+
+aggregate(cymo_posi[,c("Biomass", "Stock", "Flux.100")], by=list(cymo_posi$ref), FUN=max, na.rm=TRUE)
+
+aggregate(subset(BC_PI, Genus=="Cymodocea nodosa")[,c("Mean_Biomass")], by=list((subset(BC_PI, Genus=="Cymodocea nodosa"))[,"Coast"]), FUN=median, na.rm=TRUE)
+
+
+
+
 # Tabla con media, mediana, se and n para Iberia y para global values ----------
 
 #get n per variable
-
-
 
 
 iberian_peninsula_seagrass<-rbind(
@@ -2210,8 +2176,6 @@ ggsave(path = Folder,"flux_Region.jpg",flux_by_region, units="cm", width = 22, h
 
 
 
-## WITHOUT POSIDONIA
-
 
 
 # study limitations -------------------------------------------------------
@@ -2246,15 +2210,6 @@ p3<-ggplot(Summary[-c(1,2),], aes(Area, nS.Flux))+ylab("Number of seq. rate stat
 supp_data<-grid.arrange(p1, p2, p3,nrow=1)
 
 ggsave(path = Folder,"estaciones por area.jpg",supp_data, units="cm", width = 30, height = 9)
-
-
-# effective sample size
-
-temp<-subset(BC_PI, Genus=="Posidonia oceanica")
-
-data<-na.omit(temp[,"Mean_Stock"])
-
-coda::effectiveSize(temp[,"Mean_Stock"])
 
 
 
