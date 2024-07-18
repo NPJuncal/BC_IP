@@ -3143,17 +3143,17 @@ SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;32;33;28.3556;1
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;33;34;27.2808;1.414885102;4.506582108;1.5865976;166.9;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;34;35;23.9855;1.243978425;;;173.5;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;35;36;31.3335;1.625073398;4.501413;1.1620185;177.95;;;;;;;
-SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;36;37;27.408;1.421482174;;;182.4;516;516;14C;25;2;2;26
+SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;36;37;27.408;1.421482174;;;182.4;516;516;14C;25;2;26;24
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;37;38;27.6178;1.432363192;4.223978148;0.849934;189.0666667;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;38;39;26.918;1.396068927;;;195.95;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;39;40;29.2867;1.518918636;4.480483782;0.9377038;200.8;;;;;;;
-SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;40;41;30.7315;1.593851409;;;205.65;451;451;14C;28;2;2;26
+SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;40;41;30.7315;1.593851409;;;205.65;451;451;14C;28;2;26;24
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;41;42;25.1247;1.30306163;4.809446098;;212.9666667;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;42;43;28.0784;1.456251644;;;220.45;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;43;44;31.2508;1.620784264;4.248366013;0.6831591;225.75;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;44;45;26.5669;1.377859558;;;231.05;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;45;46;30.4051;1.576923075;4.212508673;0.6854347;236.3;;;;;;;
-SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;46;47;26.6843;1.383948364;;;241.5;546;546;14C;29;2;2;26
+SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;46;47;26.6843;1.383948364;;;241.5;546;546;14C;29;2;26;24
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;47;48;26.6158;1.380395696;4.004372019;0.6132432;249.5;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;48;49;26.1862;1.358115021;;;257.6;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;49;50;25.2296;1.30850214;3.938270368;0.6139793;263;;;;;;;
@@ -3169,7 +3169,7 @@ SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;58;59;31.3879;1
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;59;60;30.9049;1.602844587;1.830752751;0.5206702;322.95;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;60;61;33.9728;1.761957443;;;328.45;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;61;62;26.3213;1.365121816;1.94375925;0.5607035;333.95;;;;;;;
-SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;62;63;26.5393;1.376428118;;;339.45;660;660;14C;26;2;2;26
+SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;62;63;26.5393;1.376428118;;;339.45;660;660;14C;26;2;26;24
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;63;64;28.3499;1.470332657;2.479194043;0.6792004;347.6666667;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;64;65;31.0248;1.609063052;;;356.15;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;65;66;25.8476;1.340553949;2.45783541;0.6295215;362.1;;;;;;;
@@ -3189,7 +3189,7 @@ SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;78;79;26.4617;1
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;79;80;24.4665;1.268924898;3.510082151;0.6502771;445.6;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;80;81;24.8278;1.287663278;;;454.6;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;81;82;28.6667;1.486763099;3.368075661;0.5881862;463.6;;;;;;;
-SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;82;83;31.699;1.644029605;;;469.6;807;807;14C;61;2;2;26
+SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;82;83;31.699;1.644029605;;;469.6;807;807;14C;61;2;26;24
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;83;84;26.0323;1.350133187;4.010695187;0.6039396;475.65;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;84;85;26.6999;1.384757439;;;481.85;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;85;86;27.7351;1.438446812;3.886397608;0.5947008;488.1;;;;;;;
@@ -3203,7 +3203,7 @@ SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;92;93;25.9141;1
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;93;94;31.2464;1.620556064;4.102306921;0.6027541;539.15;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;94;95;28.3496;1.470317098;;;545.5;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;95;96;28.7883;1.493069734;4.043545879;0.5110729;551.95;;;;;;;
-SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;96;97;27.7888;1.441231897;;;558.4;1037;1037;14C;34;2;2;26
+SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;96;97;27.7888;1.441231897;;;558.4;1037;1037;14C;34;2;26;24
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;97;98;31.3248;1.624622183;3.826606876;0.6792788;564.8;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;98;99;23.3952;1.213363242;;;571.05;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;99;100;26.7451;1.387101681;3.621574513;0.5675382;577.1;;;;;;;
@@ -3231,7 +3231,7 @@ SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;120;121;25.3031
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;121;122;31.8808;1.653458438;2.849575304;;704.55;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;122;123;29.6321;1.536832382;2.702966432;0.3791914;710.25;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;123;124;31.5743;1.637562193;2.860871311;0.4714569;715.95;;;;;;;
-SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;124;125;25.2127;1.307625642;;;721.65;1130;1130;14C;45;2;2;26
+SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;124;125;25.2127;1.307625642;;;721.65;1130;1130;14C;45;2;26;24
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;125;126;26.8467;1.39237104;2.462496462;0.4410213;727.35;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;126;127;21.5852;1.119489821;;;733.05;;;;;;;
 SM10;SM10;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;18.3;127;128;21.5707;1.118737796;2.621974645;;738.8;;;;;;;
@@ -3271,11 +3271,11 @@ SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;26;27;19.7279;0
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;27;28;30.8639;1.359326758;3.105184633;1.3037235;162.65;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;28;29;25.7238;1.131409968;;;181.4333333;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;29;30;23.9426;1.051644114;3.016481808;1.2364445;200.1;;;;;;;
-SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;30;31;27.1803;1.192243968;;;212.55;677;677;14C;24;2;2;26
+SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;30;31;27.1803;1.192243968;;;212.55;677;677;14C;24;2;26;24
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;31;32;22.8782;1.002182774;3.44489155;1.2940051;224.45;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;32;33;24.8589;1.087481736;;;241.4;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;33;34;29.0019;1.267016542;2.662804821;1.1224635;258.3;;;;;;;
-SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;34;35;23.3781;1.019956384;;;269.25;640;640;14C;23;2;2;26
+SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;34;35;23.3781;1.019956384;;;269.25;640;640;14C;23;2;26;24
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;35;36;36.5398;1.592047027;3.176188574;1.2111321;283.85;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;36;37;25.0921;1.091804435;;;311.6;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;37;38;23.5139;1.021765908;;1.4483447;339.1;;;;;;;
@@ -3292,10 +3292,10 @@ SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;47;48;26.2847;1
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;48;49;26.7911;1.147297235;;;870.5666667;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;49;50;25.4841;1.089890286;2.972917939;1.3525285;942.75;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;50;51;30.7285;1.312452741;;;991.15;;;;;;;
-SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;51;52;24.6435;1.05117321;3.225806452;1.2713546;1039.55;1799;1799;14C;32;2;2;26
+SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;51;52;24.6435;1.05117321;3.225806452;1.2713546;1039.55;1799;1799;14C;32;2;26;24
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;52;53;24.3152;1.035809934;;;1071.7;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;53;54;21.3565;0.908580438;2.248690831;1.2370434;1087.75;;;;;;;
-SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;54;55;26.2668;1.116020804;;;1103.85;1575;1575;14C;29;2;2;26
+SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;54;55;26.2668;1.116020804;;;1103.85;1575;1575;14C;29;2;26;24
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;55;56;21.3815;0.907268548;2.947175199;1.0673899;1119.95;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;56;57;26.404;1.118924321;;;1136.35;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;57;58;28.6276;1.211574077;2.867198013;0.8896081;1149.45;;;;;;;
@@ -3305,7 +3305,7 @@ SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;60;61;22.5628;0
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;61;62;12.9374;0.544697715;2.806620746;1.0446061;1197.6;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;62;63;18.992;0.798577289;;;1206.8;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;63;64;25.7462;1.081179556;3.41617982;0.9999522;1216.1;;;;;;;
-SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;64;65;28.7547;1.205959396;;;1225.55;1650;1650;14C;23;2;2;26
+SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;64;65;28.7547;1.205959396;;;1225.55;1650;1650;14C;23;2;26;24
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;65;66;19.9536;0.835766555;3.213262382;1.1142673;1235;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;66;67;24.871;1.040393372;;;1247;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;67;68;26.6529;1.113499745;2.914955424;0.8884462;1261.6;;;;;;;
@@ -3320,7 +3320,7 @@ SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;75;76;18.02;0.7
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;76;77;23.7053;0.979027952;;;1439;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;77;78;22.9843;0.948045837;;1.5463897;1462.7;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;78;79;24.4201;1.005992191;4.786494538;;1486.4;;;;;;;
-SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;79;80;20.1116;0.827453525;3.160133698;1.3645732;1509.8;2514;2514;14C;32;2;2;26
+SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;79;80;20.1116;0.827453525;3.160133698;1.3645732;1509.8;2514;2514;14C;32;2;26;24
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;80;81;14.7395;0.605661895;;;1542.233333;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;81;82;19.1167;0.784533748;2.556558791;1.1069074;1568.1;;;;;;;
 SM15;SM15;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;19.3;82;83;20.3871;0.835614673;;;1583.5;;;;;;;
@@ -3360,7 +3360,7 @@ SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;2;3;29.1417;1.65
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;3;4;27.1319;1.539113745;2.527179096;1.0992383;38.66666667;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;4;5;26.9302;1.527671891;2.798489397;1.1624984;52.1;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;5;6;29.5748;1.677692354;2.566088893;1.0143869;61;;;;;;;
-SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;6;7;29.7375;1.686921852;1.673789174;1.0445141;69.85;283;283;14C;46;2;2;24
+SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;6;7;29.7375;1.686921852;1.673789174;1.0445141;69.85;283;283;14C;46;2;26;24
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;7;8;20.8688;1.183826305;2.640487475;1.0598292;78.6;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;8;9;22.7091;1.288221169;3.072421361;1.0736841;90.86666667;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;9;10;22.7439;1.290195272;3.376800311;1.2654114;102.6;;;;;;;
@@ -3378,17 +3378,17 @@ SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;20;21;25.9578;1.
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;21;22;25.5367;1.44862269;3.429342067;1.2653801;204.85;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;22;23;27.7434;1.573802361;;;212.5;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;23;24;29.2762;1.660753645;3.834461116;1.1039788;220.15;;;;;;;
-SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;24;25;27.8065;1.57738184;;;228.15;575;575;14C;20;2;2;24
+SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;24;25;27.8065;1.57738184;;;228.15;575;575;14C;20;2;26;24
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;25;26;25.3933;1.440488025;2.628401597;1.1726988;236.45;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;26;27;25.4929;1.446138044;;;249.3666667;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;27;28;21.6007;1.225344862;2.830728174;1.3505124;263.3;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;28;29;20.4659;1.16097096;;;272.9;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;29;30;23.7074;1.344851824;3.053650287;1.4478946;282.3;;;;;;;
-SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;30;31;33.2203;1.884490962;;;291.55;675;675;14C;27;2;2;24
+SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;30;31;33.2203;1.884490962;;;291.55;675;675;14C;27;2;26;24
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;31;32;31.554;1.789966611;2.982263381;1.3706892;300.8;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;32;33;23.8532;1.353122633;;;311.05;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;33;34;27.1716;1.54136581;2.435150873;1.4641451;322.25;;;;;;;
-SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;34;35;28.4047;1.611315986;;;333.3;671;671;14C;29;2;2;24
+SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;34;35;28.4047;1.611315986;;;333.3;671;671;14C;29;2;26;24
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;35;36;24.3215;1.37968793;2.784759224;1.2116208;348.2;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;36;37;28.3154;1.606250256;;;366.95;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;37;38;22.6558;1.285197615;3.449283835;1.4987389;385.5;;;;;;;
@@ -3398,13 +3398,13 @@ SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;40;41;34.3984;1.
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;41;42;27.3764;1.552983518;2.153875094;1.3497682;498.2;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;42;43;27.3444;1.551168252;;;528.5;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;43;44;30.5286;1.731798653;2.724252492;1.3894393;558.75;;;;;;;
-SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;44;45;28.05;1.591194887;;;589.25;1067;1067;14C;27;2;2;24
+SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;44;45;28.05;1.591194887;;;589.25;1067;1067;14C;27;2;26;24
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;45;46;27.8596;1.580394049;3.179954442;1.7432875;620.4;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;46;47;23.9228;1.357070839;;;651.45;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;47;48;27.0643;1.535278994;2.919124263;1.1756912;679.5;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;48;49;22.121;1.254859967;;;705;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;49;50;23.7586;1.347756251;2.163529081;1.2479658;743.0666667;;;;;;;
-SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;50;51;30.2172;1.714133837;;;781.8;1301;1301;14C;27;2;2;24
+SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;50;51;30.2172;1.714133837;;;781.8;1301;1301;14C;27;2;26;24
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;51;52;28.7067;1.628447567;2.874475035;1.3173436;808.25;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;52;53;27.077;1.535999428;;;843.25;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;53;54;24.5799;1.39434621;3.422294844;1.588003;886.4;;;;;;;
@@ -3418,13 +3418,13 @@ SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;60;61;29.1489;1.
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;61;62;32.7063;1.855333238;3.188646208;1.39334;1276.55;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;62;63;33.9181;1.924075126;;;1324.75;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;63;64;31.0216;1.759765109;3.059566787;1.4357478;1372.85;;;;;;;
-SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;64;65;27.0691;1.535551284;;;1419.2;2024;2024;14C;24;2;2;24
+SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;64;65;27.0691;1.535551284;;;1419.2;2024;2024;14C;24;2;26;24
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;65;66;26.7926;1.519866243;2.508313539;1.6158654;1464.8;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;66;67;26.9377;1.528097344;;;1511.1;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;67;68;32.245;1.829165031;2.667546423;1.2081247;1542.7;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;68;69;27.5434;1.562456943;;;1559.65;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;69;70;25.505;1.446824441;4.005979073;;1576.25;;;;;;;
-SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;70;71;24.4359;1.386177509;;;1591.8;2052;2052;14C;25;2;2;24
+SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;70;71;24.4359;1.386177509;;;1591.8;2052;2052;14C;25;2;26;24
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;71;72;29.5783;1.677890899;6.517135156;1.616981;1606.5;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;72;73;27.0454;1.534206852;;;1620.95;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;73;74;28.9226;1.640694946;2.403542062;1.3309701;1636.5;;;;;;;
@@ -3437,7 +3437,7 @@ SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;79;80;25.5435;1.
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;80;81;20.7938;1.179571773;;;1755.95;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;81;82;23.5136;1.333858114;3.277734678;1.212075;1773.6;;;;;;;
 SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;82;83;25.5494;1.449343124;;;1790.65;;;;;;;
-SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;83;84;27.9569;1.585913594;1.993093241;1.0186252;1807.2;2245;2245;14C;28;2;2;24
+SM25;SM25;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;5.6;83;84;27.9569;1.585913594;1.993093241;1.0186252;1807.2;2245;2245;14C;28;2;26;24
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;0;1;6.9783;0.373242912;20.03844746;11.0047184;2.45;2;-63;210Pb;1;0;0;0
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;1;2;11.1167;0.594590298;13.14648945;7.3011205;3.8;3.1369527;-61.8630473;210Pb;1;0;0;0
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;2;3;8.5151;0.45544054;10.72715709;6.4576991;5.1;5.803020105;-59.19697989;210Pb;1;0;0;0
@@ -3462,9 +3462,9 @@ EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;20;21;16.0903;0.8
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;21;22;14.1779;0.758322325;7.082452431;4.5702936;108;119.1397739;54.13977394;210Pb;5;0;0;0
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;22;23;10.7133;0.573013956;;;117.95;143.4018155;78.40181546;210Pb;6;0;0;0
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;23;24;11.3166;0.605282194;8.231053965;5.363643;127.85;;;;;;;
-EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;24;25;10.8686;0.581320366;;;137.8;465;465;14C;23;2;2;24
+EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;24;25;10.8686;0.581320366;;;137.8;465;465;14C;23;2;26;24
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;25;26;11.7536;0.628655674;7.453895916;4.3311786;145.65;;;;;;;
-EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;26;27;11.2868;0.603688305;;;151.3;446;446;14C;24;2;2;24
+EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;26;27;11.2868;0.603688305;;;151.3;446;446;14C;24;2;26;24
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;27;28;13.3647;0.714827328;9.352728693;5.1371193;159.7666667;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;28;29;15.9517;0.853196188;;;168.5;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;29;30;14.6595;0.78408129;8.643503094;5.1534433;174.65;;;;;;;
@@ -3472,7 +3472,7 @@ EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;30;31;11.4897;0.6
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;31;32;12.7183;0.680253833;10.51540563;5.520886;186.8;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;32;33;12.8587;0.687763299;;;192.9;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;33;34;13.4665;0.720272226;9.270311898;5.2796519;199.05;;;;;;;
-EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;34;35;13.3341;0.71319065;;;205.2;534;534;14C;27;2;2;24
+EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;34;35;13.3341;0.71319065;;;205.2;534;534;14C;27;2;26;24
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;35;36;13.8625;0.74145277;8.621840725;5.1449791;211.35;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;36;37;16.0205;0.85687604;;;221.0666667;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;37;38;15.7153;0.840552044;7.299197782;4.1245484;231;;;;;;;
@@ -3482,17 +3482,17 @@ EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;40;41;15.5558;0.8
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;41;42;14.1758;0.758210004;7.632573822;4.2267074;258.1;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;42;43;15.4757;0.827736745;;;264.9;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;43;44;15.9742;0.854399628;6.842352941;4.1064148;271.85;;;;;;;
-EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;44;45;16.7704;0.896985359;;;278.9;569;569;14C;27;2;2;24
+EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;44;45;16.7704;0.896985359;;;278.9;569;569;14C;27;2;26;24
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;45;46;16.4003;0.877190107;6.966701852;4.3650665;285.9;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;46;47;15.6138;0.835123193;;;292.95;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;47;48;16.4497;0.879832327;6.202990064;4.2588924;300.8;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;48;49;17.0128;0.909950419;;;309.35;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;49;50;17.4663;0.934206421;5.666171372;4.5057287;317.85;;;;;;;
-EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;50;51;17.6999;0.946700803;;;326.35;612;612;14C;30;2;2;24
+EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;50;51;17.6999;0.946700803;;;326.35;612;612;14C;30;2;26;24
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;51;52;17.9465;0.959890506;5.271243399;3.8859315;335.2;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;52;53;16.3966;0.876992208;;;344.3;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;53;54;17.4683;0.934313394;6.124763705;3.6790513;1422.2;;;;;;;
-EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;54;55;13.9934;0.748454117;;;1431.4;1808;1808;14C;28;2;2;24
+EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;54;55;13.9934;0.748454117;;;1431.4;1808;1808;14C;28;2;26;24
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;55;56;22.5338;1.205247858;4.891956783;3.6966521;1440.55;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;56;57;16.3543;0.874729741;;;1449.6;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;57;58;18.1135;0.968822705;4.274325233;3.4899358;1463.433333;;;;;;;
@@ -3502,7 +3502,7 @@ EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;60;61;17.629;0.94
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;61;62;17.0455;0.911699419;5.558172398;3.4930442;1504.4;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;62;63;15.4209;0.8248057;;;1513.45;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;63;64;16.663;0.891240938;4.988146041;4.1693478;1522.4;;;;;;;
-EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;64;65;16.629;0.889422407;;;1531.4;2007;2007;14C;26;2;2;24
+EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;64;65;16.629;0.889422407;;;1531.4;2007;2007;14C;26;2;26;24
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;65;66;18.0628;0.966110954;6.766917293;4.4746696;1540.45;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;66;67;16.6714;0.891690222;;;1549.35;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;67;68;16.434;0.878992593;5.463688231;4.2379436;1558.15;;;;;;;
@@ -3523,7 +3523,7 @@ EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;81;82;18.9916;1.0
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;82;83;14.4643;0.773640779;;;1688.8;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;83;84;15.2768;0.817098336;4.523721957;3.5620834;1697.35;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;84;85;11.6265;0.621857575;;;1705.9;;;;;;;
-EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;85;86;14.3877;0.769543734;4.413619168;3.1270115;1714.4;1855;1855;14C;29;2;2;24
+EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;85;86;14.3877;0.769543734;4.413619168;3.1270115;1714.4;1855;1855;14C;29;2;26;24
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;86;87;13.2362;0.707954348;;;1723.05;;;;;;;
 EP05;EP05;Seagrass;Posidonia oceanica;Subtidal;Healthy;2015;17;87;88;25.343;1.355501356;4.091251885;2.8401926;1731.8;;;;;;;
 S.ZN;Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;;0;0;1;;1.707496294;1.114649682;;;;;;;;;
@@ -8023,193 +8023,6 @@ PLL22_CJ_Z;PLL22_15;Seagrass;Zostera noltii;subtidal;Healthy;2022;33.62831858;40
 PLL22_CJ_Z;PLL22_15;Seagrass;Zostera noltii;subtidal;Healthy;2022;33.62831858;50;60;;1.325653432;12.99392416;;;;;;;;;
 PLL22_CJ_Z;PLL22_15;Seagrass;Zostera noltii;subtidal;Healthy;2022;33.62831858;60;70;;1.34256432;10.25676374;;;;;;;;;
 PLL22_CJ_Z;PLL22_15;Seagrass;Zostera noltii;subtidal;Healthy;2022;33.62831858;70;80;;1.423235;13.62860689;;;;;;;;;
-Av22_Sp;SpA;Salt Marsh;Spartina maritima;Low;Healthy;2022;31.16883117;0;2;;0.533128316;15.14720928;;;;;;;;;
-Av22_Sp;SpA;Salt Marsh;Spartina maritima;Low;Healthy;2022;31.16883117;2;4;;0.430477197;;;;;;;;;;
-Av22_Sp;SpA;Salt Marsh;Spartina maritima;Low;Healthy;2022;31.16883117;4;6;;0.659176484;;;;;;;;;;
-Av22_Sp;SpA;Salt Marsh;Spartina maritima;Low;Healthy;2022;31.16883117;6;8;;0.840266798;7.2402482;;;;;;;;;
-Av22_Sp;SpA;Salt Marsh;Spartina maritima;Low;Healthy;2022;31.16883117;8;10;;0.872197099;;;;;;;;;;
-Av22_Sp;SpA;Salt Marsh;Spartina maritima;Low;Healthy;2022;31.16883117;10;12;;0.846439463;;;;;;;;;;
-Av22_Sp;SpA;Salt Marsh;Spartina maritima;Low;Healthy;2022;31.16883117;12;14;;0.786938433;7.069928626;;;;;;;;;
-Av22_Sp;SpA;Salt Marsh;Spartina maritima;Low;Healthy;2022;31.16883117;14;16;;0.920771188;;;;;;;;;;
-Av22_Sp;SpA;Salt Marsh;Spartina maritima;Low;Healthy;2022;31.16883117;16;18;;1.039668843;;;;;;;;;;
-Av22_Sp;SpA;Salt Marsh;Spartina maritima;Low;Healthy;2022;31.16883117;18;20;;1.199765984;4.649908867;;;;;;;;;
-Av22_Sp;SpA;Salt Marsh;Spartina maritima;Low;Healthy;2022;31.16883117;20;22;;0.826587112;5.648129191;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;0;2;;0.406980835;14.444361;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;2;4;;0.494513507;;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;4;6;;0.686800689;;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;6;8;;0.684111607;7.814085228;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;8;10;;0.761473642;;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;10;12;;0.879339973;;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;12;14;;0.989498112;5.161442395;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;14;16;;1.039223209;;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;16;18;;1.048100235;;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;18;20;;1.013361168;5.243545965;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;20;22;;1.114950405;;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;22;24;;1.173646748;;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;24;26;;1.320349408;3.180700385;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;26;28;;1.27212928;;;;;;;;;;
-Av22_Sp;SpB;Salt Marsh;Spartina maritima;Low;Healthy;2022;12.5;28;29;;1.074695663;3.393284914;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;0;2;;0.592601335;10.41241745;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;2;4;;0.622173596;;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;4;6;;0.711796928;;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;6;8;;0.717630912;6.443833205;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;8;10;;0.878879061;;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;10;12;;0.968313953;;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;12;14;;1.033498724;4.622860757;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;14;16;;1.161100245;;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;16;18;;1.258655859;;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;18;20;;1.23511366;3.469130431;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;20;22;;1.109697018;;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;22;24;;1.318895368;;;;;;;;;;
-Av22_Sp;SpC;Salt Marsh;Spartina maritima;Low;Healthy;2022;19.35483871;24;25;;0.885981191;2.508588145;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;0;2;;0.551241421;8.886458915;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;2;4;;0.67149635;;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;4;6;;0.732970902;;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;6;8;;0.742810497;8.719003117;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;8;10;;0.790658839;;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;10;12;;0.804246851;;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;12;14;;0.800737803;6.489175414;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;14;16;;0.795145735;;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;16;18;;0.804850367;;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;18;20;;0.88544643;7.048782171;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;20;22;;0.842176657;;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;22;24;;0.822494921;;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;24;26;;0.931614096;6.30045266;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;26;28;;0.857399509;;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;28;30;;1.00690839;;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;30;32;;0.939964001;5.625418625;;;;;;;;;
-Av22_Zn;Av_Zn A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;20.93023256;32;33;;0.711835125;5.378275586;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;0;2;;0.808530029;8.642537198;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;2;4;;0.679800418;;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;4;6;;0.744284908;;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;6;8;;0.760696966;6.366178036;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;8;10;;0.744195782;;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;10;12;;0.69592727;;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;12;14;;0.726793143;6.961532979;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;14;16;;0.678585748;;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;16;18;;0.95739465;;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;18;20;;0.833595023;6.976877552;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;20;22;;0.893676651;;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;22;24;;0.886105968;;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;24;26;;0.912999334;6.318786462;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;26;28;;0.913590117;;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;28;30;;0.94463679;;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;30;32;;1.03835486;4.293095018;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;32;34;;1.076521489;;;;;;;;;;
-Av22_Zn;Av_Zn B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;17.97752809;34;36.5;;1.698190882;3.550983834;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;0;2;;0.656240394;8.309470575;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;2;4;;0.801142693;;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;4;6;;0.691053309;;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;6;8;;0.651055762;7.315486938;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;8;10;;0.730269087;;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;10;12;;0.702150865;;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;12;14;;0.661924135;7.268333416;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;14;16;;0.797205837;;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;16;18;;0.812932892;;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;18;20;;0.723329932;7.270900032;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;20;22;;0.715041142;;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;22;24;;0.898196651;;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;24;26;;1.011018407;5.592976084;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;26;28;;1.018828458;;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;28;30;;0.813154435;;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;30;32;;1.086918763;4.906802737;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;32;34;;1.116399351;;;;;;;;;;
-Av22_Zn;Av_Zn C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;28.71287129;34;35;;0.775723739;4.817212548;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;0;2;;0.676008711;7.908619215;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;2;4;;0.819064813;;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;4;6;;0.736800806;;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;6;8;;0.742558395;6.979332273;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;8;10;;0.800567189;;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;10;12;;0.735451172;;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;12;14;;0.87064884;6.224248644;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;14;16;;0.842803091;;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;16;18;;0.840727711;;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;18;20;;0.906714623;6.650479329;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;20;22;;0.920939256;;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;22;24;;0.850226078;;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;24;26;;0.815759483;6.129644984;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;26;28;;0.812576384;;;;;;;;;;
-Av22_Zn_I;Zn I A;Seagrass;Zostera noltii;Intertidal;Healthy;2022;35.41666667;28;30;;1.134074462;5.20975836;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;0;2;;0.655440799;7.870006592;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;2;4;;0.62700936;;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;4;6;;0.617735083;;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;6;8;;0.713885041;7.736298753;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;8;10;;0.649886928;;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;10;12;;0.780842162;;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;12;14;;0.799838896;6.633459896;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;14;16;;0.823317433;;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;16;18;;0.799523133;;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;18;20;;0.802981251;6.263397682;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;20;22;;0.843401514;;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;22;24;;0.820045208;;;;;;;;;;
-Av22_Zn_I;Zn I B;Seagrass;Zostera noltii;Intertidal;Healthy;2022;47.91666667;24;25;;0.786546275;6.925104988;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;0;2;;0.596446518;7.690976196;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;2;4;;0.697900792;;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;4;6;;0.677653736;;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;6;8;;0.790284507;6.490636583;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;8;10;;0.755963061;;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;10;12;;0.869546215;;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;12;14;;0.817648971;6.340228698;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;14;16;;0.850613143;;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;16;18;;0.839497761;;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;18;20;;0.853317503;6.278535791;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;20;22;;0.892108019;;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;22;24;;0.90445335;;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;24;26;;0.93002764;6.45309766;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;26;28;;0.895349687;;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;28;30;;1.036330409;;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;30;32;;0.983159926;6.267368775;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;32;34;;1.032306972;;;;;;;;;;
-Av22_Zn_I;Zn I C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;29.41176471;34;36;;1.167764381;6.903815835;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;0;2;;0.519163424;20.31335586;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;2;4;;0.477632897;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;4;6;;0.504093361;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;6;8;;0.419303247;14.23984675;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;8;10;;0.51080588;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;10;12;;0.48813203;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;12;14;;0.511182759;12.40226167;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;14;16;;0.544085815;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;16;18;;0.604063037;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;18;20;;0.592746484;11.02431846;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;20;22;;0.573456905;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;22;24;;0.584727621;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;24;26;;0.577103463;11.68364175;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;26;28;;0.605827747;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;28;30;;0.610263714;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;30;32;;0.687607923;9.974557197;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;32;34;;0.574434753;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;34;36;;0.626141011;;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;36;38;;0.649079695;8.441047389;;;;;;;;;
-Av22_Sc;Sc A;Salt Marsh;Sarcocornia;Low;Healthy;2022;60;38;40;;1.11152539;5.499984393;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;0;2;;0.427164228;21.84906079;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;2;4;;0.370991446;;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;4;6;;0.43931348;;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;6;8;;0.480095342;14.30313839;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;8;10;;0.606894722;;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;10;12;;0.482853179;;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;12;14;;0.535415054;12.71070968;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;14;16;;0.600737336;;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;16;18;;0.568496364;;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;18;20;;0.546494784;11.24757097;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;20;22;;0.513943142;;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;22;24;;0.582097109;;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;24;26;;0.65941076;8.951324066;;;;;;;;;
-Av22_Sc;Sc B;Salt Marsh;Sarcocornia;Low;Healthy;2022;39.58333333;26;29;;1.128553696;8.962766472;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;0;2;;0.497021789;18.32419333;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;2;4;;0.422901422;;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;4;6;;0.464867397;;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;6;8;;0.503151164;14.4515472;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;8;10;;0.504243603;;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;10;12;;0.57063286;;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;12;14;;0.598081358;12.16581532;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;14;16;;0.551608114;;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;16;18;;0.560436757;;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;18;20;;0.575224162;11.96558339;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;20;22;;0.664580113;;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;22;24;;0.615142768;;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;24;26;;0.590859543;10.87247582;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;26;28;;0.529509769;;;;;;;;;;
-Av22_Sc;Sc C;Salt Marsh;Sarcocornia;Low;Healthy;2022;43.1372549;28;29;;0.356932335;10.88262269;;;;;;;;;
 Fangar;Salic 2;Salt Marsh;Salicornia;Microtidal;Healthy;2022;26.31578947;0;5;;0.508468699;12.72429095;;;;;;;;;
 Fangar;Salic 2;Salt Marsh;Salicornia;Microtidal;Healthy;2022;26.31578947;5;10;;0.796472317;12.57628999;;;;;;;;;
 Fangar;Salic 2;Salt Marsh;Salicornia;Microtidal;Healthy;2022;26.31578947;10;15;;0.625213885;7.722906762;;;;;;;;;
@@ -8497,3 +8310,202 @@ Av22_Zn_M;Zn_Mira_C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;11.21495327;
 Av22_Zn_M;Zn_Mira_C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;11.21495327;32;34;;1.612759038;;;;;;;;;;
 Av22_Zn_M;Zn_Mira_C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;11.21495327;34;36;;1.635289409;;;;;;;;;;
 Av22_Zn_M;Zn_Mira_C;Seagrass;Zostera noltii;Intertidal;Healthy;2022;11.21495327;36;37.5;;1.502566344;0.182333874;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;0;1;;0.644397087;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;1;2;;0.822081371;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;2;3;;0.583272717;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;3;4;;1.10100012;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;4;5;;1.006995896;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;5;6;;1.06509288;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;6;7;;1.395029925;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;7;8;;1.569938181;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;8;9;;1.337509587;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;9;10;;1.495066743;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;10;11;;1.65765106;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;11;12;;1.431983259;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;12;13;;1.485441207;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;13;14;;1.551300719;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;14;15;;1.850568383;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;15;16;;1.445212826;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;16;17;;1.51899751;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;17;18;;1.332149745;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;18;19;;1.762707646;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;19;20;;1.691591793;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;20;21;;1.255858873;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;21;22;;1.498049772;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;22;23;;1.63107364;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;23;24;;1.523625456;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;24;25;;1.315257004;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;25;26;;1.430186788;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;26;27;;1.506063658;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;27;28;;1.427469903;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;28;29;;1.543279439;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;29;30;;1.718106374;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;30;31;;1.823296032;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;31;32;;1.362623216;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;32;33;;1.678480512;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;33;34;;1.480639528;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;34;35;;1.307760619;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;35;36;;1.154166049;;;;;;;;;;
+Es Burri;EB-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;6.896551724;36;37;;1.263414401;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;0;1;;0.503370421;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;1;2;;0.663089996;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;2;3;;0.822325336;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;3;4;;1.251656018;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;4;5;;1.615378546;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;5;6;;1.939209069;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;6;7;;1.020972145;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;7;8;;0.786547471;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;8;9;;0.933665874;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;9;10;;1.889891136;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;10;11;;1.209601594;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;11;12;;2.076816526;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;12;13;;1.963298783;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;13;14;;1.476318387;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;14;15;;1.343645681;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;15;16;;1.267783596;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;16;17;;1.328153891;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;17;18;;1.495595334;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;18;19;;1.873907719;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;19;20;;1.639553279;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;20;21;;1.399842693;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;21;22;;1.7118446;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;22;23;;1.497864949;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;23;24;;1.790615785;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;24;25;;1.865768154;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;25;26;;1.29632013;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;26;27;;1.703889857;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;27;28;;1.498970186;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;28;29;;1.677560098;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;29;30;;1.5336576;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;30;31;;1.54859862;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;31;32;;1.491130032;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;32;33;;1.398892707;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;33;34;;1.624043007;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;34;35;;1.56133656;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;35;36;;1.160727234;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;36;37;;1.558778622;;;;;;;;;;
+Es Burri;EB2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;13.79310345;37;38;;2.387890626;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;0;1;;0.772870635;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;1;2;;1.208426126;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;2;3;;1.395673106;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;3;4;;1.824512161;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;4;5;;1.41021491;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;5;6;;1.524926603;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;6;7;;1.367228983;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;7;8;;1.786874986;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;8;9;;1.363517755;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;9;10;;1.231133371;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;10;11;;1.6942865;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;11;12;;1.688368495;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;12;13;;1.92815301;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;13;14;;1.503827311;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;14;15;;1.370219404;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;15;16;;1.568729444;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;16;17;;1.403775708;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;17;18;;1.43535811;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;18;19;;1.610610136;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;19;20;;1.785414891;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;20;21;;1.282177542;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;21;22;;1.624264793;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;22;23;;1.744820562;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;23;24;;1.797690776;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;24;25;;1.3950558;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;25;26;;1.760157101;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;26;27;;1.398863136;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;27;28;;1.165643503;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;28;29;;1.305254431;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;29;30;;1.491248318;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;30;31;;0.610925802;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;31;32;;1.408991388;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;32;33;;0.860842265;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;33;34;;1.245715835;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;34;35;;1.034578749;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;35;36;;1.195658614;;;;;;;;;;
+Es Burri;EB3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;10.22727273;36;37;;1.61400347;;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;0;1;;0.692487801;17.51942204;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;1;2;;0.96037267;11.84532188;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;2;3;;0.901458773;8.102520674;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;3;4;;1.051848527;11.08705929;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;4;5;;0.955633831;7.806774289;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;5;6;;0.598868007;8.797091706;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;6;7;;0.715923245;8.047940903;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;7;8;;0.999676941;11.1251643;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;8;9;;1.069672772;11.05513784;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;9;10;;1.103258646;9.504049927;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;10;11;;1.021981273;8.513836524;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;11;12;;1.068098087;7.7451101;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;12;13;;1.379966923;6.31168066;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;13;14;;1.216166476;6.751002624;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;14;15;;1.551851489;6.162137996;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;15;16;;1.073043927;6.125600977;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;16;17;;1.397732024;5.5851461;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;17;18;;1.196534671;5.470225669;;;;;;;;;
+Santa Maria_CM;SM_CM_-1;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;16.66666667;18;19;;0.98733452;6.260427821;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;0;1;;1.264896675;;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;1;2;;1.568215639;6.598547997;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;2;3;;0.866069034;6.141625197;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;3;4;;1.457618086;4.95049505;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;4;5;;1.170023787;5.010650658;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;5;6;;1.321825582;5.122961167;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;6;7;;1.237820235;5.226933157;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;7;8;;1.203532036;4.792612464;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;8;9;;1.234519312;4.67712131;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;9;10;;1.396530681;4.172052822;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;10;11;;1.265281104;4.348075489;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;11;12;;1.348621092;4.446077065;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;12;13;;1.274019494;5.042395815;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;13;14;;1.436762758;4.506174386;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;14;15;;1.313804302;3.98674458;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;15;16;;1.420502109;4.574383453;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;16;17;;1.200500953;5.04462356;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;17;18;;1.385145638;4.017413885;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;18;19;;1.196896922;5.644997461;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;19;20;;1.301088541;4.0051549;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;20;21;;1.108274718;5.184203;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;21;22;;1.147564204;5.688227224;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;22;23;;1.437442904;4.678658044;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;23;24;;1.246931965;4.747138607;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;24;25;;1.274962087;4.651513249;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;25;26;;1.484908919;4.848972611;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;26;27;;1.097876626;4.191272145;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;27;28;;1.303195513;3.880017908;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;28;29;;1.346613924;3.990074939;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;29;30;;1.543534494;4.917055963;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;30;31;;1.419781303;4.172778312;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;31;32;;1.270289784;3.850919113;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;32;33;;1.305834773;4.506936633;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;33;34;;1.255019781;4.318895166;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;34;35;;1.43085954;3.808218508;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;35;36;;1.406888112;4.56985125;;;;;;;;;
+Santa Maria_CM;SM_CM_-2;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;15.55555556;36;37;;1.64436235;4.622507471;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;0;1;;1.38418826;4.163926132;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;1;2;;1.405964001;4.195326725;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;2;3;;1.506729018;4.649207724;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;3;4;;1.214739649;4.849229843;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;4;5;;1.232974199;5.390278338;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;5;6;;1.214384791;4.69839499;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;6;7;;1.24119139;4.821024245;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;7;8;;1.012987829;5.20762165;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;8;9;;1.199055645;4.776290822;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;9;10;;1.055984846;5.419210166;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;10;11;;1.395495677;7.153589528;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;11;12;;0.976415229;5.869022763;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;12;13;;1.325059969;5.245145262;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;13;14;;1.230641744;5.746000653;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;14;15;;1.212085604;7.550002545;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;15;16;;0.922073831;7.513954487;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;16;17;;0.987227323;8.227158743;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;17;18;;1.17540211;8.057608973;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;18;19;;1.155082767;8.364694666;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;19;20;;1.046662418;5.66818055;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;20;21;;0.99973978;7.154136104;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;21;22;;1.051386472;9.896150011;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;22;23;;1.017852347;10.1210314;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;23;24;;1.012000879;9.557109557;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;24;25;;1.155559608;8.395743004;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;25;26;;1.187574495;8.223659752;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;26;27;;1.027322632;8.429316795;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;27;28;;1.3092355;7.518889518;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;28;29;;1.366275301;8.21883462;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;29;30;;1.084868846;7.702038994;;;;;;;;;
+Santa Maria_CM;SM_CM_-3;Seagrass;Posidonia oceanica;Subtidal;Healthy;2020;23.80952381;30;31;;1.375072833;6.839396104;;;;;;;;;
