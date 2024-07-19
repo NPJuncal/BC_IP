@@ -1761,13 +1761,18 @@ pl_sg3<-ggplot(comp_sg_f,aes(Specie, Flux.100, color=factor(ref)))+ ylab(express
   ylim(0,0.1)+
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10))
 
+# significant differences between our data and published data
 
-pairwise.wilcox.test(subset(comp_sg_f, Specie == "Zostera noltii")$Stock, subset(comp_sg_f, Specie == "Zostera noltii")$ref, #### are significantly different (p < 0.05)
+temp<-subset(comp_sg_f, Specie == "Zostera noltii")
+
+pairwise.wilcox.test(temp$Biomass, temp$ref, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
 
+pairwise.wilcox.test(temp$Stock, temp$ref, #### are significantly different (p < 0.05)
+                     p.adjust.method = "BH")
 
-
-
+pairwise.wilcox.test(temp$Flux.100, temp$ref, #### are significantly different (p < 0.05)
+                     p.adjust.method = "BH")
 
 # salt marshes
 
@@ -1808,18 +1813,36 @@ comp_lit<-grid.arrange(pl_sg1, pl_sg2, pl_sg3, pl_sm1, pl_sm2, pl_sm3, nrow=2)
 ggsave(path = Folder,"Comparissom with literature data.jpg",comp_lit, units="cm", width = 40, height = 20)
 
 
+# significant differences between our data and published data
 
-pairwise.wilcox.test(subset(comp_sm_f, Tidal.R == "Microtidal")$Stock, subset(comp_sm_f, Tidal.R == "Microtidal")$ref, #### are significantly different (p < 0.05)
+
+
+temp<-subset(comp_sm_f, Tidal.R == "Medium")
+
+pairwise.wilcox.test(temp$Biomass, temp$ref, #### are significantly different (p < 0.05)
+                     p.adjust.method = "BH")
+
+pairwise.wilcox.test(temp$Stock, temp$ref, #### are significantly different (p < 0.05)
+                     p.adjust.method = "BH")
+
+pairwise.wilcox.test(temp$Flux.100, temp$ref, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
 
 
-pairwise.wilcox.test(comp_sm_f$Biomass, comp_sm_f$Tidal.R, #### are significantly different (p < 0.05)
-                     p.adjust.method = "BH")
+# significant differences between our data and published data whole ecosystem
 
 
-pairwise.wilcox.test(comp_g$Flux.100, comp_g$Ecosystem, #### are significantly different (p < 0.05)
+temp<-comp_sg_f
+
+pairwise.wilcox.test(temp$Biomass, temp$ref, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
- 
+
+pairwise.wilcox.test(temp$Stock, temp$ref, #### are significantly different (p < 0.05)
+                     p.adjust.method = "BH")
+
+pairwise.wilcox.test(temp$Flux.100, temp$ref, #### are significantly different (p < 0.05)
+                     p.adjust.method = "BH")
+
 
 
 # Cymodocea and Posidonia biomass maps (FS1 and S2) -----------------------
