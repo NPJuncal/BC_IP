@@ -625,7 +625,8 @@ for (i in 1:length(X)){
   
 }
 
-sum( max_depth$max<30)
+sum(max_depth$max<30)
+sum(max_depth$max>50)
 
 sum(max_depth$max<30)*100/(nrow(max_depth))
 sum(max_depth$max>50)*100/(nrow(max_depth))
@@ -2238,14 +2239,17 @@ ggsave(path = Folder,"estaciones por area.jpg",supp_data, units="cm", width = 30
 
 #### station per area (coast)
 
-sampling_area<-Summary<- data.frame(Category=character(),
+sampling_area<-data.frame(Category=character(),
                                     Coast=character(),
                                     nS.Biomass=numeric(),
                                     SA.Biomass=numeric(),
+                                    cv.Biomass=numeric(),
                                     nS.Stock=numeric(),
                                     SA.Stock=numeric(),
+                                    cv.Biomass=numeric(),
                                     nS.Flux=numeric(),
-                                    SA.Flux=numeric())
+                                    SA.Flux=numeric(),
+                                    cv.Biomass=numeric())
 
 
 
@@ -2254,6 +2258,5 @@ BC_PI %>% group_by(Coast, Genus) %>% summarise(Mean_Biomass = n())
 BC_PI %>% group_by(Coast) %>% summarise(Mean_Biomass = n())
 BC_PI %>% group_by(Coast) %>% summarise(Mean_Biomass = n())
 BC_PI %>% group_by(Coast) %>% summarise(Mean_Biomass = n())
-
 
 
