@@ -49,12 +49,12 @@ S.ZN;Santander Bay;Cantabria;Atlantic Ocean;Seagrass;Zostera noltii;Healthy;Inte
 S.ZN.C;Santander Bay;Cantabria;Atlantic Ocean;Seagrass;Zostera noltii;Control;Intertidal;;43.44654;-3.772768;0
 S.ZM;Santander Bay;Cantabria;Atlantic Ocean;Seagrass;Zostera marina;Healthy;Subtidal;;43.447417;-3.772972;0.5
 S.ZM.C;Santander Bay;Cantabria;Atlantic Ocean;Seagrass;Zostera marina;Control;Subtidal;;43.447417;-3.772972;0.5
-Arinaga;Arinaga;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.851831;-15.395308;11
-Castillo del Romeral;Castillo del Romeral;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.787783;-15.491339;8
-El Pajar;El Pajar;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.753972;-15.669611;10
-Gando;Gando;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.924814;-15.380603;10
-P. Cabron;P. Cabron;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.869889;-15.384111;13
-Risco Verde;Risco Verde;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.856222;-15.386194;12
+Arinaga;Arinaga;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.851831;-15.395308;11
+Castillo del Romeral;Castillo del Romeral;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.787783;-15.491339;8
+El Pajar;El Pajar;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.753972;-15.669611;10
+Gando;Gando;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.924814;-15.380603;10
+P. Cabron;P. Cabron;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.869889;-15.384111;13
+Risco Verde;Risco Verde;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;2018;27.856222;-15.386194;12
 BS1A;Bay of Santander;Cantabria;Cantabrian Sea;Salt Marsh;Mixed Salt Marsh;Healthy;High;2019;43.432096;-3.758772;
 BS1B;Bay of Santander;Cantabria;Cantabrian Sea;Salt Marsh;Spartina maritima;Healthy;Low;2019;43.43318;-3.758215;
 BS2A;Bay of Santander;Cantabria;Cantabrian Sea;Salt Marsh;Halimione;Healthy;High;2019;43.452136;-3.748134;
@@ -665,18 +665,18 @@ Cam_Hp_N;Mundaka;Euskal Herria;Cantabrian Sea;Salt Marsh;Halimione;Healthy;Mediu
 Delta_High;Delta del Ebro;Catalunya;Mediterranean Sea;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1990;40.611931;0.705091;
 Delta_Mid;Delta del Ebro;Catalunya;Mediterranean Sea;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1990;40.611931;0.705091;
 Delta_Low;Delta del Ebro;Catalunya;Mediterranean Sea;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1990;40.611931;0.705091;
-Medano_june;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
-Medano_julio;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
-Medano_agosto;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
-Medano_septiembre;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
-Medano_octubre;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
-Medano_noviembre;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
-Medano_diciembre;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
-Medano_enero;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1992;28.037063;-16.530576;
-Medano_febrero;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1992;28.037063;-16.530576;
-Medano_marzo;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1992;28.037063;-16.530576;
-Medano_abril;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1992;28.037063;-16.530576;
-Medano_mayo;El Medano;Canarias;Ultraperiferic T.;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1992;28.037063;-16.530576;
+Medano_june;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
+Medano_julio;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
+Medano_agosto;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
+Medano_septiembre;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
+Medano_octubre;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
+Medano_noviembre;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
+Medano_diciembre;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1991;28.037063;-16.530576;
+Medano_enero;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1992;28.037063;-16.530576;
+Medano_febrero;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1992;28.037063;-16.530576;
+Medano_marzo;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1992;28.037063;-16.530576;
+Medano_abril;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1992;28.037063;-16.530576;
+Medano_mayo;El Medano;Canarias;Atlantic Insular;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1992;28.037063;-16.530576;
 Blanes_junio;Blanes;Catalunya;Mediterranean Sea;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1998;41.672844;2.792704;
 Blanes_julio;Blanes;Catalunya;Mediterranean Sea;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1998;41.672844;2.792704;
 Blanes_agosto;Blanes;Catalunya;Mediterranean Sea;Seagrass;Cymodocea nodosa;Healthy;Subtidal;1998;41.672844;2.792704;

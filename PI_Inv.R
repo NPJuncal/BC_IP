@@ -24,10 +24,17 @@ library(ggbreak) # scale_y_break function
 
 std.error <- function(x) sd(x, na.rm=TRUE)/sqrt(length(x))
 contar<-function(x) length(which(!is.na(x)))
+coef.var<-function(x) sd(x, na.rm=TRUE)/mean(x, na.rm=TRUE)
+
+
+
 
 # functions: estimate_h, estimate_stock, test_extrapolation and estimate_flux
 # from library "BlueCarbon" (under development)
 # https://github.com/EcologyR/BlueCarbon.git
+
+library(BlueCarbon)
+
 
 estimate_h <- function(df = NULL) {
   
@@ -444,6 +451,11 @@ unique(A$Ecosystem)
 
 A<-subset(A, !Ecosystem=="Bare sand")
 A<-subset(A, !Genus=="Unvegetated Seagrass")
+A<-subset(A, !Genus=="Unvegetated Salt Marsh")
+A<-subset(A, !Genus=="Unvegetated")
+
+unique(A$Ecosystem)
+unique(A$Genus)
 
 #create folder to save tables and grafs
 
@@ -592,7 +604,7 @@ for (i in 2:length(X)){
   }}
 
 # estimate stocks for whole core and at 1m
-BCS<-estimate_stock(A)#estimate_stock estandarize the stock at 1m by default 
+BCS<-estimate_oc_stock(A, core="Core.ID", mind="DMin.D", maxd="DMax.D", dbd="DDBD", oc="POC")#estimate_stock estandarize the stock at 1m by default 
 
 write.csv(BCS,file.path(Folder,"Stock_core.csv"))
 
@@ -668,21 +680,21 @@ maxp2<-ggplot(max_depth, aes(Category, max))+
 #check extrapolations
 
 
-ErrorExt<-test_extrapolation(A)
+ErrorExt<-test_extrapolation(A, core="Core.ID", mind="DMin.D", maxd="DMax.D", dbd="DDBD", oc="POC")
 
 # add columns of ecosystem and cathegory
 for (i in 1:nrow(ErrorExt)) {
   
-  ErrorExt[i,"Ecosystem"]<-A[which(A$Core.ID==ErrorExt[i,"Core.ID"])[1], "Ecosystem"]
+  ErrorExt[i,"Ecosystem"]<-A[which(A$Core.ID==ErrorExt[i,"core"])[1], "Ecosystem"]
   
   if (ErrorExt[i,"Ecosystem"]=="Seagrass") {
     
-    ErrorExt[i,"Cathegory"]<-A[which(A$Core.ID==ErrorExt[i,"Core.ID"])[1], "Genus"]
+    ErrorExt[i,"Cathegory"]<-A[which(A$Core.ID==ErrorExt[i,"core"])[1], "Genus"]
   }
   
   if (ErrorExt[i,"Ecosystem"]=="Salt Marsh") {
     
-    ErrorExt[i,"Cathegory"]<-A[which(A$Core.ID==ErrorExt[i,"Core.ID"])[1], "Tidal.R"]
+    ErrorExt[i,"Cathegory"]<-A[which(A$Core.ID==ErrorExt[i,"core"])[1], "Tidal.R"]
   }
   
 }
@@ -690,21 +702,20 @@ for (i in 1:nrow(ErrorExt)) {
 shapiro.test(ErrorExt$Error.25) ### normality (>0.05 normal, <0.05 no normal)
 #the error distribution is not normal, give median instead of average
 
-median(ErrorExt$Error.25, na.rm = TRUE)
+median(ErrorExt$error_25, na.rm = T)
 
 
-#> median(ErrorExt$Error.90, na.rm = TRUE)
-#[1] -4.976675
-#> median(ErrorExt$Error.75, na.rm = TRUE)
-#[1] -5.590751
-#> median(ErrorExt$Error.50, na.rm = TRUE)
-#[1] -5.839023
-#> median(ErrorExt$Error.25, na.rm = TRUE)
-#[1] -3.664013
+#> median(ErrorExt$error_90, na.rm = TRUE)
+#[1] 5.199067
+#> median(ErrorExt$error_75, na.rm = TRUE)
+#[1] 7.834555
+#> median(ErrorExt$error_50, na.rm = TRUE)
+#[1] 13.38096
+#> median(ErrorExt$error_25, na.rm = TRUE)
+#[1]  20.47377
 
 
-
-m.ErrorExt <- reshape::melt(ErrorExt[,c(1,7:12)], id = c("Core.ID", "Ecosystem", "Cathegory"))
+m.ErrorExt <- reshape::melt(ErrorExt[,c(1,11:16)], id = c("core", "Ecosystem", "Cathegory"))
 
 
 
@@ -720,7 +731,7 @@ maxp3<-ggplot(m.ErrorExt, aes(variable, value)) + ylab("% of deviation") + xlab(
     axis.ticks.x = element_blank()
   )
 
-sum(m.ErrorExt$Ecosystem=="Seagrass"&m.ErrorExt$variable=="Error.25"&!is.na(m.ErrorExt$value))
+sum(m.ErrorExt$Ecosystem=="Seagrass"&m.ErrorExt$variable=="error_25"&!is.na(m.ErrorExt$value))
 
 
 
@@ -733,7 +744,7 @@ ggsave(path = Folder,"Extrapolation plot.jpg",ext_plot, units="cm", width = 20, 
 # C fluxes estimation AV 100 years ----------------------------------------
 
 
-BCF<-estimate_flux(A)
+BCF<-estimate_seq_rate(A, core="Core.ID", mind="DMin.D", maxd="DMax.D", dbd="DDBD", oc="POC", age= "Age")
 
 write.csv(BCF,file.path(Folder,"Flux_core.csv"))
 
@@ -755,13 +766,13 @@ BCF_method$method<-NA
 for (i in 1:nrow(BCF_method)) {
 
 
-core<-subset(A, Core.ID == BCF_method[i,"Core.ID"])
+core<-subset(A, Core.ID == BCF_method[i,"core"])
 core<-core[!is.na(core$Raw.Age),]
 
 if (length(unique(core$D.Method))==1) {BCF_method[i,"method"]<-unique(core$D.Method)}
 if (length(unique(core$D.Method))==2) {BCF_method[i,"method"]<-"210Pb and 14C"}}
 
-#% of fluxes estimated from cores were only 14C was abailable
+#% of fluxes estimated from cores were only 14C was available
 
 table(BCF_method$method)
 7*100/nrow(BCF_method)
@@ -770,12 +781,12 @@ table(BCF_method$method)
 
 ## differences between 100, 75 and 50 time frames ####
 
-BCF_50 <-estimate_flux(A, TimeFrame = 50)
-BCF_100 <-estimate_flux(A, TimeFrame = 100)
-BCF_200 <-estimate_flux(A, TimeFrame = 200)
-BCF_500 <-estimate_flux(A, TimeFrame = 500)
-BCF_1000 <-estimate_flux(A, TimeFrame = 1000)
-BCF_2000 <-estimate_flux(A, TimeFrame = 2000)
+BCF_50 <-estimate_seq_rate(A, core="Core.ID", mind="DMin.D", maxd="DMax.D", dbd="DDBD", oc="POC", age= "Age", timeframe = 50)
+BCF_100 <-estimate_seq_rate(A, core="Core.ID", mind="DMin.D", maxd="DMax.D", dbd="DDBD", oc="POC", age= "Age", timeframe = 100)
+BCF_200 <-estimate_seq_rate(A, core="Core.ID", mind="DMin.D", maxd="DMax.D", dbd="DDBD", oc="POC", age= "Age", timeframe = 200)
+BCF_500 <-estimate_seq_rate(A, core="Core.ID", mind="DMin.D", maxd="DMax.D", dbd="DDBD", oc="POC", age= "Age", timeframe = 500)
+BCF_1000 <-estimate_seq_rate(A, core="Core.ID", mind="DMin.D", maxd="DMax.D", dbd="DDBD", oc="POC", age= "Age", timeframe = 1000)
+BCF_2000 <-estimate_seq_rate(A, core="Core.ID", mind="DMin.D", maxd="DMax.D", dbd="DDBD", oc="POC", age= "Age", timeframe = 2000)
 
 comp_flux<-cbind(BCF_50, BCF_100[,4], BCF_200[,4], BCF_500[,4], BCF_1000[,4], BCF_2000[,4])
 colnames(comp_flux)<-c("Core.ID", "F.WC", "A.Max", "50", "100", "200", "500", "1000", "2000")
@@ -979,7 +990,7 @@ BCS$Site.ID<-NA
 
 for (i in 1:nrow(BCS)) {
 
-  Site<- unique(A[c(which(A$Core.ID==BCS[i,which(colnames(BCS)=="Core.ID")])),which(colnames(A)=="Site.ID")])
+  Site<- unique(A[c(which(A$Core.ID==BCS[i,which(colnames(BCS)=="core")])),which(colnames(A)=="Site.ID")])
   BCS[i,which(colnames(BCS)=="Site.ID")]<- Site
 
 }
@@ -997,17 +1008,17 @@ BCS<-rbind(BCS,PS)
 
 # Estimate stocks per site
 
-S_by_Site <-merge(aggregate( Stock ~ Site.ID, BCS, mean), aggregate( Stock ~ Site.ID, BCS, sd), by = "Site.ID")
+S_by_Site <-merge(aggregate( stock ~ Site.ID, BCS, mean), aggregate( stock ~ Site.ID, BCS, sd), by = "Site.ID")
 
 colnames(S_by_Site)<-c("Site.ID", "Mean_Stock", "SD_Stock")
 
-# Flux 100 yr. Mean and sd by site
+# Seq rate 100 yr. Mean and sd by site
 
 BCF$Site.ID<-NA
 
 for (i in 1:nrow(BCF)) {
 
-  Site<- unique(A[c(which(A$Core.ID==BCF[i,which(colnames(BCF)=="Core.ID")])),which(colnames(A)=="Site.ID")])
+  Site<- unique(A[c(which(A$Core.ID==BCF[i,which(colnames(BCF)=="core")])),which(colnames(A)=="Site.ID")])
   BCF[i,which(colnames(BCF)=="Site.ID")]<- Site
 
 }
@@ -1022,9 +1033,9 @@ for (i in 1:nrow(BCF)) {
 
 #BCF<-rbind(BCF,PF)
 
-F_by_Site <-merge(aggregate( Flux ~ Site.ID, BCF, mean), aggregate( Flux ~ Site.ID, BCF, sd), by = "Site.ID")
+F_by_Site <-merge(aggregate( seq_rate ~ Site.ID, BCF, mean), aggregate( seq_rate ~ Site.ID, BCF, sd), by = "Site.ID")
 
-colnames(F_by_Site)<-c("Site.ID", "Mean_Flux", "SD_Flux")
+colnames(F_by_Site)<-c("Site.ID", "Mean_Seq_rate", "SD_Seq_rate")
 
 ### Summary table per station (Site)
 
@@ -1052,7 +1063,7 @@ BC_PI<-left_join(BC_PI, B_by_Site, by="Site.ID")
 BC_PI [,c(13:16)]<- BC_PI [,c(13:16)]*10
 
 # we eliminate those station with no data for biomass, stocks or fluxes
-BC_PI<-BC_PI[!(is.na(BC_PI$Mean_Stock) & is.na(BC_PI$Mean_Flux) & is.na(BC_PI$Mean_Biomass)),]
+BC_PI<-BC_PI[!(is.na(BC_PI$Mean_Stock) & is.na(BC_PI$Mean_Seq_rate) & is.na(BC_PI$Mean_Biomass)),]
 
 
 write.csv(BC_PI,file.path(Folder,"BC_Station.csv"))
@@ -1099,7 +1110,7 @@ DBC_PI = filter(BC_PI, !is.na(Mean_Stock))
 SSg<-subset(DBC_PI, Ecosystem=='Seagrass')
 SSm<-subset(DBC_PI, Ecosystem=='Salt Marsh')
 
-DBC_PI = filter(BC_PI, !is.na(Mean_Flux))
+DBC_PI = filter(BC_PI, !is.na(Mean_Seq_rate))
 FSg<-subset(DBC_PI, Ecosystem=='Seagrass')
 FSm<-subset(DBC_PI, Ecosystem=='Salt Marsh')
 
@@ -1214,17 +1225,20 @@ Summary<- data.frame(Category=character(),
                      SA.Biomass=numeric(),
                      Av.Biomass=numeric(),
                      M.Biomass=numeric(),
-                     SE.Biomass=numeric(),
+                     MAD.Biomass=numeric(),
+                     cv.Biomass=numeric(),
                      nS.Stock=numeric(),
                      SA.Stock=numeric(),
                      Av.Stock=numeric(),
                      M.Stock=numeric(),
-                     SE.Stock=numeric(),
-                     nS.Flux=numeric(),
-                     SA.Flux=numeric(),
-                     Av.Flux=numeric(),
-                     M.Flux=numeric(),
-                     SE.Flux=numeric())
+                     MAD.Stock=numeric(),
+                     cv.Stock=numeric(),
+                     nS.SeqRate=numeric(),
+                     SA.SeqRate=numeric(),
+                     Av.SeqRate=numeric(),
+                     M.SeqRate=numeric(),
+                     MAD.SeqRate=numeric(),
+                     cv.SeqRate=numeric())
 
 
 
@@ -1237,6 +1251,8 @@ X3<-split(Sm, Sm$Tidal.R)
 
 X<-c(X,X2,X3)
 
+
+# mad
 
 for(i in 1:length(X)) {
   
@@ -1253,23 +1269,27 @@ for(i in 1:length(X)) {
   Summary[i,4]<-Summary[i,3]/Summary[i,2]
   Summary[i,5]<-mean(DataB$Mean_Biomass)
   Summary[i,6]<-median(DataB$Mean_Biomass)
-  Summary[i,7]<-std.error(DataB$Mean_Biomass)
+  Summary[i,7]<-mad(DataB$Mean_Biomass,center=median(DataB$Mean_Biomass),na.rm=T,low=F,high=F)
+  Summary[i,8]<-coef.var(DataB$Mean_Biomass)
   
   DataS = subset(Data, !is.na(Mean_Stock))
-  Summary[i,8]<-nrow(DataS)
-  Summary[i,9]<-Summary[i,8]/Summary[i,2]
-  Summary[i,10]<-mean(DataS$Mean_Stock)
-  Summary[i,11]<-median(DataS$Mean_Stock)
-  Summary[i,12]<-std.error(DataS$Mean_Stock)
+  Summary[i,9]<-nrow(DataS)
+  Summary[i,10]<-Summary[i,9]/Summary[i,2]
+  Summary[i,11]<-mean(DataS$Mean_Stock)
+  Summary[i,12]<-median(DataS$Mean_Stock)
+  Summary[i,13]<-mad(DataS$Mean_Stock,center=median(DataS$Mean_Stock),na.rm=T,low=F,high=F)
+  Summary[i,14]<-coef.var(DataS$Mean_Stock)
   
-  DataF = subset(Data, !is.na(Mean_Flux))
-  Summary[i,13]<-nrow(DataF)
-  Summary[i,14]<-Summary[i,13]/Summary[i,2]
-  Summary[i,15]<-mean(DataF$Mean_Flux)
-  Summary[i,16]<-median(DataF$Mean_Flux)
-  Summary[i,17]<-std.error(DataF$Mean_Flux)
-  
+  DataF = subset(Data, !is.na(Mean_Seq_rate))
+  Summary[i,15]<-nrow(DataF)
+  Summary[i,16]<-Summary[i,15]/Summary[i,2]
+  Summary[i,17]<-mean(DataF$Mean_Seq_rate)
+  Summary[i,18]<-median(DataF$Mean_Seq_rate)
+  Summary[i,19]<-mad(DataF$Mean_Seq_rate,center=median(DataF$Mean_Seq_rate),na.rm=T,low=F,high=F)
+  Summary[i,20]<-coef.var(DataF$Mean_Seq_rate)
+
 }
+
 
 write.csv(Summary,file.path(Folder,"Summary table.csv"))
 
@@ -1281,10 +1301,19 @@ write.csv(Summary,file.path(Folder,"Summary table.csv"))
 
 shapiro.test(BC_PI$Mean_Biomass)
 shapiro.test(BC_PI$Mean_Stock) ### normality (>0.05 normal, <0.05 no normal)
-shapiro.test(BC_PI$Mean_Flux)
+shapiro.test(BC_PI$Mean_Seq_rate)
 
 ggplot(BC_PI, aes(x=Mean_Biomass)) +
   geom_histogram()
+
+
+
+
+### TE HAS QUEDADO AQUI
+
+
+
+
 
 
 # boxplots and significant diferences
@@ -1576,7 +1605,7 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
 
         SS<-  ggplot(Sg,aes(Genus, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
-          geom_jitter(aes(color=factor(Coast)))+
+          geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
           scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_blank(),
@@ -1599,7 +1628,7 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
         
         SB<-ggplot(Sg,aes(Genus, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
-          geom_jitter(aes(color=factor(Coast)))+
+          geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
           scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_blank(),
@@ -1618,9 +1647,9 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
                       tip_length = 0.005)
         
         
-        F100<-ggplot(Sg,aes(Genus, Mean_Flux))+ ylab(expression(paste("OC flux last 100 years (kg"," ", m^-2,yr^-1, ")")))+
+        F100<-ggplot(Sg,aes(Genus, Mean_Flux))+ ylab(expression(paste("OC seq. rate last 100 yr (kg"," ", m^-2,yr^-1, ")")))+
           geom_boxplot()+
-          geom_jitter(aes(color=factor(Coast)))+
+          geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
           scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
           scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 10))+
           ylim(0,0.08)+
@@ -1647,7 +1676,7 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
         SS<-ggplot(Sm,aes(Tidal.R, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
           ylim(0,50)+
-          geom_jitter(aes(color=factor(Coast)))+
+          geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
           scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_blank(),
@@ -1668,7 +1697,7 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
         SB<-ggplot(Sm,aes(Tidal.R, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
           ylim(0,2)+
-          geom_jitter(aes(color=factor(Coast)))+
+          geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
           scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_blank(),
@@ -1688,10 +1717,10 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
                       tip_length = 0.005)
         
         
-        F100<-ggplot(Sm,aes(Tidal.R, Mean_Flux))+ ylab(expression(paste("OC flux last 100 years (kg"," ", m^-2,yr^-1, ")")))+
+        F100<-ggplot(Sm,aes(Tidal.R, Mean_Flux))+ ylab(expression(paste("OC seq. rate last 100 yr (kg"," ", m^-2,yr^-1, ")")))+
           geom_boxplot()+
           #ylim(0,0.08)+
-          geom_jitter(aes(color=factor(Coast)))+
+          geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
           scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
           scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 10))+
           theme(axis.title.x=element_blank(),
@@ -2234,29 +2263,5 @@ p3<-ggplot(Summary[-c(1,2),], aes(Area, nS.Flux))+ylab("Number of seq. rate stat
 supp_data<-grid.arrange(p1, p2, p3,nrow=1)
 
 ggsave(path = Folder,"estaciones por area.jpg",supp_data, units="cm", width = 30, height = 9)
-
-
-
-#### station per area (coast)
-
-sampling_area<-data.frame(Category=character(),
-                                    Coast=character(),
-                                    nS.Biomass=numeric(),
-                                    SA.Biomass=numeric(),
-                                    cv.Biomass=numeric(),
-                                    nS.Stock=numeric(),
-                                    SA.Stock=numeric(),
-                                    cv.Biomass=numeric(),
-                                    nS.Flux=numeric(),
-                                    SA.Flux=numeric(),
-                                    cv.Biomass=numeric())
-
-
-
-BC_PI %>% group_by(Coast, Tidal.R) %>% summarise(Mean_Biomass = n())
-BC_PI %>% group_by(Coast, Genus) %>% summarise(Mean_Biomass = n())
-BC_PI %>% group_by(Coast) %>% summarise(Mean_Biomass = n())
-BC_PI %>% group_by(Coast) %>% summarise(Mean_Biomass = n())
-BC_PI %>% group_by(Coast) %>% summarise(Mean_Biomass = n())
 
 
