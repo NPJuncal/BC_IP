@@ -1,18 +1,1 @@
-Coast;Region;Total;Posidonia oceanica;Cymodocea nodosa;Zostera marina;Zostera noltei;Mixed;Low marsh;Medium marsh;High marsh;Microtidal
-Cantabrian Sea;Asturies;4.54;;;0.08;2.19;;0.60009;0.930458;0.742603;
-Cantabrian Sea;Cantabria;29.9;;;;8.75;;18.57;1.35;1.24;
-Cantabrian Sea;Euskal Herria;2.47;;;;0.2;;0.60009;0.930458;0.742603;
-Cantabrian Sea;Galiza;4.51;;;0.02;0.98;;0.422756;0.899288;2.18318;
-Mediterranean Sea;Catalunya;127.7;22.94;28.82;;0.0001;40.6;;;;35.34
-Mediterranean Sea;Pa¡s Valenci…;418.3;320.72;83.73;;1.15;;;;;12.72
-Mediterranean Sea;Murcia;208.6;112.86;89.36;;0.22;;;;;6.17
-Mediterranean Sea;Andalucia;126.95;69.19;53.786;;0.58;;;;;3.39
-Mediterranean Sea;Baleares;646.8;633.16;13.66;;0.0099;;;;;
-Atlantic Ocean;N Portugal;2.58;;;;;;0.318;2.156;0.107;
-Atlantic Ocean;M Portugal;90;;;;2.797;;;87.1929;;
-Atlantic Ocean;S Portugal;58;;1.86;;10.44;;14.71;21.82;9.19;;
-Atlantic Ocean;Galiza;45.5;;;4.59;24.54;;1.937105;10.37325;4.04028;
-Atlantic Ocean;Andalucia;93.62;;12.87;9.45;0.001;;40.02;16.872;14.41;
-Ultraperiferic T.;Canarias;80.12;;80.02;;0.1;;;;;
-Ultraperiferic T.;Azores;0;;;;;;;;;
-Ultraperiferic T.;Madeira;0;;;;;;;;;
+Coast;Region;Total;Posidonia oceanica;Cymodocea nodosa;Zostera marina;Zostera noltei;Mixed;Low marsh;Medium marsh;High marsh;MicrotidalCantabrico;Asturies;4.543151;;;0.08;2.19;;0.60009;0.930458;0.742603;Cantabrico;Cantabria;29.91;;;;8.75;;18.57;1.35;1.24;Cantabrico;Euskal Herria;2.473151;;;;0.2;;0.60009;0.930458;0.742603;Cantabrico;Galiza;4.505224;;;0.02;0.98;;0.422756;0.899288;2.18318;Mediterraneo;Catalunya;127.7001;22.94;28.82;;0.0001;40.6;;;;35.34Mediterraneo;Pa’s Valenciˆ;452;320.72;83.73;;1.15;;;;;46.4Mediterraneo;Murcia;208.61;112.86;89.36;;0.22;;;;;6.17Mediterraneo;Andalucia;126.946;69.19;53.786;;0.58;;;;;3.39Mediterraneo;Baleares;649.6299;633.16;13.66;;0.0099;;;;;2.8Atlantico;N Portugal;0;;;;;;;;;Atlantico;M Portugal;89.9899;;;;2.797;;;87.1929;;Atlantico;S Portugal;48.56544;;8.253;;3.13734;;18.5;18.1751;0.5;Atlantico;Galiza;45.480635;;;4.59;24.54;;1.937105;10.37325;4.04028;Atlantico;Andalucia;93.623;;12.87;9.45;0.001;;40.02;16.872;14.41;Atlantic Insular;Canarias;80.12;;80.02;;0.1;;;;;Atlantic Insular;Azores;0;;;;;;;;;Atlantic Insular;Madeira;0;;;;;;;;;

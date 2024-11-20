@@ -1,0 +1,697 @@
+"","Site.ID","Locality","Region","Coast","Ecosystem","Genus","Status","Tidal.R","Sampling.year","lat","long","Water.Depth","Mean_Stock","SD_Stock","Mean_Flux","SD_Flux","Mean_Biomass","SD_Biomass"
+"1","camari¤as","camari¤as","Galiza","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",2015,43.14646,-9.16552,NA,NA,NA,NA,NA,0.0304602706556643,0.00401544544379339
+"2","Ros rio salt marshes2Sp","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.0473322076493374,NA
+"3","Ros rio4Ap","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.62499551672753,NA
+"4","Ros rio salt marshes4Sp","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.0333653267036313,NA
+"5","Ros rio salt marshes4Sm","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.145488343184439,NA
+"6","Ca¤uelos_jun","Cala de Ca¤uelos","Andalucia","Mediterranean Sea","Seagrass","Zostera marina","Healthy","Subtidal",2004,36.743831,-3.791281,NA,NA,NA,NA,NA,0.0350886267422444,NA
+"7","Ros rio6Ap","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.825465776751383,NA
+"8","Ca¤uelos_mar5","Cala de Ca¤uelos","Andalucia","Mediterranean Sea","Seagrass","Zostera marina","Healthy","Subtidal",2005,36.743831,-3.791281,NA,NA,NA,NA,NA,0.00358047211655556,NA
+"9","Ca¤uelos_sep","Cala de Ca¤uelos","Andalucia","Mediterranean Sea","Seagrass","Zostera marina","Healthy","Subtidal",2004,36.743831,-3.791281,NA,NA,NA,NA,NA,0.0327255151453178,NA
+"10","Esteiro das Lez¡rias7Smon","Esteiro das Lez¡rias","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus montevidensis","","Low",NA,37.215229,-7.420435,NA,NA,NA,NA,NA,1.82413454847816,NA
+"11","Ros rio salt marshes3Sm","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.232781349095102,NA
+"12","Ros rio salt marshes12Sf","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia fruticosa","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.517550532821444,NA
+"13","Ros rio salt marshes6Sf","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia fruticosa","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.0744900317104327,NA
+"14","Ros rio salt marshes3Ap","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.624629953405191,NA
+"15","Ros rio salt marshes12Sp","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.0803095654378102,NA
+"16","Ros rio salt marshes10Sp","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.229677597773834,NA
+"17","Ros rio1Sm","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.212262628351838,NA
+"18","Ca¤uelos_mar","Cala de Ca¤uelos","Andalucia","Mediterranean Sea","Seagrass","Zostera marina","Healthy","Subtidal",2004,36.743831,-3.791281,NA,NA,NA,NA,NA,0.0221989271226444,NA
+"19","ADRA","Venta Nueva","Andalucia","Mediterranean Sea","Salt Marsh","Phragmites australis","","Microtidal",2016,36.751653,-2.950664,NA,NA,NA,NA,NA,6.77127404616,NA
+"20","Ros rio salt marshes2Sm","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.190104768427667,NA
+"21","Ros rio salt marshes2Ap","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.0950523842138333,NA
+"22","Ros rio6Sm","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.448109993359644,NA
+"23","Ros rio salt marshes4Sf","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia fruticosa","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.0737140938801156,NA
+"24","Ros rio salt marshes4Ap","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.0876809748258218,NA
+"25","Ros rio11Ap","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.943389459255286,NA
+"26","Ros rio salt marshes6Sp","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.0566434616131415,NA
+"27","Ros rio11Sm","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.330186310855741,NA
+"28","Ros rio salt marshes12Sm","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.0810855032681272,NA
+"29","Ros rio4Sm","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.16509315542787,NA
+"30","Ros rio1Ap","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.636787885055514,NA
+"31","Esteiro das Lez¡rias4Smon","Esteiro das Lez¡rias","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus montevidensis","","Low",NA,37.215229,-7.420435,NA,NA,NA,NA,NA,1.82413454847816,NA
+"32","Ros rio salt marshes10Sf","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia fruticosa","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,2.10861105388647,NA
+"33","Ros rio salt marshes10Ap","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.366242655909627,NA
+"34","Ros rio salt marshes6Sm","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.100871917941211,NA
+"35","Ros rio salt marshes6Ap","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.0962162909593088,NA
+"36","Esteiro das Lez¡rias7Am","Esteiro das Lez¡rias","S Portugal","Atlantic Ocean","Salt Marsh","Arthrocaulon macrostachyum","","Medium",NA,37.215229,-7.420435,NA,NA,NA,NA,NA,0.561886015030386,NA
+"37","Ca¤ielos_dic","Cala de Ca¤uelos","Andalucia","Mediterranean Sea","Seagrass","Zostera marina","Healthy","Subtidal",2004,36.743831,-3.791281,NA,NA,NA,NA,NA,0.00751899144476667,NA
+"38","AG.D","Aguamarga","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2017,36.933167,-1.9316,18,17.5636762288797,2.91103134222935,0.00651995092904823,NA,0.775458048736558,0.221354755486187
+"39","AG.I","Aguamarga","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2017,36.936167,-1.932033,10.8,10.1629855887686,4.55127941765211,0.0285624644740222,NA,3.20994894212585,1.70209438244095
+"40","AG.S","Aguamarga","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2017,36.937683,-1.93345,4.8,25.0869452081006,8.23492736328974,0.037045329052267,NA,NA,NA
+"41","AL.S","Almerimar","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2017,36.685379,-2.803734,4.5,17.2935833104666,NA,NA,NA,2.95659590488186,0.732019995578472
+"43","ALFA","Delta del Ebro","Catalunya","Mediterranean Sea","Salt Marsh","Salicornia","","Microtidal",2015,40.638078,0.743147,NA,NA,NA,NA,NA,1.22177319236614,0.582528287983163
+"45","arcade","soutomaior","Galiza","Atlantic Ocean","Seagrass","Zostera noltii","Degraded","Intertidal",2015,42.33681,-8.61281,NA,NA,NA,NA,NA,0.0143384235659407,0.00271464392810442
+"46","Arenal","Arenal de Son Saura","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.92575,3.893666667,NA,NA,NA,NA,NA,0.212837967153972,NA
+"47","Arinaga","Arinaga","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2018,27.851831,-15.395308,11,5.16469316238999,0.254460169270798,NA,NA,0.442132196297143,NA
+"48","Av22_Sc","Aveiro","C Portugal","Atlantic Ocean","Salt Marsh","Sarcocornia","Healthy","Low",2022,40.606931,-8.738324,NA,350.410913725659,81.4272440621758,NA,NA,NA,NA
+"49","Av22_Sp","Aveiro","C Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2022,40.606931,-8.738324,NA,449.116939308503,NA,NA,NA,NA,NA
+"50","Av22_Zn","Aveiro","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",2022,40.606931,-8.738324,NA,537.938976704259,65.1219087973943,NA,NA,NA,NA
+"51","Av22_Zn_I","Aveiro","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",2022,40.62199,-8.682364,NA,476.839140296092,36.5670344484997,NA,NA,NA,NA
+"52","Av22_Zn_M","Aveiro","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",2022,40.606838,-8.73622,NA,9.48886144017318,2.67301134712528,NA,NA,NA,NA
+"53","AZ","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Mixed Seagrass","Healthy","Intertidal",2000,43.45277635,-3.76777407,NA,NA,NA,NA,NA,0.0549501777777778,0.0290626986569459
+"54","AZ","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Mixed Seagrass","Healthy","Intertidal",2001,43.45277635,-3.76777407,NA,NA,NA,NA,NA,0.0549501777777778,0.0290626986569459
+"55","Azo","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2000,43.45268678,-3.76680565,NA,NA,NA,NA,NA,0.0270146640173715,0.0144512343720518
+"56","Azo","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2001,43.45268678,-3.76680565,NA,NA,NA,NA,NA,0.0270146640173715,0.0144512343720518
+"57","BA.S","Bajos de Alquian","Andalucia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2017,36.823183,-2.385667,6.8,2.35741341341099,0.483174897928006,0.00788073881663167,NA,0.707657142857143,0.530790695518469
+"58","BA.SC","Bajos de Alquian","Andalucia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2017,36.823183,-2.385667,7.1,2.63271861162169,0.234717959600788,NA,NA,NA,NA
+"59","Barra salt marshNAAp","Barra","C Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,40.636488,-8.740388,NA,NA,NA,NA,NA,0.0337886817203849,0.0233333090535399
+"60","Barra salt marshNAJm","Barra","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.636488,-8.740388,NA,NA,NA,NA,NA,0.0258884258073,0.00362763132672144
+"61","Barra salt marshNASm","Barra","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.636488,-8.740388,NA,NA,NA,NA,NA,0.158619375073035,0.0142605816054546
+"62","Barra salt marshNASp","Barra","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.636488,-8.740388,NA,NA,NA,NA,NA,0.0414617640977563,0.00925485804858478
+"63","bergondo","bergondo","Galiza","Atlantic Ocean","Seagrass","Zostera noltii","Dead","Intertidal",2015,43.33374,-8.22369,NA,NA,NA,NA,NA,0.150655309490518,0.0425604169414419
+"64","Biniancolla","Biniancolla","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.8035,4.267333,NA,NA,NA,NA,NA,0.171313288030975,NA
+"65","Blanes_agosto","Blanes","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1998,41.672844,2.792704,NA,NA,NA,NA,NA,0.04464,NA
+"66","Blanes_julio","Blanes","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1998,41.672844,2.792704,NA,NA,NA,NA,NA,0.0508525714285714,NA
+"67","Blanes_junio","Blanes","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1998,41.672844,2.792704,NA,NA,NA,NA,NA,0.0352594285714286,NA
+"68","Blanes_octubre","Blanes","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1998,41.672844,2.792704,NA,NA,NA,NA,NA,0.0157988571428571,NA
+"69","Blanes_septiembre","Blanes","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1998,41.672844,2.792704,NA,NA,NA,NA,NA,0.0300342857142857,NA
+"70","BS1A","Bay of Santander","Cantabria","Cantabrian Sea","Salt Marsh","Mixed Salt Marsh","Healthy","High",2019,43.432096,-3.758772,NA,17.5431539623274,1.7242342247213,0.0484594592412457,NA,NA,NA
+"72","BS2A","Bay of Santander","Cantabria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","High",2019,43.452136,-3.748134,NA,9.77632058427502,2.96116076586792,0.0172600546355235,NA,NA,NA
+"73","BS2B","Bay of Santander","Cantabria","Cantabrian Sea","Salt Marsh","Sarcocornia","Healthy","Low",2019,43.45194,-3.748752,NA,7.13438652631343,4.78692406598505,NA,NA,NA,NA
+"74","BS2C","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2019,43.451968,-3.7538,NA,5.35354805394737,3.22801636154037,NA,NA,NA,NA
+"76","BS3C","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2019,43.409782,-3.809467,NA,14.9742750945492,3.37594478885358,NA,NA,NA,NA
+"79","BULL","BULL","Pa¡s Valenci…","Mediterranean Sea","Salt Marsh","Phragmites australis","","Microtidal",2016,38.903625,-0.064133,NA,NA,NA,NA,NA,1.1873154741,NA
+"80","BZ","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera marina","Healthy","Intertidal",2000,43.4534311,-3.7699589,NA,NA,NA,NA,NA,0.0384562596829825,0.0215265221453529
+"81","BZ","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera marina","Healthy","Intertidal",2001,43.4534311,-3.7699589,NA,NA,NA,NA,NA,0.0384562596829825,0.0215265221453529
+"82","CA.S","Calaburras","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Dead","Subtidal",2017,36.49065,-4.69355,0.5,14.093368387324,4.30114455867182,0.0276652471441586,NA,5.45997677960749,2.96539220609056
+"83","CA.SC","Calaburras","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Dead","Subtidal",2017,36.49045,-4.693683,0.5,15.1185325863987,5.2367008803445,0.0315926603259526,NA,NA,NA
+"84","cabanas","cabanas","Galiza","Atlantic Ocean","Seagrass","Zostera noltii","Degraded","Intertidal",2015,43.41379,-8.16426,NA,NA,NA,NA,NA,0.0362297169580141,0.0111576996367181
+"85","Cala Blanca","Cala Blanca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.9625,3.828833,NA,NA,NA,NA,NA,0.156429115315976,0.011665724475109
+"86","Cala Deia","Cala Dei ","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.762772,2.642469,NA,NA,NA,NA,NA,0.187353675310078,0.0374785745616311
+"87","Cala DOr","Mallorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Intertidal",2012,39.36912,3.231176,7,15.2735514603967,NA,0.050826567558056,NA,0.0919038311828781,0.0286484505417949
+"88","Cala DOr","Cala D'Or","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.3694,3.23145,NA,15.2735514603967,NA,0.050826567558056,NA,0.0919038311828781,0.0286484505417949
+"89","Cala Dor_s",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8.8376902669555,0.442362211608635,NA,NA,NA,NA
+"90","Cala Es Grau","Cala Es Grau","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.935278,4.285278,NA,NA,NA,NA,NA,0.132629366163358,NA
+"91","Cala Figuera","Cala Figuera (Portals Vells)","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.478075,2.526575,NA,NA,NA,NA,NA,0.0767889932194346,NA
+"92","Cala Galdana","Cala Galdana","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.93601,3.954247,NA,NA,NA,NA,NA,0.153199686102582,0.0126145743332977
+"93","Cala Gamba","Cala Gamba","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.5425,2.696217,NA,NA,NA,NA,NA,0.06467925528377,0.00216006210410419
+"94","Cala Llentisca","Cala Llentisca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,38.8662,1.256933333,NA,NA,NA,NA,NA,0.0877504091459578,NA
+"95","Cala Llenya","Cala Llenya","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.027917,1.606567,NA,NA,NA,NA,NA,0.167819125998309,0.0298265450234734
+"96","Cala Llonga","Cala Llonga","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,38.9515,1.524,NA,NA,NA,NA,NA,0.119107684456899,NA
+"97","Cala Marmacen","Cala Marmac‚n","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.536333,2.376217,NA,NA,NA,NA,NA,0.0986311527971132,0.0485704004662249
+"98","Cala Matzoc","Cala Matzoc","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.75833333,3.405,NA,NA,NA,NA,NA,0.104433790678042,0.0881888064450952
+"99","Cala Millor","Cala Millor","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.600633,3.390167,NA,NA,NA,NA,NA,0.16916736096274,0.011494638399949
+"100","Cala Mondrago","Cala Mondrag¢","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.35085,3.1932,NA,NA,NA,NA,NA,0.244181841304949,NA
+"101","Cala Morell","Cala Morell","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,40.055029,3.870895,NA,NA,NA,NA,NA,0.180439841706006,NA
+"102","Cala Murta","Cala Murta- Formentor","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2005,39.93916667,3.184,NA,NA,NA,NA,NA,0.0963012089503741,NA
+"103","Cala n Porter","Cala'n Porter","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.866166,4.131468,NA,NA,NA,NA,NA,0.127206257745659,NA
+"104","Cala Ratjada","Cala Ratjada","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.711283,3.472433,NA,NA,NA,NA,NA,0.0785738069156955,NA
+"105","Cala Sahona","Cala Sahona-Pta Rosa","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,38.69166667,1.38,NA,NA,NA,NA,NA,0.152798710231807,NA
+"106","Cala Tamida","Cala Tamida","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,38.94058333,1.23225,NA,NA,NA,NA,NA,0.150032380220997,NA
+"107","Cala Tarida","Cala Tarida","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,38.940583,1.23225,NA,NA,NA,NA,NA,0.189102689103727,NA
+"108","Cala Torreta","Cala Torreta","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,38.7909,1.41965,NA,NA,NA,NA,NA,0.221506340273829,NA
+"109","Cala Tuent","Cala Tuent","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.840463,2.772332,NA,NA,NA,NA,NA,0.183632124209548,NA
+"110","Cales Coves","Cales Coves","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.86355556,4.143801932,NA,NA,NA,NA,NA,0.0910546556022637,NA
+"111","CALP","CALP","Pa¡s Valenci…","Mediterranean Sea","Salt Marsh","Salicornia","","Microtidal",2016,38.643983,0.066239,NA,NA,NA,NA,NA,0.95500120125,0.00701964523897063
+"112","Cam_Hp_Ab","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.356931401945823,NA
+"113","Cam_Hp_Ag","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.484961143948129,NA
+"114","Cam_Hp_D","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1987,43.397363,-2.687256,NA,NA,NA,NA,NA,0.345292334491068,NA
+"115","Cam_Hp_F","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.263818862307782,NA
+"116","Cam_Hp_J","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.318134510429973,NA
+"117","Cam_Hp_Ja","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.271578240610952,NA
+"118","Cam_Hp_Jl","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.360811091097408,NA
+"119","Cam_Hp_M","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.294856375520463,NA
+"120","Cam_Hp_Ma","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.325893888733143,NA
+"121","Cam_Hp_N","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.411247050068014,NA
+"122","Cam_Hp_O","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.477201765644959,NA
+"123","Cam_Hp_S","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.376329847703748,NA
+"124","Cam_Sa_Ab","Zumaia","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina alterniflora","Healthy","Medium",1988,43.288838,-2.244183,NA,NA,NA,NA,NA,0.0271578240610952,NA
+"125","Cam_Sa_Ag","Zumaia","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina alterniflora","Healthy","Medium",1988,43.288838,-2.244183,NA,NA,NA,NA,NA,0.430645495825939,NA
+"126","Cam_Sa_J","Zumaia","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina alterniflora","Healthy","Medium",1988,43.288838,-2.244183,NA,NA,NA,NA,NA,0.384089226006918,NA
+"127","Cam_Sa_Jl","Zumaia","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina alterniflora","Healthy","Medium",1988,43.288838,-2.244183,NA,NA,NA,NA,NA,0.391848604310088,NA
+"128","Cam_Sa_M","Zumaia","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina alterniflora","Healthy","Medium",1988,43.288838,-2.244183,NA,NA,NA,NA,NA,0.0155187566063401,NA
+"129","Cam_Sa_Ma","Zumaia","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina alterniflora","Healthy","Medium",1988,43.288838,-2.244183,NA,NA,NA,NA,NA,0.0969922287896259,NA
+"130","Cam_Sa_N","Zumaia","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina alterniflora","Healthy","Medium",1988,43.288838,-2.244183,NA,NA,NA,NA,NA,0.290976686368878,NA
+"131","Cam_Sa_O","Zumaia","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina alterniflora","Healthy","Medium",1988,43.288838,-2.244183,NA,NA,NA,NA,NA,0.259939173156197,NA
+"132","Cam_Sa_S","Zumaia","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina alterniflora","Healthy","Medium",1988,43.288838,-2.244183,NA,NA,NA,NA,NA,0.345292334491068,NA
+"133","Cam_Sm_Ab","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.259152291454,NA
+"134","Cam_Sm_Ag","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.255038763018222,NA
+"135","Cam_Sm_D","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1987,43.397363,-2.687256,NA,NA,NA,NA,NA,0.217194301409067,NA
+"136","Cam_Sm_F","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.205676421788889,NA
+"137","Cam_Sm_J","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.209789950224667,NA
+"138","Cam_Sm_Ja","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.213903478660444,NA
+"139","Cam_Sm_Jl","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.246811706146667,NA
+"140","Cam_Sm_M","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.226244063967778,NA
+"141","Cam_Sm_Ma","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.238584649275111,NA
+"142","Cam_Sm_N","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.222130535532,NA
+"143","Cam_Sm_O","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.230357592403556,NA
+"144","Cam_Sm_S","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.234471120839333,NA
+"145","Cam_Sr_Ab","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.034731,NA
+"146","Cam_Sr_Ag","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.142783,NA
+"147","Cam_Sr_D","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1987,43.397363,-2.687256,NA,NA,NA,NA,NA,0.073321,NA
+"148","Cam_Sr_F","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.046308,NA
+"149","Cam_Sr_J","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.03859,NA
+"150","Cam_Sr_Ja","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.07718,NA
+"151","Cam_Sr_Jl","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.065603,NA
+"152","Cam_Sr_M","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.034731,NA
+"153","Cam_Sr_Ma","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.0297143,NA
+"154","Cam_Sr_N","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.096475,NA
+"155","Cam_Sr_O","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.123488,NA
+"156","Cam_Sr_S","Mundaka","Euskal Herria","Cantabrian Sea","Salt Marsh","Salicornia","Healthy","Medium",1988,43.397363,-2.687256,NA,NA,NA,NA,NA,0.165937,NA
+"157","Can Picafort","Can Picafort","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.768072,3.156935,NA,NA,NA,NA,NA,0.0795912034666791,0.00380908314981383
+"158","Canal de Mira11Ap","Canal de Mira","C Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.481521703298958,NA
+"159","Canal de Mira11Sm","Canal de Mira","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.20636644438183,NA
+"160","Canal de Mira1Ap","Canal de Mira","C Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.632857095742175,NA
+"161","Canal de Mira1Sm","Canal de Mira","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.16509315542787,NA
+"162","Canal de Mira4Ap","Canal de Mira","C Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.385217362406385,NA
+"163","Canal de Mira4Sm","Canal de Mira","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.192608681397177,NA
+"164","Canal de Mira6Ap","Canal de Mira","C Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.605341569772869,NA
+"165","Canal de Mira6Sm","Canal de Mira","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.16509315542787,NA
+"166","Cap Blanc","Cap Blanc","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,38.674284,0.11214,NA,NA,NA,NA,NA,0.138571420379053,0.0438477341690193
+"167","Cap de Menorca","Cap de Menorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.862655,3.195581,NA,NA,NA,NA,NA,0.150171960335615,0.0385540285115573
+"168","Cap Enderrocat","Cap Enderrocat","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.475298,2.716908,NA,NA,NA,NA,NA,0.118835563649097,NA
+"169","Cap Formentor","Cap Formentor","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.957888,3.196037,NA,NA,NA,NA,NA,0.23856910694058,NA
+"170","Cap Llentrisca","Cap Llentrisca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,38.864588,1.242047,NA,NA,NA,NA,NA,0.187026582242299,NA
+"171","Cap Mussons","Cap Mussons","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.07328,1.35719,NA,NA,NA,NA,NA,0.160277733127982,NA
+"172","Cap Negret","Cap Negret","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,38.996319,1.284608,NA,NA,NA,NA,NA,0.102353959478338,NA
+"173","Cap Pentinat","Cap Pentinat","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,40.03438333,4.168516667,NA,NA,NA,NA,NA,0.0919768104735065,NA
+"174","Cap Pinar","Cap Pinar","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.886006,3.181933,NA,NA,NA,NA,NA,0.136603846457548,NA
+"176","Castell",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5.78579292861721,0.713381354313996,0.00994291668439282,NA,NA,NA
+"177","Castillo del Romeral","Castillo del Romeral","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2018,27.787783,-15.491339,8,4.33312823454918,0.295894119380357,NA,NA,0.967917441188571,NA
+"178","Castro Marim (unspecified)NAAp","Castro Marim","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,37.216693,-7.428161,NA,NA,NA,NA,NA,0.331537072897198,0.125567783851136
+"179","Castro Marim (unspecified)NALm","Castro Marim","S Portugal","Atlantic Ocean","Salt Marsh","Limoniastrum monopetalum","","High",NA,37.216693,-7.428161,NA,NA,NA,NA,NA,1.58765818182616,0.415660592811088
+"180","CC","Vigo","Galiza","Atlantic Ocean","Seagrass","Zostera marina","Control","Subtidal",1,42.195054,-8.797624,5,NA,NA,NA,NA,0.0542083478446511,NA
+"181","CM-1.1","Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2005,37.23036,-6.95453,NA,NA,NA,NA,NA,0.110242562078844,NA
+"182","CM-1.2","Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2005,37.23036,-6.95453,NA,NA,NA,NA,NA,0.0946111540228889,NA
+"183","CM-1.3","Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2005,37.23036,-6.95453,NA,NA,NA,NA,NA,0.0929657426485778,NA
+"184","CM-2.1","Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2005,37.23036,-6.95453,NA,NA,NA,NA,NA,0.109419856391689,NA
+"185","CM-3.1","Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2005,37.23036,-6.95453,NA,NA,NA,NA,NA,0.0440147542628222,NA
+"186","CM-3.2","Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2005,37.23036,-6.95453,NA,NA,NA,NA,NA,0.101192799520133,NA
+"187","Colonia Sant Jordi","Colonia de Sant Jordi","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2005,39.31106667,2.999333333,NA,NA,NA,NA,NA,0.117739373817249,0.0417600147058538
+"188","Corroios10Ap","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.188606459441164,0.00172176742183697
+"189","Corroios10Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.377234417015855,0.425950532024849
+"190","Corroios11Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.463695468204386,NA
+"191","Corroios12Ap","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.192624486086874,0.000820064379020135
+"192","Corroios12Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.25741218845124,0.247717576889461
+"193","Corroios1Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.323653212672568,NA
+"194","Corroios2Ap","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.195672590444687,0.00129003859019414
+"195","Corroios2Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.154516400596514,0.0983602618830677
+"196","Corroios3Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.171162756847327,NA
+"197","Corroios4Ap","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.157395764470151,0.0714668517716073
+"198","Corroios4Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.242739909407433,NA
+"199","Corroios5Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.255188110088824,NA
+"200","Corroios6Ap","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.203062722242622,0.000767845174631622
+"201","Corroios6Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.199055024493341,0.158604033339413
+"202","Corroios7Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.448135217546632,NA
+"203","Corroios8Ap","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.216028997020886,0.000450116165232509
+"204","Corroios8Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.31280564331741,0.283808092604982
+"205","Corroios9Sm","Corroios","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.646632,-9.131159,NA,NA,NA,NA,NA,0.619297974199974,0.0704176555513827
+"206","CZ","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Mixed Seagrass","Healthy","Intertidal",2000,43.45539951,-3.77280733,NA,NA,NA,NA,NA,0.0231521555555556,0.0143982213768846
+"207","CZ","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Mixed Seagrass","Healthy","Intertidal",2001,43.45539951,-3.77280733,NA,NA,NA,NA,NA,0.0231521555555556,0.0143982213768846
+"208","Czo","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2000,43.45383959,-3.77305566,NA,NA,NA,NA,NA,0.00976177961350422,0.00653820136451602
+"209","Czo","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2001,43.45383959,-3.77305566,NA,NA,NA,NA,NA,0.00976177961350422,0.00653820136451602
+"210","DE.I","Villaricos","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Degraded","Subtidal",2016,37.254828,-1.760349,15.9,13.941229330739,3.53630838091047,0.00485479862260707,NA,3.02532379214447,2.07858326857743
+"211","Delta_High","Delta del Ebro","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1990,40.611931,0.705091,NA,NA,NA,NA,NA,0.0864,NA
+"212","Delta_Low","Delta del Ebro","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1990,40.611931,0.705091,NA,NA,NA,NA,NA,0.0493714285714286,NA
+"213","Delta_Mid","Delta del Ebro","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1990,40.611931,0.705091,NA,NA,NA,NA,NA,0.131657142857143,NA
+"214","Dragonera","Dragonera","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.588277,2.316791,NA,NA,NA,NA,NA,0.103395999839727,0.0147594686488256
+"215","Dzo","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2000,43.45025715,-3.77115093,NA,NA,NA,NA,NA,0.0097193370934455,0.00495231243492776
+"216","Dzo","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2001,43.45025715,-3.77115093,NA,NA,NA,NA,NA,0.0097193370934455,0.00495231243492776
+"217","Ebr1","Delta del Ebro","Catalunya","Mediterranean Sea","Salt Marsh","Sarcocornia","Healthy","Microtidal",1991,40.705415,0.855725,NA,NA,NA,NA,NA,0.221848944326742,NA
+"218","Ebr2","Delta del Ebro","Catalunya","Mediterranean Sea","Salt Marsh","Sarcocornia","Healthy","Microtidal",1991,40.705415,0.855725,NA,NA,NA,NA,NA,0.289315335615148,NA
+"219","Ebr3","Delta del Ebro","Catalunya","Mediterranean Sea","Salt Marsh","Arthrocnemum","Healthy","Microtidal",1991,40.705415,0.855725,NA,NA,NA,NA,NA,1.09562421640761,NA
+"220","El Pajar","El Pajar","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2018,27.753972,-15.669611,10,3.42155076212027,0.482056545986656,NA,NA,1.19209009371429,NA
+"221","El Toro","El Toro","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.463044,2.470758,NA,NA,NA,NA,NA,0.0658404240911439,NA
+"222","ENCA","Delta del Ebro","Catalunya","Mediterranean Sea","Salt Marsh","Salicornia","","Microtidal",2015,40.653283,0.685472,NA,NA,NA,NA,NA,0.403798042048238,0.144846689773413
+"223","Encanyissada","Amposta","Catalunya","Mediterranean Sea","Salt Marsh","Mixed Salt Marsh","Healthy","Microtidal",NA,40.638238,0.742547,NA,22.4014749333279,NA,NA,NA,NA,NA
+"225","EP05","Es Port","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2015,39.145,2.933333,5,31.2324297745782,NA,0.0188981249547797,NA,NA,NA
+"226","ERMS T. ","Delta del Ebre","Catalunya","Mediterranean Sea","Salt Marsh","Sarcocornia","Grazing land","Microtidal",2019,40.655361,0.767817,0,10.3067156338744,NA,NA,NA,NA,NA
+"227","Es Calo","Es Cal¢","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.758061,3.319967,NA,NA,NA,NA,NA,0.13598355574891,NA
+"228","Es Caragol","Es Caragol-Cap de Salines","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.273233,3.041267,NA,NA,NA,NA,NA,0.124317021265031,NA
+"229","Es Castell","Cabrera","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Intertidal",2012,39.152751,2.930537,5,NA,NA,NA,NA,0.137121766978108,NA
+"230","Es Castell ","Es Castell ","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2005,39.15266667,2.93,NA,NA,NA,NA,NA,0.0385342126888443,NA
+"231","Es Figueral","Es Figueral","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.05598333,1.5959,NA,NA,NA,NA,NA,0.14428225829129,NA
+"232","Es Pujols","Formentera","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Intertidal",2012,38.728375,1.454938,4,9.73685821530701,NA,NA,NA,0.141843038270881,0.0685266636645885
+"233","Es Pujols","Es Pujols","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,38.725262,1.457379,NA,9.73685821530701,NA,NA,NA,0.141843038270881,0.0685266636645885
+"234","EST","Estany Menorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2021,40.013233,4.2039,1,16.4534695185463,4.38683186494724,NA,NA,NA,NA
+"235","EZ","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera marina","Healthy","Intertidal",2000,43.45529212,-3.77125017,NA,NA,NA,NA,NA,0.0566281502500899,0.0379849727051467
+"236","EZ","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera marina","Healthy","Intertidal",2001,43.45529212,-3.77125017,NA,NA,NA,NA,NA,0.0566281502500899,0.0379849727051467
+"237","Fangar","Delta Ebre","Catalunya","Mediterranean Sea","Salt Marsh","Salicornia","Healthy","Microtidal",2022,40.762719,0.76145,0,7.73816396111345,3.15290675173352,NA,NA,NA,NA
+"238","FBIO","Delta del Ebro","Catalunya","Mediterranean Sea","Salt Marsh","Phragmites australis","","Microtidal",2015,40.663111,0.703075,NA,NA,NA,NA,NA,0.694939049342511,0.232703956757807
+"239","Fornells","Fornells","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,40.056467,4.137733,NA,NA,NA,NA,NA,0.108331700001118,0.0709681893534518
+"240","Gando","Gando","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2018,27.924814,-15.380603,10,5.45606644860511,0.733533296830198,NA,NA,0.631130063862857,NA
+"241","GATA","Cabo Gata","Andalucia","Mediterranean Sea","Salt Marsh","Salicornia","","Microtidal",2016,36.759108,-2.217558,NA,NA,NA,NA,NA,1.6319275075783,0.958283621837208
+"242","GRAM_14","Golf Roses","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2021,42.158083,3.120033,14,3.5254168909195,0.392367841450216,NA,NA,NA,NA
+"243","GRAM_14_2","Golf Roses","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2021,42.158083,3.120033,14,5.47031686158874,0.290618501850313,NA,NA,NA,NA
+"247","GRAM_6.5","Golf Roses","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2021,42.158083,3.120033,6.5,3.91844601827035,0.252877245572556,NA,NA,NA,NA
+"250","GRAM_7","Golf Roses","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2021,42.158083,3.120033,7,3.59394879805014,0.342335576451952,NA,NA,NA,NA
+"251","GRAM_8","Golf Roses","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2021,42.158083,3.120033,8,3.24835304859565,0.275614089444402,NA,NA,NA,NA
+"252","GRAM_8.3","Golf Roses","Catalunya","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2021,42.158083,3.120033,8.3,12.8967556793201,2.24098582762073,NA,NA,NA,NA
+"253","GS-15","La pletera","Catalunya","Mediterranean Sea","Salt Marsh","Salicornia","Healthy","Microtidal",2015,42.030833,3.1925,NA,NA,NA,NA,NA,0.07718,NA
+"254","GS-16","La pletera","Catalunya","Mediterranean Sea","Salt Marsh","Salicornia","Healthy","Microtidal",2016,42.030833,3.1925,NA,NA,NA,NA,NA,0.146642,NA
+"255","Guixols_11","Sant Feliu de Guixols","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2002,41.77936,3.033346,11,NA,NA,NA,NA,0.0135771428571429,NA
+"256","Guixols_8","Sant Feliu de Guixols","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2002,41.77936,3.033346,8,NA,NA,NA,NA,0.0189257142857143,NA
+"257","Hotel Delta","Hotel Delta","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.449042,2.74003,NA,NA,NA,NA,NA,0.136218795940491,0.046324445144181
+"258","HS-15","La pletera","Catalunya","Mediterranean Sea","Salt Marsh","Salicornia","Healthy","Microtidal",2015,42.030833,3.1925,NA,NA,NA,NA,NA,1.46642,NA
+"259","HS-16","La pletera","Catalunya","Mediterranean Sea","Salt Marsh","Halimione","Healthy","Microtidal",2016,42.030833,3.1925,NA,NA,NA,NA,NA,1.24150052850721,NA
+"260","Illa de Formentor","Illa de Formentor","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.920878,3.149217,NA,NA,NA,NA,NA,0.105876529534827,0.0161073326595511
+"261","Illa Des Colom","Illa Des Colom","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.962,4.273164251,NA,NA,NA,NA,NA,0.129907106548665,NA
+"262","Illes Bledes","Illes Bledes","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.922035,3.056721,NA,NA,NA,NA,NA,0.244464366607155,NA
+"263","Illetas","Illetas- Calvi ","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2005,39.53506667,2.5927,NA,NA,NA,NA,NA,0.0614726943671357,NA
+"264","Illetes formentera","Illetes formentera","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,38.756083,1.430467,NA,NA,NA,NA,NA,0.178996347555674,NA
+"265","Illetes Mallorca","Illetes Mallorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.541214,2.595811,NA,NA,NA,NA,NA,0.0453309477834362,NA
+"266","Isla del Aire","Isla del Aire","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.80453333,4.291566667,NA,NA,NA,NA,NA,0.0976230885854931,NA
+"267","Islas Bledas","Islas Bledas","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,40.06666667,4.025,NA,NA,NA,NA,NA,0.122216143576281,NA
+"268","Laranjo basin11Bm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.0544900160954815,NA
+"269","Laranjo basin11Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.3484044941904,NA
+"270","Laranjo basin1Bm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.0272450080477407,NA
+"271","Laranjo basin1Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.3620140449264,NA
+"272","Laranjo basin3Bm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.174358025768023,NA
+"273","Laranjo basin3Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.4817780898528,NA
+"274","Laranjo basin5Bm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.430471127852648,NA
+"275","Laranjo basin5Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.797519663052,NA
+"276","Laranjo basin7Bm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.267001079178234,NA
+"277","Laranjo basin7Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.6777556181256,NA
+"278","Laranjo basin9Bm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.0272450080477407,NA
+"279","Laranjo basin9Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.563435393106,NA
+"280","Laranjo bay ? L111Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.291698969232,NA
+"281","Laranjo bay ? L11Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.4275587630784,NA
+"282","Laranjo bay ? L13Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.4575278349996,NA
+"283","Laranjo bay ? L15Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.545437113462,NA
+"284","Laranjo bay ? L16Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.6972804123072,NA
+"285","Laranjo bay ? L19Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.7692061853832,NA
+"286","Laranjo bay ? L211Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.2157773196156,NA
+"287","Laranjo bay ? L21Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.2617298969232,NA
+"288","Laranjo bay ? L23Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.3176721650004,NA
+"289","Laranjo bay ? L25Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.751224742308,NA
+"290","Laranjo bay ? L26Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.7612144330776,NA
+"291","Laranjo bay ? L29Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.6253546392312,NA
+"292","Laranjo bay ? L311Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.0679298969232,NA
+"293","Laranjo bay ? L31Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.2717195876928,NA
+"294","Laranjo bay ? L33Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.2397525773076,NA
+"295","Laranjo bay ? L35Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.4575278349996,NA
+"296","Laranjo bay ? L36Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.533449484616,NA
+"297","Laranjo bay ? L39Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.1658288661552,NA
+"298","Laranjo bay ? L411Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.0879092784624,NA
+"299","Laranjo bay ? L41Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.2597319588468,NA
+"300","Laranjo bay ? L43Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.2857051546152,NA
+"301","Laranjo bay ? L45Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.3836041238472,NA
+"302","Laranjo bay ? L46Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.375612371154,NA
+"303","Laranjo bay ? L49Jm","Laranjo basin","C Portugal","Atlantic Ocean","Salt Marsh","Juncus maritimus","","Medium",NA,40.7253,-8.625304,NA,NA,NA,NA,NA,0.3096804123072,NA
+"304","LM","La Mola Menorca","Illes Balears","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2021,39.879436,4.308224,0.5,6.10340544814216,2.18019307390163,NA,NA,NA,NA
+"305","LOlla","L'Olla","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.83346667,3.145783333,NA,NA,NA,NA,NA,0.115842407879749,NA
+"306","MA_Cadiz","Bahia de Cadiz","Andalucia","Atlantic Ocean","Salt Marsh","Limoniastrum monopetalum","Healthy","High",NA,36.496482,-6.169088,NA,92.9681078566667,18.198259246671,NA,NA,0.060335,NA
+"307","Magalluf","Magalluf","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2005,39.50416667,2.543166667,NA,19.4463721088597,NA,0.0226140765391272,NA,0.106925528011264,0.0632294556533633
+"308","Magalluf","Mallorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Intertidal",2012,39.503734,2.543986,6,19.4463721088597,NA,0.0226140765391272,NA,0.106925528011264,0.0632294556533633
+"309","Magaluf",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7.69534366679903,NA,NA,NA,NA,NA
+"310","MALL","Albufera","Pa¡s Valenci…","Mediterranean Sea","Salt Marsh","Phragmites australis","","Microtidal",2016,39.340128,-0.311142,NA,NA,NA,NA,NA,1.69927990685333,1.40178395289895
+"311","MB_Cadiz","Bahia de Cadiz","Andalucia","Atlantic Ocean","Salt Marsh","Salicornia","Healthy","Low",NA,36.496482,-6.169088,NA,172.4270704,14.7397341254431,NA,NA,0.42449,NA
+"312","ME.S","Melicena","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Degraded","Subtidal",NA,36.753757,-3.249053,4.2,12.7560575987836,2.47241197386254,0.0213904531087863,NA,1.60473132995233,NA
+"313","ME_B","Minho Estuary","N Portugal","Atlantic Ocean","Salt Marsh","Unvegetated Salt Marsh","Healthy","Low",2022,41.873217,-8.827573,NA,38.132780835,35.8443729283277,NA,NA,NA,NA
+"314","ME_J","Minho Estuary","N Portugal","Atlantic Ocean","Salt Marsh","Juncos maritimus","Healthy","Low",2022,41.873217,-8.827573,NA,86.599816528,33.6368136938113,NA,NA,1.37615807281014,0.168133912246302
+"315","ME_Jf","Minho Estuary","N Portugal","Atlantic Ocean","Salt Marsh","Juncos maritimus","Healthy","Low",2022,41.873217,-8.827573,NA,NA,NA,NA,NA,0.846796041948091,0.120174168429901
+"316","ME_Ph","Minho Estuary","N Portugal","Atlantic Ocean","Salt Marsh","Phragmites australis","Healthy","High",2022,41.873217,-8.827573,NA,154.461082866667,20.8480529185536,NA,NA,1.3426149270204,0.221030548500318
+"317","ME_Phf","Minho Estuary","N Portugal","Atlantic Ocean","Salt Marsh","Phragmites australis","Healthy","High",2022,41.873217,-8.827573,NA,NA,NA,NA,NA,1.65274757857522,NA
+"318","ME_Sm","Minho Estuary","N Portugal","Atlantic Ocean","Salt Marsh","Scirpus maritimus","Healthy","Low",2022,41.873217,-8.827573,NA,104.7085263,6.2313660641271,NA,NA,0.3729801249198,NA
+"319","ME_Smf","Minho Estuary","N Portugal","Atlantic Ocean","Salt Marsh","Scirpus maritimus","Healthy","Low",2022,41.873217,-8.827573,NA,NA,NA,NA,NA,0.3411507500802,NA
+"320","ME_Sp","Minho Estuary","N Portugal","Atlantic Ocean","Salt Marsh","Spartina patens","Healthy","Medium",2022,41.873217,-8.827573,NA,59.7033955975,23.4267357255633,NA,NA,1.8141125625,0.424145716973794
+"321","ME_Spf","Minho Estuary","N Portugal","Atlantic Ocean","Salt Marsh","Spartina patens","Healthy","Medium",2022,41.873217,-8.827573,NA,NA,NA,NA,NA,1.51941168756878,0.0930478278153681
+"322","Medano_abril","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1992,28.037063,-16.530576,NA,NA,NA,NA,NA,0.0576,NA
+"323","Medano_agosto","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1991,28.037063,-16.530576,NA,NA,NA,NA,NA,0.0822857142857143,NA
+"324","Medano_diciembre","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1991,28.037063,-16.530576,NA,NA,NA,NA,NA,0.0267428571428571,NA
+"325","Medano_enero","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1992,28.037063,-16.530576,NA,NA,NA,NA,NA,0.0288,NA
+"326","Medano_febrero","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1992,28.037063,-16.530576,NA,NA,NA,NA,NA,0.0563657142857143,NA
+"327","Medano_julio","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1991,28.037063,-16.530576,NA,NA,NA,NA,NA,0.102857142857143,NA
+"328","Medano_june","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1991,28.037063,-16.530576,NA,NA,NA,NA,NA,0.0864,NA
+"329","Medano_marzo","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1992,28.037063,-16.530576,NA,NA,NA,NA,NA,0.0576,NA
+"330","Medano_mayo","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1992,28.037063,-16.530576,NA,NA,NA,NA,NA,0.0864,NA
+"331","Medano_noviembre","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1991,28.037063,-16.530576,NA,NA,NA,NA,NA,0.0390857142857143,NA
+"332","Medano_octubre","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1991,28.037063,-16.530576,NA,NA,NA,NA,NA,0.0390857142857143,NA
+"333","Medano_septiembre","El Medano","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1991,28.037063,-16.530576,NA,NA,NA,NA,NA,0.0543085714285714,NA
+"334","Mira channel (donor)11Zn","Mira channel","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.03256904960295,NA
+"335","Mira channelNAZn","Mira channel","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0238152016684197,0.00571487197360668
+"336","Mira salt marsh ? Sector I10Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.207406358589835,NA
+"337","Mira salt marsh ? Sector I11Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.191452023462912,NA
+"338","Mira salt marsh ? Sector I12Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.154225240982802,NA
+"339","Mira salt marsh ? Sector I1Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.139334528068351,NA
+"340","Mira salt marsh ? Sector I2Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.16805233168478,NA
+"341","Mira salt marsh ? Sector I3Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.206342736377363,NA
+"342","Mira salt marsh ? Sector I4Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.210597225615219,NA
+"343","Mira salt marsh ? Sector I5Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.227615183342582,NA
+"344","Mira salt marsh ? Sector I6Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.229742428155495,NA
+"345","Mira salt marsh ? Sector I7Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.248887630307802,NA
+"346","Mira salt marsh ? Sector I8Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.239315029231648,NA
+"347","Mira salt marsh ? Sector I9Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.213256281728352,0.0142897970224783
+"348","Mira salt marsh ? Sector I9Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.213256281728352,0.0142897970224783
+"349","Mira salt marsh ? Sector II10Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.873858214212999,NA
+"350","Mira salt marsh ? Sector II11Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.880355301509436,NA
+"351","Mira salt marsh ? Sector II12Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.961568890387089,NA
+"352","Mira salt marsh ? Sector II1Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.912840736827716,NA
+"353","Mira salt marsh ? Sector II2Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.886852388417904,NA
+"354","Mira salt marsh ? Sector II3Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.870609670952749,NA
+"355","Mira salt marsh ? Sector II4Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.886852388417904,NA
+"356","Mira salt marsh ? Sector II5Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,1.00379995626206,NA
+"357","Mira salt marsh ? Sector II6Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.860864040396062,NA
+"358","Mira salt marsh ? Sector II7Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.870609670952749,NA
+"359","Mira salt marsh ? Sector II8Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.990805782057151,NA
+"360","Mira salt marsh ? Sector II9Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.961568890193105,0.0551296119029137
+"361","Mira salt marsh ? Sector II9Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.961568890193105,0.0551296119029137
+"362","Mira salt marsh ? Sector III10Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0792413221275899,NA
+"363","Mira salt marsh ? Sector III10Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.154976713493329,NA
+"364","Mira salt marsh ? Sector III11Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0959824465753862,NA
+"365","Mira salt marsh ? Sector III11Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0590387479420345,NA
+"366","Mira salt marsh ? Sector III12Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0993306714649455,NA
+"367","Mira salt marsh ? Sector III12Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0885581221070362,NA
+"368","Mira salt marsh ? Sector III1Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.110491421355456,NA
+"369","Mira salt marsh ? Sector III1Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0405891391374045,NA
+"370","Mira salt marsh ? Sector III2Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.104911046410201,NA
+"371","Mira salt marsh ? Sector III2Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0553488260259209,NA
+"372","Mira salt marsh ? Sector III3Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.117187871134574,NA
+"373","Mira salt marsh ? Sector III3Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0332092956931463,NA
+"374","Mira salt marsh ? Sector III4Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.129464695470979,NA
+"375","Mira salt marsh ? Sector III4Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0221395303327746,NA
+"376","Mira salt marsh ? Sector III5Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.180804143648231,NA
+"377","Mira salt marsh ? Sector III5Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0221395303327746,NA
+"378","Mira salt marsh ? Sector III6Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.206473867930842,NA
+"379","Mira salt marsh ? Sector III6Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0295193741650017,NA
+"380","Mira salt marsh ? Sector III7Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.164063019200435,NA
+"381","Mira salt marsh ? Sector III7Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0405891391374045,NA
+"382","Mira salt marsh ? Sector III8Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.161830869532708,NA
+"383","Mira salt marsh ? Sector III8Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.129147261244441,NA
+"384","Mira salt marsh ? Sector III9Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.164063019200435,0.033145735340829
+"385","Mira salt marsh ? Sector III9Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.164063019200435,0.033145735340829
+"386","Mira salt marsh ? Sector III9Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0811782784687935,0.0626200483966961
+"387","Mira salt marsh ? Sector III9Sp","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.0811782784687935,0.0626200483966961
+"388","Mira salt marsh ? Sector IV10Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.179336651614613,NA
+"389","Mira salt marsh ? Sector IV11Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.197151550645453,NA
+"390","Mira salt marsh ? Sector IV12Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.17696133171797,NA
+"391","Mira salt marsh ? Sector IV1Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.146082173061607,NA
+"392","Mira salt marsh ? Sector IV2Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.18765027105888,NA
+"393","Mira salt marsh ? Sector IV3Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.192400910852167,NA
+"394","Mira salt marsh ? Sector IV4Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.172210691924683,NA
+"395","Mira salt marsh ? Sector IV5Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.181711971511256,NA
+"396","Mira salt marsh ? Sector IV6Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.207840490374332,NA
+"397","Mira salt marsh ? Sector IV7Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.243470288436012,NA
+"398","Mira salt marsh ? Sector IV8Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.245845608332656,NA
+"399","Mira salt marsh ? Sector IV9Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.201902190632724,0.0117572336448264
+"400","Mira salt marsh ? Sector IV9Sm","Mira channel","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.596614,-8.746739,NA,NA,NA,NA,NA,0.201902190632724,0.0117572336448264
+"401","MM_87_dic","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1987,37.783149,-0.76121,NA,NA,NA,NA,NA,0.00576,NA
+"402","MM_87_nov","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1987,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0127542857142857,NA
+"403","MM_88_ab","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.000329142857142857,NA
+"404","MM_88_agos","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0423771428571429,NA
+"405","MM_88_dic","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0123428571428571,NA
+"406","MM_88_ene","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.00699428571428572,NA
+"407","MM_88_feb","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.00822857142857143,NA
+"408","MM_88_jul","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.02304,NA
+"409","MM_88_jun","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0213942857142857,NA
+"410","MM_88_mar","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.00576,NA
+"411","MM_88_may","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.005184,NA
+"412","MM_88_nov","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0189257142857143,NA
+"413","MM_88_oct","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0526628571428572,NA
+"414","MM_88_sep","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1988,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0452571428571429,NA
+"415","MM_89_ab","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,0.00514285714285714,NA
+"416","MM_89_agos","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0769371428571429,NA
+"417","MM_89_dic","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0246857142857143,NA
+"418","MM_89_ene","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,0.00946285714285714,NA
+"419","MM_89_feb","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,4.11428571428572e-05,NA
+"420","MM_89_jul","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0617142857142857,NA
+"421","MM_89_jun","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0300342857142857,NA
+"422","MM_89_mar","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,0.00493714285714286,NA
+"423","MM_89_may","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0160457142857143,NA
+"424","MM_89_nov","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0123428571428571,NA
+"425","MM_89_oct","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0481371428571429,NA
+"426","MM_89_sep","Mar Menor","Murcia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",1989,37.783149,-0.76121,NA,NA,NA,NA,NA,0.0608914285714286,NA
+"427","MM_Cadiz","Bahia de Cadiz","Andalucia","Atlantic Ocean","Salt Marsh","Sarcocornia","Healthy","Medium",NA,36.496482,-6.169088,NA,253.76596205,30.0952001807465,NA,NA,1.02719100249916,NA
+"428","MM1A","Mondego estuary","N Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2019,40.132017,-8.84815,NA,21.1183862352081,8.09968721850444,0.0752152799189761,NA,NA,NA
+"429","MM1B","Mondego estuary","N Portugal","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",2019,40.130783,-8.846967,NA,16.7531478559854,3.74703176759716,NA,NA,NA,NA
+"430","MM2A","Mondego estuary","N Portugal","Atlantic Ocean","Salt Marsh","Juncus","Healthy","High",2019,40.139017,-8.808083,NA,20.4996803741224,0.825783941412241,0.0439047000869891,NA,NA,NA
+"432","MM3B","Mondego estuary","N Portugal","Atlantic Ocean","Salt Marsh","Scirpus","Healthy","Low",2019,40.118117,-8.77415,NA,15.6133591533326,NA,NA,NA,NA,NA
+"433","MMD_Cadiz","Bahia de Cadiz","Andalucia","Atlantic Ocean","Salt Marsh","Sarcocornia","Degraded","Low",NA,36.496482,-6.169088,NA,116.52492345,31.1900162189612,NA,NA,0.35556611624971,NA
+"434","MOLI","Denia","Pa¡s Valenci…","Mediterranean Sea","Salt Marsh","Phragmites australis","","Microtidal",2017,38.884983,-0.037736,NA,NA,NA,NA,NA,2.02498797403111,1.69702097169046
+"435","Mondrago","Mondrag¢","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.35085,3.1932,NA,NA,NA,NA,NA,0.099230761339345,NA
+"436","Moros-1","Sagunto","Pa¡s Valenci…","Mediterranean Sea","Salt Marsh","Phragmites australis","","Microtidal",2014,39.632156,-0.265144,NA,NA,NA,NA,NA,1.1391501230166,0.755898316870645
+"437","Moros-2","Sagunto","Pa¡s Valenci…","Mediterranean Sea","Salt Marsh","Phragmites australis","","Microtidal",2014,39.631208,-0.260103,NA,NA,NA,NA,NA,0.690982760687444,0.253336642862977
+"438","MS1A","Santo¤a Marshes","Cantabria","Cantabrian Sea","Salt Marsh","Juncus","Healthy","High",2019,43.368192,-3.428633,NA,27.5069402600008,4.66142414134687,0.0665852278267739,NA,NA,NA
+"439","MS2A","Santo¤a Marshes","Cantabria","Cantabrian Sea","Salt Marsh","Halimione","Healthy","High",2019,43.419143,-3.480078,NA,14.0844153848269,5.75327187856725,0.0446821998259043,NA,NA,NA
+"441","MS2C","Santo¤a Marshes","Cantabria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2019,43.419456,-3.479795,NA,14.4586262892247,4.59671530871547,0.0176227338967193,NA,NA,NA
+"442","MS3B","Santo¤a Marshes","Cantabria","Cantabrian Sea","Salt Marsh","Spartina maritima","Healthy","Low",2019,43.448644,-3.487925,NA,12.8053312207391,NA,NA,NA,NA,NA
+"443","Muerto Cabrera","Mallorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Intertidal",2012,39.1475,2.928957,17,9.64705493883495,1.80107980486644,0.0181924023485536,NA,NA,NA
+"444","neda","neda","Galiza","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",2015,43.49368,-8.16296,NA,NA,NA,NA,NA,0.0270783836428807,0.0112959597147184
+"445","NM-1","Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2005,37.23036,-6.95453,NA,NA,NA,NA,NA,0.155080022028822,NA
+"446","NM-2","Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2005,37.23036,-6.95453,NA,NA,NA,NA,NA,0.114356090514622,NA
+"447","NPCB-BOLI_Mx","CADIZ","Andalucia","Atlantic Ocean","Salt Marsh","Mixed Salt Marsh","Healthy","Low",2015,36.516622,-6.170795,NA,NA,NA,NA,NA,0.2884779,0.150000893400377
+"448","NPCB-BOLI_Sc","CADIZ","Andalucia","Atlantic Ocean","Salt Marsh","Sarcocornia","Healthy","Low",2015,36.516622,-6.170795,NA,NA,NA,NA,NA,0.324070347983171,0.113435216385382
+"449","NPCB-BOLI_Sm","CADIZ","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2015,36.516622,-6.170795,NA,NA,NA,NA,NA,0.18540914431447,0.129106205297664
+"450","NPCB-CLICA_Mx","CADIZ","Andalucia","Atlantic Ocean","Salt Marsh","Mixed Salt Marsh","Healthy","Low",2016,36.498839,-6.192732,NA,NA,NA,NA,NA,0.47449017,0.110138843978358
+"451","NPCB-CLICA_Sc","CADIZ","Andalucia","Atlantic Ocean","Salt Marsh","Sarcocornia","Healthy","Low",2016,36.498839,-6.192732,NA,NA,NA,NA,NA,0.41093200137332,0.120020888016515
+"452","o_grove","o_grove","Galiza","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",2015,42.45638,-8.86707,NA,NA,NA,NA,NA,0.0234088368658569,0.00408242087714249
+"453","ODB.Z","El Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Sarcocornia","Restored","Medium",2016,37.2416,-6.9673,NA,17.3007259644825,8.94771702088646,0.0254981204359479,NA,1.53318893716221,0.706168372742142
+"454","ODE.M","El Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Sarcocornia","Healthy","Medium",2016,37.172883,-6.928167,NA,9.37532617933823,2.09291257163415,0.0294597508294894,NA,4.83407836679092,3.96118042445595
+"455","ODH","El Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Mixed Salt Marsh","Healthy","High",2016,37.203806,-6.951333,NA,8.75077933158774,2.50329811690717,0.0130266053065373,NA,11.7285,7.89988243978985
+"456","ODL.R","El Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Restored","Medium",2016,37.155472,-6.905583,NA,2.00164405534235,0.747212343606754,NA,NA,10.5676545515131,8.99646654831651
+"457","ODM.L","El Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2016,37.174333,-6.931083,NA,8.82516412761047,2.58621968373851,0.00569244516493148,NA,12.3124761963555,5.88920569412917
+"458","ODM.LC","El Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Unvegetated","Control","Low",2016,37.174333,-6.931083,NA,10.1848253678913,0.631402140165376,0.0150174236151453,NA,NA,NA
+"459","ODN.DC","El Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Unvegetated","Control","High",2016,37.27347,-7.01543,NA,4.69724842654783,NA,0.0034726587354605,NA,NA,NA
+"460","ODN.DV","El Odiel","Andalucia","Atlantic Ocean","Salt Marsh","Mixed Salt Marsh","Degraded","High",2016,37.27314,-7.01554,NA,10.98575990414,1.41568349495099,0.00439249471409294,NA,20.2965,11.1472569383683
+"462","Oka_01","Oka Estuary","Euskal Herria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2022,43.381056,-2.679289,0,16.8065043020815,8.22058903010533,NA,NA,0.00190991340264213,0.000858858277126658
+"463","Oka_02","Oka Estuary","Euskal Herria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2022,43.380281,-2.67898,0,11.3542635975676,2.12181130653374,NA,NA,0.00629936350345123,0.0034826594455663
+"464","OY_A1M","Oyambre estuary","Cantabria","Cantabrian Sea","Salt Marsh","Mixed Salt Marsh","Healthy","High",2018,43.38583,-4.324631,NA,9.76480434813222,0.501025549893353,0.0231435883428502,NA,NA,NA
+"465","OY_A2M","Oyambre estuary","Cantabria","Cantabrian Sea","Salt Marsh","Mixed Salt Marsh","Healthy","High",2018,43.382675,-4.335772,NA,29.2413239548543,0.316219507597203,NA,NA,NA,NA
+"466","OY_NM","Oyambre estuary","Cantabria","Cantabrian Sea","Salt Marsh","Mixed Salt Marsh","Healthy","High",2018,43.382817,-4.318047,NA,21.0476413456672,5.73404410165057,0.0684244119425624,NA,NA,NA
+"468","OY_RM","Oyambre estuary","Cantabria","Cantabrian Sea","Salt Marsh","Mixed Salt Marsh","Restored","High",2018,43.373796,-4.315642,NA,22.3395024353525,4.13412221085756,NA,NA,NA,NA
+"469","P. Cabron","P. Cabron","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2018,27.869889,-15.384111,13,NA,NA,NA,NA,0.599794230857143,NA
+"470","PA.I","Palomares","Andalucia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2017,37.221601,-1.783238,10.2,2.17986812678134,0.509259221998945,0.012320473099147,NA,0.117942857142857,0.0291166268510567
+"471","PA.IV","Palomares","Andalucia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2017,37.2156389,-1.792694444,12,2.21556281567319,NA,NA,NA,NA,NA
+"472","Palamones-APR","Palamones Salt Marsh","Andalucia","Mediterranean Sea","Salt Marsh","Sarcocornia","Healthy","Microtidal",2002,36.172745,-5.436486,NA,NA,NA,NA,NA,0.96337144317229,NA
+"473","Palamones-AUG","Palamones Salt Marsh","Andalucia","Mediterranean Sea","Salt Marsh","Sarcocornia","Healthy","Microtidal",2002,36.172745,-5.436486,NA,NA,NA,NA,NA,1.44961570471035,NA
+"474","Palamones-DEC","Palamones Salt Marsh","Andalucia","Mediterranean Sea","Salt Marsh","Sarcocornia","Healthy","Microtidal",2001,36.172745,-5.436486,NA,NA,NA,NA,NA,0.619961433461032,NA
+"475","Palamones-DEC2","Palamones Salt Marsh","Andalucia","Mediterranean Sea","Salt Marsh","Sarcocornia","Healthy","Microtidal",2002,36.172745,-5.436486,NA,NA,NA,NA,NA,0.738483472210935,NA
+"476","Palamones-FEB","Palamones Salt Marsh","Andalucia","Mediterranean Sea","Salt Marsh","Sarcocornia","Healthy","Microtidal",2002,36.172745,-5.436486,NA,NA,NA,NA,NA,0.790146924999355,NA
+"477","Palamones-JUN","Palamones Salt Marsh","Andalucia","Mediterranean Sea","Salt Marsh","Sarcocornia","Healthy","Microtidal",2002,36.172745,-5.436486,NA,NA,NA,NA,NA,1.11532277490294,NA
+"478","Palamones-OCT","Palamones Salt Marsh","Andalucia","Mediterranean Sea","Salt Marsh","Sarcocornia","Healthy","Microtidal",2002,36.172745,-5.436486,NA,NA,NA,NA,NA,1.32197658605661,NA
+"479","PALM","Algeciras","Andalucia","Mediterranean Sea","Salt Marsh","Salicornia","","Microtidal",2016,36.173972,-5.438358,NA,NA,NA,NA,NA,0.5907254292047,NA
+"480","Pancas10Ap","Pancas","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.82718,-8.943519,NA,NA,NA,NA,NA,0.860784848375084,0.000167123784949037
+"481","Pancas10Sm","Pancas","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.82718,-8.943519,NA,NA,NA,NA,NA,0.188552892767033,NA
+"482","Pancas12Ap","Pancas","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.82718,-8.943519,NA,NA,NA,NA,NA,0.584183079171239,0.00315328107834318
+"483","Pancas12Sm","Pancas","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.82718,-8.943519,NA,NA,NA,NA,NA,0.135013182475159,NA
+"484","Pancas2Ap","Pancas","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.82718,-8.943519,NA,NA,NA,NA,NA,0.248866451084723,0.0106770095507573
+"485","Pancas2Sm","Pancas","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.82718,-8.943519,NA,NA,NA,NA,NA,0.0647908088314701,NA
+"486","Pancas4Ap","Pancas","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.82718,-8.943519,NA,NA,NA,NA,NA,0.312404164936656,0.20673407002126
+"487","Pancas6Ap","Pancas","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.82718,-8.943519,NA,NA,NA,NA,NA,0.520183816159543,0.00537003771509982
+"488","Pancas6Sm","Pancas","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.82718,-8.943519,NA,NA,NA,NA,NA,0.102423793601845,NA
+"489","Pancas8Ap","Pancas","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.82718,-8.943519,NA,NA,NA,NA,NA,0.749464526194812,0.00590609549567472
+"490","Pancas8Sm","Pancas","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.82718,-8.943519,NA,NA,NA,NA,NA,0.188164923851874,NA
+"491","Pedrena","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2018,43.446924,-3.772969,NA,NA,NA,NA,NA,0.0306548307672498,0.00928358971974863
+"492","Pego-1","Pego-Oliva","Pa¡s Valenci…","Mediterranean Sea","Salt Marsh","Phragmites australis","","Microtidal",2014,38.872011,-0.049486,NA,NA,NA,NA,NA,0.739599031441255,0.626959208880589
+"493","Pego-2","Pego-Oliva","Pa¡s Valenci…","Mediterranean Sea","Salt Marsh","Phragmites australis","","Microtidal",2014,38.879781,-0.068564,NA,NA,NA,NA,NA,1.2507075877214,0.796759588861358
+"494","Platja de Ses Salines","Platja de Ses Salines","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,38.838411,1.393294,NA,NA,NA,NA,NA,0.237664681530096,NA
+"495","Platja den Bossa","Platja den Bossa","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,38.874667,1.406833,NA,NA,NA,NA,NA,0.133159080972911,0.0632475214388682
+"496","Platja des Mitjorn","Platja des Mitjorn","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,38.684001,1.462358,NA,NA,NA,NA,NA,0.0796579527040025,0.0150003003085405
+"497","Playa del Cabron",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,4.16864984463649,0.479078976613612,NA,NA,NA,NA
+"498","PLL22_CB_C","Cala bona cap de creus","Catalunya","Mediterranean Sea","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2022,42.312967,3.306228,1,9.94267660870043,1.1211310148841,NA,NA,NA,NA
+"499","PLL22_CC_PD","Cala Culip Cap de Creus","Catalunya","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2022,42.324401,3.30966,23,21.7657350535674,1.4365869709154,NA,NA,NA,NA
+"500","PLL22_CC_PS","Cala Culip Cap de Creus","Catalunya","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2022,42.324401,3.30966,5,13.1915962740356,0.815957156264734,NA,NA,NA,NA
+"501","PLL22_CJ","Cala Junquet Cap de Creus","Catalunya","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2022,42.303025,3.288921,4,28.8240341405526,14.2777903345172,NA,NA,NA,NA
+"502","PLL22_CJ_Z","Cala Junquet Cap de Creus","Catalunya","Mediterranean Sea","Seagrass","Zostera noltii","Healthy","Subtidal",2022,42.303025,3.288921,3,23.1137132496312,2.17282614268054,NA,NA,NA,NA
+"503","PLL22_PP","Portlligat Cap de Creus","Catalunya","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2022,42.290756,3.289542,3,20.9489928134227,NA,NA,NA,NA,NA
+"504","PLL22_PZ","Portlligat Cap de Creus","Catalunya","Mediterranean Sea","Seagrass","Zostera noltii","Healthy","Subtidal",2022,42.290756,3.289542,2,29.0348624047979,3.26590209481659,NA,NA,NA,NA
+"505","Pollenca","Mallorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Intertidal",2012,39.904822,3.092922,4,19.4936101623512,2.96686032748528,0.0355299334311317,NA,0.160555902314051,0.101970412256514
+"506","Pollenca","Pollen‡a","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.903713,3.09124,NA,19.4936101623512,2.96686032748528,0.0355299334311317,NA,0.160555902314051,0.101970412256514
+"507","Pontejos","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Mixed Seagrass","Healthy","Intertidal",2018,43.412836,-3.812851,NA,NA,NA,NA,NA,0.0331121079995129,0.00653946220056071
+"508","Port Dalcudia","Port D'alcudia","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.8169,3.145783333,NA,NA,NA,NA,NA,0.0510547303338888,0.00422162697306166
+"509","Port de Mao","Port de Mah¢","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.87155,4.31255,NA,NA,NA,NA,NA,0.138557239805944,0.0380182674155738
+"510","Port de Soller","Port de S¢ller","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.794347,2.684589,NA,NA,NA,NA,NA,0.108282493686693,NA
+"511","Portals Vells","Portals Vells","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.475,2.521666667,NA,NA,NA,NA,NA,0.0927412519606159,NA
+"512","Porto Colom","Porto Colom","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.417533,3.269717,NA,NA,NA,NA,NA,0.0847893571453138,0.0210214279525499
+"513","Porto Cristo","Porto Cristo","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.535433,3.338933,NA,NA,NA,NA,NA,0.136526945398062,NA
+"514","Portocolom","Mallorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Intertidal",2012,39.41737,3.267091,9,18.9252655120974,4.15924218907052,0.059563223299971,NA,NA,NA
+"515","Pta Sa Creu","Pta Sa Creu (Formentera)","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,38.68955,1.543783333,NA,NA,NA,NA,NA,0.149433359691227,0.0286053084865205
+"516","Punta de Sa Creu","Punta de Sa Creu","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,38.691105,1.569986,NA,NA,NA,NA,NA,0.217150958617007,NA
+"517","Punta Dels Andreus","Punta Dels Andreus","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,38.91448333,1.476516667,NA,NA,NA,NA,NA,0.197585570842873,NA
+"518","Punta den Valls","Punta den Valls","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.05598333,1.5959,NA,NA,NA,NA,NA,0.248338267787944,NA
+"519","Punta Des Gat","Punta des Gat","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,38.680254,1.535137,NA,NA,NA,NA,NA,0.182032189372913,0.103940547316721
+"520","Punta dets Andreus","Punta dets Andreus","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,38.91343,1.458563,NA,NA,NA,NA,NA,0.163218659074568,NA
+"521","Punta Galinda","Punta Galinda","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.580681,2.348546,NA,NA,NA,NA,NA,0.124196457119417,NA
+"522","Punta Llobera","Punta Llobera","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.408848,2.735785,NA,NA,NA,NA,NA,0.210107264901867,NA
+"523","Punta Rasa","Punta Rasa","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,38.692563,1.377807,NA,NA,NA,NA,NA,0.18164216593935,NA
+"524","Punta Sa Creu","Punta Sa Creu","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,38.691134,1.570002,NA,NA,NA,NA,NA,0.252513958438389,NA
+"525","Puntal","Bay of Santander","Cantabria","Cantabrian Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2018,43.4518,-3.756,NA,NA,NA,NA,NA,0.0320132986786136,0.00627232961479427
+"526","RF-001","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Cymodocea nodosa","","Subtidal",2018,36.999007,-7.834146,NA,NA,NA,NA,NA,0.0279771428571429,NA
+"527","RF-002","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2009,37.00483,-7.967422,NA,NA,NA,NA,NA,0.0482504438562222,NA
+"528","RF-003","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera marina","","Subtidal",2014,37.00483,-7.967422,NA,NA,NA,NA,NA,0.0465461375152222,NA
+"529","RF-004","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",1991,37.00483,-7.967422,NA,NA,NA,NA,NA,0.345166829710159,0.0653931881616232
+"530","RF-005","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2002,37.003901,-7.968368,NA,NA,NA,NA,NA,0.0640409848066906,0.0372075046289563
+"531","RF-006","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2018,36.983,-7.88847,NA,NA,NA,NA,NA,0.0747191058732548,0.0175434232471477
+"532","RF-007","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2018,36.983,-7.88847,NA,NA,NA,NA,NA,0.0911695018982882,0.0358146727168453
+"533","RF-008","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Cymodocea nodosa","","Subtidal",2019,37.00303,-7.822264,NA,NA,NA,NA,NA,0.0392802133333333,0.0197229960505828
+"534","RF-009","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Cymodocea nodosa","","Subtidal",1993,37.00303,-7.822264,NA,NA,NA,NA,NA,0.118894460544,0.0533511615322373
+"535","RF-010","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera marina","","Subtidal",2013,37.003805,-7.826651,NA,NA,NA,NA,NA,0.037152,NA
+"536","RF-013","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2018,37.017753,-7.940408,NA,NA,NA,NA,NA,0.0345082467360845,0.0120374512358869
+"537","RF-014","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2018,37.017174,-7.940783,NA,NA,NA,NA,NA,0.0670860036677444,0.0138276161243659
+"538","RF-015","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2018,37.016339,-7.941197,NA,NA,NA,NA,NA,0.0438561314509625,0.0209952942306871
+"539","RF-016","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2018,37.01078,-7.932713,NA,NA,NA,NA,NA,0.064553731888217,0.0188936767239243
+"540","RF-018","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2019,37.018997,-7.941213,NA,NA,NA,NA,NA,0.230232081657982,NA
+"541","RF-019","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2019,37.018969,-7.941098,NA,NA,NA,NA,NA,0.162944664293248,NA
+"542","RF-020","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2019,37.0152467,-7.9376734,NA,NA,NA,NA,NA,0.380082978523539,NA
+"543","RF-021","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2019,37.0150518,-7.937553,NA,NA,NA,NA,NA,0.140030570883437,NA
+"544","RF-022","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2019,37.0149843,-7.9374826,NA,NA,NA,NA,NA,0.269149669047583,NA
+"545","RF-023","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2019,37.0184513,-7.9405028,NA,NA,NA,NA,NA,0.0476400809685724,NA
+"546","RF-024","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2019,37.018442,-7.940426,NA,NA,NA,NA,NA,0.0391075291713096,NA
+"547","RF-025","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2019,37.0151085,-7.9377629,NA,NA,NA,NA,NA,0.0252421324504967,NA
+"548","RF-026","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2019,37.0150097,-7.9376626,NA,NA,NA,NA,NA,0.0156430118293587,NA
+"549","RF-027","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2019,37.0149918,-7.9375604,NA,NA,NA,NA,NA,0.045506942918735,NA
+"550","RF-028","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Mixed Seagrass","","Subtidal",2017,37.004,-7.825,NA,NA,NA,NA,NA,0.034866313180938,0.0155171338374899
+"551","RF-029","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2020,37.002,-7.984,NA,NA,NA,NA,NA,0.0196248692543306,0.0125429599849028
+"564","RF-CP","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2017,37.041472,-7.755381,NA,NA,NA,NA,NA,0.0667198149658383,0.0236478474085986
+"565","RF-FR1","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2019,37.01561764,-7.93801895,NA,8.48614772438078,NA,NA,NA,NA,NA
+"566","RF-FR3","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2019,37.01851493,-7.94047569,NA,15.6731262851804,NA,NA,NA,NA,NA
+"567","RF-FR5","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2019,37.017448,-7.941283,NA,11.7017788476266,NA,NA,NA,NA,NA
+"568","RF-FR6","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2019,37.016429,-7.941404,NA,14.1597000265606,NA,NA,NA,NA,NA
+"569","RF-I1","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2010,37.019,-7.948,NA,NA,NA,NA,NA,0.00431027447316631,NA
+"570","RF-I2","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2010,37.016,-7.856,NA,NA,NA,NA,NA,0.00137928799224803,NA
+"571","RF-M1","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Cymodocea nodosa","","Subtidal",2017,37.048509,-7.74376,NA,NA,NA,NA,NA,0.0981123985027458,0.0478659155214027
+"572","RF-M2","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2017,37.050169,-7.740667,NA,NA,NA,NA,NA,0.0529729260261516,0.00558748244316296
+"573","RF-M5","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2017,37.063022,-7.716375,NA,NA,NA,NA,NA,0.0419517132377596,0.00342853954197784
+"574","RF-M6","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2017,37.05801,-7.721456,NA,NA,NA,NA,NA,0.0561726328998643,0.00926408592566564
+"575","RF-M7","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2017,37.057474,-7.724957,NA,NA,NA,NA,NA,0.0604389087314811,0.0222393770066446
+"576","RF-R1","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2010,37.004,-7.97,NA,NA,NA,NA,NA,0.0178445364395346,NA
+"577","RF-R2","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2010,36.983,-7.889,NA,NA,NA,NA,NA,0.0186203858849133,NA
+"578","RF-R3","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2010,36.987,-7.943,NA,NA,NA,NA,NA,0.0259478522882525,NA
+"579","RF-Sm1","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2017,36.9828225,-7.8882475,NA,NA,NA,NA,NA,0.0812299455001331,0.0494696370089014
+"580","RF-SM1","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2017,36.9833,-7.88896,NA,2.52411327943398,NA,0.0170612807949374,NA,NA,NA
+"583","RF-Sm2","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2017,36.9884052,-7.8754278,NA,NA,NA,NA,NA,0.0655307635118519,0.0242845012684409
+"584","RF-SM2","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2017,36.9888,-7.87572,NA,5.25213840477866,NA,0.0143342033003759,NA,NA,NA
+"587","RF-Sm3","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2017,36.9977801,-7.8798423,NA,NA,NA,NA,NA,0.126823238910942,0.0743135545836245
+"588","RF-SM3","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2017,36.9974,-7.8797,NA,8.80358450166946,NA,0.0343834413610561,NA,NA,NA
+"591","RF-Sm4","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2017,37.0032501,-7.8848733,NA,NA,NA,NA,NA,0.0963569915721373,0.0403398989840381
+"592","RF-SM4","Ria Formosa","S Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","","Low",2017,37.0029,-7.88439,NA,9.11498669714979,NA,0.0315934343190555,NA,NA,NA
+"595","RF-ZN1","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2017,36.9844,-7.88896,NA,4.04591523199774,NA,0.0204448227058061,NA,0.0251022934161996,0.00585887994642833
+"598","RF-ZN2","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2017,36.9884,-7.87642,NA,4.53482525516562,NA,0.00841751423188331,NA,0.0129887514280736,0.0110447403852861
+"601","RF-ZN3","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2017,36.9974,-7.87984,NA,6.94352469727173,NA,0.12163822692336,NA,0.0171717968523866,0.00207448983991987
+"604","RF-ZN4","Ria Formosa","S Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",2017,37.0029,-7.88439,NA,8.4444825898112,NA,0.0460890826388017,NA,0.00382652825581985,0.00247300631939432
+"607","Ria de Aveiro - 1_J","Ria de Aveiro","N Portugal","Atlantic Ocean","Salt Marsh","Juncus","Healthy","Medium",2012,40.793417,-8.657793,NA,NA,NA,NA,NA,0.489950086666667,0.221755708923377
+"608","Ria de Aveiro - 1_Zn","Ria de Aveiro","N Portugal","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",2013,40.659855,-8.666949,NA,NA,NA,NA,NA,0.039032600829196,0.0154659016506923
+"609","Ria de Aveiro - 2_J","Ria de Aveiro","N Portugal","Atlantic Ocean","Salt Marsh","Juncus","Healthy","Medium",2012,40.713202,-8.673333,NA,NA,NA,NA,NA,0.472837251509267,0.227581217630448
+"610","Ria de Aveiro - 2_Sm","Ria de Aveiro","N Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2012,40.713202,-8.673333,NA,NA,NA,NA,NA,0.137041808207177,0.0636456312446999
+"611","Ria de Aveiro - 3_J","Ria de Aveiro","N Portugal","Atlantic Ocean","Salt Marsh","Juncus","Healthy","Medium",2012,40.602581,-8.742346,NA,NA,NA,NA,NA,0.5450752437712,0.161372582841678
+"612","Ria de Aveiro - 3_Sm","Ria de Aveiro","N Portugal","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2012,40.602581,-8.742346,NA,NA,NA,NA,NA,0.127441935652192,0.0469413944916406
+"614","ria_de_vigo_a_ramallosa","Baiona","Galiza","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",2014,42.1169,-8.82122,NA,19.9876621812364,NA,0.0481435852516168,NA,NA,NA
+"615","rianxo","rianxo","Galiza","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",2015,42.666,-8.82277,NA,NA,NA,NA,NA,0.0267910589511674,0.00933944991267966
+"616","rio_maior","vilaboa","Galiza","Atlantic Ocean","Seagrass","Zostera noltii","Degraded","Intertidal",2015,42.32161,-8.64863,NA,NA,NA,NA,NA,0.0085019627582351,0.00188328176755691
+"617","Risco Verde","Risco Verde","Canarias","Ultraperiferic T.","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2018,27.856222,-15.386194,12,4.25182581495794,1.22158470681591,NA,NA,0.2322730368,NA
+"618","RO.CN","Roquetas de Mar","Andalucia","Mediterranean Sea","Seagrass","Cymodocea nodosa","Dead","Subtidal",2016,36.7867222,-2.590055556,0.7,0.659045252988365,NA,NA,NA,NA,NA
+"619","RO.E","Roquetas de Mar","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Dead","Subtidal",2017,36.7859,-2.5799,14.7,10.5778853992812,NA,NA,NA,NA,NA
+"620","RO.I","Roquetas de Mar","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Degraded","Subtidal",2017,36.7878,-2.577517,14.8,15.5277134663678,0.958228222735751,NA,NA,0.679822545234349,0.0563919668134105
+"621","RO.IB","Roquetas de Mar","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Degraded","Subtidal",2017,36.7878,-2.577517,10.5,22.3625573392621,9.33184212581214,0.00291278583895661,NA,NA,NA
+"622","RO.IR","Roquetas de Mar","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Degraded","Subtidal",2017,36.7859,-2.5799,14.8,17.7800448459962,6.30364725642525,0.0111659162394621,NA,NA,NA
+"623","RO.IS","Roquetas de Mar","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2017,36.7906,-2.58035,10.5,6.2297873110739,0.705603574085332,NA,NA,NA,NA
+"624","RO.S","Roquetas de Mar","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2016,36.785917,-2.586683,1.5,35.0197575779198,13.8474353924906,0.0259787358780408,NA,20.4647009968829,5.2030387030695
+"625","RO.SC","Roquetas de Mar","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Dead","Subtidal",2016,36.7867222,-2.590055556,0.7,19.3708280697334,10.7632671775931,NA,NA,NA,NA
+"626","RO.SC","Roquetas de Mar","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Dead","Subtidal",2016,36.7867222,-2.590055556,1,19.3708280697334,10.7632671775931,NA,NA,NA,NA
+"627","S.m.NASm","S.m.NASm224","C Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0311029688339599,0.00781225910335855
+"628","S.ZM","Santander Bay","Cantabria","Atlantic Ocean","Seagrass","Zostera marina","Healthy","Subtidal",NA,43.447417,-3.772972,0.5,NA,NA,NA,NA,0.181410587238815,0.0123478712200763
+"630","S.ZN","Santander Bay","Cantabria","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",NA,43.44654,-3.772768,0,NA,NA,NA,NA,0.0332391946565086,0.0138666598438539
+"632","SA.CN","Bahia de Cadiz","Andalucia","Atlantic Ocean","Seagrass","Cymodocea nodosa","Healthy","Subtidal",2016,36.46946,-6.2512,0.5,6.61541207740949,1.77761441632365,0.00251445189641432,NA,1.28674285714286,0.257467680555467
+"633","SA.ZN.C","Bahia de Cadiz","Andalucia","Atlantic Ocean","Seagrass","Zostera noltii","Degraded","Intertidal",2016,36.54811,-6.2102,0,4.7905410331421,1.06250584116924,0.00307597285106149,NA,NA,NA
+"634","SA.ZN.D","Bahia de Cadiz","Andalucia","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Subtidal",2016,36.46893,-6.2513,0.3,5.4772132522404,2.70846199781065,NA,NA,NA,NA
+"635","SA.ZN.S","Bahia de Cadiz","Andalucia","Atlantic Ocean","Seagrass","Zostera noltii","Healthy","Intertidal",2016,36.46893,-6.2513,0,3.13338387641124,1.43516047461717,0.000847387212900767,NA,NA,NA
+"636","SAlgar","S'Algar","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.83478,4.305484,NA,NA,NA,NA,NA,0.114188169518446,0.0309846349363196
+"639","Sant Antoni","Sant Antoni","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,38.979925,1.292944,NA,NA,NA,NA,NA,0.0868513882760804,0.0025625535778727
+"640","Santa Eulalia","Santa Eulalia","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2005,38.98416667,1.541833333,NA,NA,NA,NA,NA,0.139599876738362,0.0937396655230472
+"641","Santa Maria","Santa Mar¡a - Cabrera","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2005,39.15116667,2.948666667,NA,8.34680943758574,0.528790523071159,NA,NA,0.116636401320979,0.0406253230579108
+"642","Santa Maria 13 m",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14.2026166073191,4.70382551303446,0.0275316359999152,NA,NA,NA
+"645","Santa Maria_CM","Cabrera","Illes Balears","Mediterranean Sea","Seagrass","Zostera noltii","Healthy","Subtidal",2020,39.153624,2.945549,12.9,23.0317288793888,1.9027880732112,NA,NA,NA,NA
+"646","Santa Ponca","Santa Pon‡a","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.495087,2.460815,NA,9.3008255975779,0.046506588735241,NA,NA,0.105550765379102,0.0306457866110485
+"647","SArenal de SOlla","S'Arenal de S'Olla","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.496727,3.297568,NA,NA,NA,NA,NA,0.204916310923287,0.00421099474911384
+"648","SArenal de Son Saura","S'Arenal de Son Saura","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.927469,3.89235,NA,NA,NA,NA,NA,0.10714271779582,NA
+"649","Sc.m.NABm","Sc.m.NABm231","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.029718368742303,0.0327682707965965
+"650","SENI","Moraira","Pa¡s Valenci…","Mediterranean Sea","Salt Marsh","Phragmites australis","","Microtidal",2016,38.687781,0.130625,NA,NA,NA,NA,NA,1.53782897893203,0.239554647775509
+"652","Ses Balandres","Ses Balandres","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2005,39.03655,1.323166667,NA,NA,NA,NA,NA,0.0847383264945084,NA
+"653","Ses Illetas","Ses Illetas -  Formentera","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2005,38.75608333,1.430466667,NA,NA,NA,NA,NA,0.114535365298737,NA
+"655","Ses Penyes","Ses Penyes","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2009,39.867597,4.087032,NA,NA,NA,NA,NA,0.254894192036341,NA
+"656","Ses Salinas","Ses Salinas","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.277,3.040816667,NA,NA,NA,NA,NA,0.194425871582306,NA
+"657","Sestany Den Mas","S'estany D'en Mas","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2006,39.51666667,2.315,NA,NA,NA,NA,NA,0.10070282243053,NA
+"658","SEstanyol","S'Estanyol","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.360015,2.920541,NA,NA,NA,NA,NA,0.137088915307347,NA
+"659","Site 111Bm","Site 111Bm241","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0,NA
+"660","Site 112Bm","Site 112Bm242","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0097435114704725,NA
+"661","Site 11Bm","Site 11Bm243","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0912346990903622,NA
+"662","Site 12Bm","Site 12Bm244","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.134637614210436,NA
+"663","Site 13Bm","Site 13Bm238","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.136852048829528,0.0131530697016209
+"664","Site 14Bm","Site 14Bm239","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0925633599394111,0.0357011887198246
+"665","Site 15Bm","Site 15Bm240","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0850342827000615,0.0463489118638674
+"666","Site 16Bm","Site 16Bm248","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0611183909089017,NA
+"667","Site 211Bm","Site 211Bm252","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0,NA
+"668","Site 21Bm","Site 21Bm254","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0425171413500307,NA
+"669","Site 22Bm","Site 22Bm255","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.21790034975838,NA
+"670","Site 23Bm","Site 23Bm249","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.17095433936415,0.0814237639442975
+"671","Site 24Bm","Site 24Bm250","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.210371272519031,0.187274657099318
+"672","Site 25Bm","Site 25Bm251","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.135080501289442,0.117124952938458
+"673","Site 26Bm","Site 26Bm259","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.163868149009822,NA
+"674","Site 311Bm","Site 311Bm263","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0327736298795582,NA
+"675","Site 312Bm","Site 312Bm264","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0,NA
+"676","Site 31Bm","Site 31Bm265","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0425171413500307,NA
+"677","Site 32Bm","Site 32Bm266","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.25421707471811,NA
+"678","Site 33Bm","Site 33Bm260","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.269275228808841,0.095203170285313
+"679","Site 34Bm","Site 34Bm261","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.241373354858503,0.196043370050841
+"680","Site 35Bm","Site 35Bm262","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.174940321329344,0.145936438350607
+"681","Site 36Bm","Site 36Bm270","C Portugal","Atlantic Ocean","Salt Marsh","Bolboschoenus maritimus","","Medium",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0469460102002455,NA
+"682","Site A2Zn","Site A2Zn176","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.000128667850283259,3.63927637823952e-05
+"683","Site A6Zn","Site A6Zn177","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.000849207811869511,NA
+"684","Site A9Zn","Site A9Zn178","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.00185281704407893,NA
+"685","Site B12Zn","Site B12Zn182","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.000257335700566519,NA
+"686","Site B2Zn","Site B2Zn180","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.00153114741837079,0.000127374673238383
+"687","Site B9Zn","Site B9Zn181","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.000334536410736474,NA
+"688","SM-15","La pletera","Catalunya","Mediterranean Sea","Salt Marsh","Elytrigia","Healthy","Microtidal",2015,42.030833,3.1925,NA,NA,NA,NA,NA,0.543156481221905,NA
+"689","SM-16","La pletera","Catalunya","Mediterranean Sea","Salt Marsh","Halimione","Healthy","Microtidal",2016,42.030833,3.1925,NA,NA,NA,NA,NA,0.356931401945823,NA
+"690","SM05","Santa Mar¡a","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2015,39.15,2.949167,5,15.0959673893267,NA,0.0757201892941502,NA,NA,NA
+"691","SM10","Santa Mar¡a","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2015,39.150833,2.948611,10,10.5282724257325,NA,0.01898116406929,NA,NA,NA
+"692","SM15","Santa Mar¡a","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2015,39.151667,2.948056,15,10.4508847031118,NA,0.00703705740630174,NA,NA,NA
+"693","SM25","Santa Mar¡a","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2015,39.153333,2.945556,25,19.6099026377491,NA,0.00961820321498944,NA,NA,NA
+"694","SN_Cymo","Sa Nitja Menorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2021,40.071661,4.088314,0.5,6.06092620409226,0.896875131210831,NA,NA,NA,NA
+"695","SN_Posi","Sa Nitja Menorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2021,40.07135,4.087433,1,26.1594507003021,NA,NA,NA,NA,NA
+"696","Soller","Mallorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Intertidal",2012,39.794455,2.685135,11,7.40435369143098,0.483100507295236,NA,NA,NA,NA
+"697","Somo","Bay of Santander","Cantabria","Mediterranean Sea","Seagrass","Zostera noltii","Healthy","Intertidal",2018,43.451745,-3.753552,NA,NA,NA,NA,NA,0.0130750646634586,0.0056343804831516
+"698","Son Serra de Marina","Son Serra de Marina","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.744711,3.234025,NA,NA,NA,NA,NA,0.0747153967413448,NA
+"699","Son Veri","Son Ver¡","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,39.493101,2.735699,NA,NA,NA,NA,NA,0.0741152577624662,0.020848816818541
+"700","SS_1_22","Ensenada San Sim¢n","Galiza","Atlantic Ocean","Seagrass","Zostera marina","Healthy","Intertidal",2022,42.306211,-8.621691,0,1.88126472216222,NA,NA,NA,0.0368788628005222,NA
+"701","SS_2_22","Ensenada San Sim¢n","Galiza","Atlantic Ocean","Seagrass","Zostera marina","Healthy","Intertidal",2022,42.306211,-8.621691,0,1.721902930431,NA,NA,NA,0.0386690988588,NA
+"702","SS_3_22","Ensenada San Sim¢n","Galiza","Atlantic Ocean","Seagrass","Zostera marina","Healthy","Intertidal",2022,42.306211,-8.621691,0,2.6386167542,NA,NA,NA,0.0572875538648889,NA
+"703","SS_4_22","Ensenada San Sim¢n","Galiza","Atlantic Ocean","Seagrass","Zostera marina","Healthy","Intertidal",2022,42.306211,-8.621691,0,1.848616494917,NA,NA,NA,0.0544231761716444,NA
+"704","Sta. Ponca","Mallorca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Intertidal",2012,39.513431,2.469364,5,25.7203832532616,NA,0.0396690533176643,NA,NA,NA
+"705","Talamanca","Talamanca","Illes Balears","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2008,38.913939,1.455359,NA,NA,NA,NA,NA,0.119565472485064,0.0667881592957738
+"707","TC","Vigo","Galiza","Atlantic Ocean","Seagrass","Zostera marina","Control","Subtidal",1,42.202084,-8.798639,5,3.27495110209391,0.293594491030429,NA,NA,0.03834685636831,NA
+"708","TE.D","Terreros","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2017,37.342769,-1.650453,18.5,13.9998105391083,3.80202754480913,NA,NA,1.0724143918146,0.722230659374185
+"709","TE.I","Terreros","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2017,37.348977,-1.661482,12.5,16.2360317462513,7.60631500948367,NA,NA,2.12699843551863,0.857163148251376
+"711","TE.S","Terreros","Andalucia","Mediterranean Sea","Seagrass","Posidonia oceanica","Healthy","Subtidal",2016,37.34972,-1.67499,5.5,30.7441018810493,9.32570931675251,0.0173526959302354,NA,NA,NA
+"712","TOR.H","Toru¤os","Andalucia","Atlantic Ocean","Salt Marsh","Mixed Salt Marsh","Healthy","High",2016,36.548492,-6.210453,NA,8.59698430699077,1.21652429568882,0.00744725135892888,NA,8.071875,3.18993546662781
+"713","TOR.L","Toru¤os","Andalucia","Atlantic Ocean","Salt Marsh","Spartina maritima","Healthy","Low",2016,36.548667,-6.210222,NA,6.53212854613785,2.56625877002059,0.00881465475718331,NA,2.99053517281044,1.54043813582196
+"714","TOR.LC","Toru¤os","Andalucia","Atlantic Ocean","Salt Marsh","Unvegetated Salt Marsh","Control","Low",2016,36.549222,-6.210083,NA,8.21491555282788,2.20920684840296,0.00486688433662067,NA,NA,NA
+"715","TOR.M","Toru¤os","Andalucia","Atlantic Ocean","Salt Marsh","Salicornia","Healthy","Medium",2016,36.548722,-6.209944,NA,16.3863828418001,2.75162496108418,0.0197831724309706,NA,8.806238,3.10439281154274
+"716","TP","Vigo","Galiza","Atlantic Ocean","Seagrass","Zostera marina","Degraded","Subtidal",1,42.201774,-8.797361,5,1.89440324865568,0.352018764563121,NA,NA,NA,NA
+"717","Vasa Sacos salt marshNAAp","Vasa Sacos","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.880087,-9.000375,NA,NA,NA,NA,NA,0.604583599558951,NA
+"718","Vasa Sacos salt marshNASm","Vasa Sacos","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.880087,-9.000375,NA,NA,NA,NA,NA,0.117189890512778,NA
+"719","Vasa Sacos salt marshNASp","Vasa Sacos","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","High",NA,38.880087,-9.000375,NA,NA,NA,NA,NA,0.411177215663285,NA
+"720","Verdemilho salt marshNAAp","Vasa Sacos","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.880087,-9.000375,NA,NA,NA,NA,NA,0.0383516812789804,NA
+"721","Verdemilho salt marshNASp","Vasa Sacos","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia perennis","","Low",NA,38.880087,-9.000375,NA,NA,NA,NA,NA,0.0423585734108096,NA
+"722","Z. noltei meadow10Zn","Z. noltei meadow10Zn289","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.120626109640556,0.00236932074829534
+"723","Z. noltei meadow11Zn","Z. noltei meadow11Zn291","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0615695767957002,0.0100696121851405
+"724","Z. noltei meadow12Zn","Z. noltei meadow12Zn293","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0645014613380048,0.0118466028885213
+"725","Z. noltei meadow1Zn","Z. noltei meadow1Zn271","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0542398652388953,0.0153301785199561
+"726","Z. noltei meadow2Zn","Z. noltei meadow2Zn273","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0607318955122592,0.0198054508616059
+"727","Z. noltei meadow3Zn","Z. noltei meadow3Zn275","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0720405931905395,0.0180312402861313
+"728","Z. noltei meadow4Zn","Z. noltei meadow4Zn277","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.118322486085962,0.059753458972676
+"729","Z. noltei meadow5Zn","Z. noltei meadow5Zn279","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.104500744255793,0.0633262514655795
+"730","Z. noltei meadow6Zn","Z. noltei meadow6Zn281","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.0967521921075289,0.0545994315073854
+"731","Z. noltei meadow7Zn","Z. noltei meadow7Zn283","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.118950746973152,0.0222997415845399
+"732","Z. noltei meadow8Zn","Z. noltei meadow8Zn285","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124959,-8.83941,NA,NA,NA,NA,NA,0.141149301838774,0.0325781575880354
+"733","Z.n.NAZn","Z.n.NAZn217","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.00311896854439299,0.00595180471466734
+"734","Zostera site10Zn","Zostera site10Zn195","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.0724104784795756,0.0397962952560933
+"735","Zostera site11Zn","Zostera site11Zn196","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.0852911885859984,0.0526789196404124
+"736","Zostera site12Zn","Zostera site12Zn197","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.0696254600455852,0.021662359340127
+"737","Zostera site2Zn","Zostera site2Zn187","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.0531474344786785,0.00558452312953554
+"738","Zostera site3Zn","Zostera site3Zn188","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.0744992422045466,0.0199255366929533
+"739","Zostera site4Zn","Zostera site4Zn189","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.0621987443556399,0.0148896506621337
+"740","Zostera site5Zn","Zostera site5Zn190","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.0898168436585082,0.0219403070953197
+"741","Zostera site6Zn","Zostera site6Zn191","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.132520458976215,0.0729917053714648
+"742","Zostera site7Zn","Zostera site7Zn192","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.120916215836328,0.0437607695602174
+"743","Zostera site8Zn","Zostera site8Zn193","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.103741935560402,0.0718796468496361
+"744","Zostera site9Zn","Zostera site9Zn194","C Portugal","Atlantic Ocean","Seagrass","Zostera noltii","","Intertidal",NA,40.124215,-8.840934,NA,NA,NA,NA,NA,0.0796051094005435,0.0234807498561984
+"745","Esteiro das Lez¡rias4Am","Esteiro das Lez¡rias","S Portugal","Atlantic Ocean","Salt Marsh","Arthrocaulon macrostachyum","","Medium",NA,37.215229,-7.420435,NA,NA,NA,NA,NA,0.428103630573241,NA
+"746","Esteiro das Lez¡rias1Smon","Esteiro das Lez¡rias","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus montevidensis","","Low",NA,37.215229,-7.420435,NA,NA,NA,NA,NA,1.41574621671194,NA
+"747","Esteiro das Lez¡rias1Am","Esteiro das Lez¡rias","S Portugal","Atlantic Ocean","Salt Marsh","Arthrocaulon macrostachyum","","Medium",NA,37.215229,-7.420435,NA,NA,NA,NA,NA,0.401347153759406,NA
+"748","Esteiro das Lez¡rias10Smon","Esteiro das Lez¡rias","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus montevidensis","","Low",NA,37.215229,-7.420435,NA,NA,NA,NA,NA,1.10264849565238,0.250270937637637
+"749","Esteiro das Lez¡rias10Am","Esteiro das Lez¡rias","S Portugal","Atlantic Ocean","Salt Marsh","Arthrocaulon macrostachyum","","Medium",NA,37.215229,-7.420435,NA,NA,NA,NA,NA,0.401347153565421,0.0378393726657826
+"750","Ros rio salt marshes12Ap","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Atriplex portulacoides","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.149368032336024,NA
+"751","Ros rio salt marshes2Sf","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Salicornia fruticosa","","Medium",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.101647855771528,NA
+"752","Ros rio salt marshes10Sm","Ros rio","S Portugal","Atlantic Ocean","Salt Marsh","Sporobolus maritimus","","Low",NA,38.693494,-8.984737,NA,NA,NA,NA,NA,0.158291317384669,NA
