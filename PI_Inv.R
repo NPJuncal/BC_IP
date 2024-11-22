@@ -28,7 +28,6 @@ coef.var<-function(x) sd(x, na.rm=TRUE)/mean(x, na.rm=TRUE)
 
 
 
-
 # functions: estimate_h, estimate_stock, test_extrapolation and estimate_flux
 # from library "BlueCarbon" (under development)
 # https://github.com/EcologyR/BlueCarbon.git
@@ -1116,46 +1115,46 @@ FSm<-subset(DBC_PI, Ecosystem=='Salt Marsh')
 
 
 
-BSgp<-ggplot()+ ylab("Latitude")+
+BSgp<-ggplot()+
   geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
   geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
   coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
   geom_point(aes(BSg$long,BSg$lat), fill="green",pch=21,size=2.5)+
   theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
         #axis.text.x=element_blank(),
         #axis.ticks.x=element_blank()
   )
 
 
-BSmp<-ggplot()+
+BSmp<-ggplot()+  ylab("Latitude")+
   geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
   geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
   coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
   geom_point(aes(BSm$long,BSm$lat), fill="blue",pch=21,size=2.5)+
   theme(axis.title.x=element_blank(),
-        axis.title.y=element_blank(),
         #axis.text.x=element_blank(),
         #axis.ticks.x=element_blank()
   )
 
 
-SSgp<-ggplot()+ ylab("Latitude")+
+SSgp<-ggplot()+ 
   geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
   geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
   coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
   geom_point(aes(SSg$long,SSg$lat), fill="green",pch=21,size=2.5)+
   theme(axis.title.x=element_blank(),
+        axis.title.y=element_blank(),
         #axis.text.x=element_blank(),
         #axis.ticks.x=element_blank()
         )
 
-SSmp<-ggplot()+
+SSmp<-ggplot()+  ylab("Latitude")+
   geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
   geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
   coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
   geom_point(aes(SSm$long,SSm$lat), fill="blue",pch=21,size=2.5)+
   theme(axis.title.x=element_blank(),
-        axis.title.y=element_blank(),
         #axis.text.x=element_blank(),
         #axis.ticks.x=element_blank()
   )
@@ -1165,32 +1164,34 @@ FSgp<-ggplot()+ xlab("Longitude")+ ylab("Latitude")+
   geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
   geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
   coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
-  geom_point(aes(FSg$long,FSg$lat), fill="green",pch=21,size=2.5)
-
-
-FSmp<-ggplot()+ xlab("Longitude")+
-  geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
-  geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
-  coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
-  geom_point(aes(FSm$long,FSm$lat), fill="blue",pch=21,size=2.5)+
+  geom_point(aes(FSg$long,FSg$lat), fill="green",pch=21,size=2.5)+
   theme(axis.title.y=element_blank(),
         #axis.text.y=element_blank(),
         #axis.ticks.y=element_blank()
   )
 
 
-grid.arrange(arrangeGrob(BSgp, top="Seagrass", left=textGrob("Ab Biomass stock",rot = 90,gp=gpar(fontsize=15))),arrangeGrob(BSmp,top="Salt Marsh"),
-             arrangeGrob(SSgp, left=textGrob("OC Soil stock",rot = 90,gp=gpar(fontsize=15))),SSmp,
-             arrangeGrob(FSgp, left=textGrob("OC sequestration rate",rot = 90, gp=gpar(fontsize=15))),FSmp,
-             ncol=2, nrow=3,top=textGrob("Sampling sites", gp=gpar(fontsize=15)),
+FSmp<-ggplot()+ xlab("Longitude")+ ylab("Latitude")+
+  geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
+  geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
+  coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
+  geom_point(aes(FSm$long,FSm$lat), fill="blue",pch=21,size=2.5)
+
+
+
+grid.arrange(arrangeGrob(BSmp,top="Salt Marsh", left=textGrob("Above Biomass stock",rot = 90,gp=gpar(fontsize=15))),arrangeGrob(BSgp, top="Seagrass"),
+             arrangeGrob(SSmp, left=textGrob("OC Soil stock",rot = 90,gp=gpar(fontsize=15))),SSgp,
+             arrangeGrob(FSmp, left=textGrob("OC sequestration rate",rot = 90, gp=gpar(fontsize=15))),FSgp,
+             ncol=2, nrow=3,
              widths = c(1,0.9))
 
+
 # Figure 1
-final<-arrangeGrob(arrangeGrob(BSgp, top="Seagrass", left=textGrob("Ab Biomass stock",rot = 90,gp=gpar(fontsize=15))),arrangeGrob(BSmp,top="Salt Marsh"),
-                    arrangeGrob(SSgp, left=textGrob("OC Soil stock",rot = 90,gp=gpar(fontsize=15))),SSmp,
-                    arrangeGrob(FSgp, left=textGrob("OC sequestration rate",rot = 90, gp=gpar(fontsize=15))),FSmp,
-                    ncol=2, nrow=3,top=textGrob("Sampling sites", gp=gpar(fontsize=15)),
-                    widths = c(1,0.9))
+final<-arrangeGrob(arrangeGrob(BSmp,top="Salt Marsh", left=textGrob("Above Biomass stock",rot = 90,gp=gpar(fontsize=15))),arrangeGrob(BSgp, top="Seagrass"),
+                                arrangeGrob(SSmp, left=textGrob("OC Soil stock",rot = 90,gp=gpar(fontsize=15))),SSgp,
+                                arrangeGrob(FSmp, left=textGrob("OC sequestration rate",rot = 90, gp=gpar(fontsize=15))),FSgp,
+                                ncol=2, nrow=3,
+                                widths = c(1,0.9))
 
 
 ggsave(path = Folder,"Sampling sites.jpg",final, units="cm", width = 20, height = 20)
@@ -1308,23 +1309,15 @@ ggplot(BC_PI, aes(x=Mean_Biomass)) +
 
 
 
-
-### TE HAS QUEDADO AQUI
-
-
-
-
-
-
 # boxplots and significant diferences
 ##### WARNING, geom_signif function only tests data from the plot
 # if we use ylim to exclude parts of the plot, that will exclude values in those areas from
 # the geom_signif test.
 # make sure that the level of signif is the same with and without ylim
 
-EB<-ggplot(BC_PI,aes(Ecosystem, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg"," ", m^-2, ")")))+
+EB<-ggplot(BC_PI,aes(Ecosystem, Mean_Biomass))+ ylab(expression(paste("Above Biomass OC stock (kg"," ", m^-2, ")")))+
   geom_boxplot()+
-  geom_jitter(aes(color=factor(Coast)))+
+  geom_jitter(aes(color=factor(Coast)), alpha = 0.5)+
   scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
   ylim(0,2.25)+ 
   theme(axis.title.x=element_blank(),
@@ -1345,7 +1338,7 @@ EB<-ggplot(BC_PI,aes(Ecosystem, Mean_Biomass))+ ylab(expression(paste("Biomass O
 
 ESS<-ggplot(BC_PI,aes(Ecosystem, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
   geom_boxplot()+
-  geom_jitter(aes(color=factor(Coast)))+ 
+  geom_jitter(aes(color=factor(Coast)), alpha = 0.5)+ 
   scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
   #ylim(0,55) + 
   theme(axis.title.x=element_blank(),
@@ -1362,9 +1355,9 @@ ESS<-ggplot(BC_PI,aes(Ecosystem, Mean_Stock))+ ylab(expression(paste("Soil OC st
               tip_length = 0.005)
 
 
-ESF<-ggplot(BC_PI,aes(Ecosystem, Mean_Flux))+ ylab(expression(paste("OC flux last 100 years (kg"," ", m^-2,yr^-1, ")")))+
+ESF<-ggplot(BC_PI,aes(Ecosystem, Mean_Seq_rate))+ ylab(expression(paste("OC Seq. rates last 100 years (kg"," ", m^-2,yr^-1, ")")))+
   geom_boxplot()+
-  geom_jitter(aes(color=factor(Coast)))+
+  geom_jitter(aes(color=factor(Coast)), alpha = 0.5)+
   scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
   ylim(0,0.08)+
   theme(axis.title.x=element_blank())+
@@ -1380,7 +1373,7 @@ ESF<-ggplot(BC_PI,aes(Ecosystem, Mean_Flux))+ ylab(expression(paste("OC flux las
 
 
 
-SPE<-grid.arrange(EB,ESS, ESF, nrow=3, top="Spanish and Portuguese Blue Carbon Ecosystems")
+SPE<-grid.arrange(EB,ESS, ESF, nrow=3)
 ggsave(path = Folder,"Summary ecosystems.jpg",SPE, units="cm", width = 12.5, height = 20)
 
 # significate diferences between ecosystems
@@ -1390,7 +1383,7 @@ pairwise.wilcox.test(BC_PI$Mean_Biomass, BC_PI$Ecosystem, #### are significantly
 pairwise.wilcox.test(BC_PI$Mean_Stock, BC_PI$Ecosystem, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
 
-pairwise.wilcox.test(BC_PI$Mean_Flux, BC_PI$Ecosystem, #### are significantly different (p < 0.05)
+pairwise.wilcox.test(BC_PI$Mean_Seq_rate, BC_PI$Ecosystem, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
 
 
@@ -1603,6 +1596,29 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
 # make sure that the level of signif is the same with and without ylim
 
 
+
+ggplot(Sg,aes(Genus, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
+  geom_boxplot()+
+  geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
+  scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank())+
+  #ylim(0,55)+
+  
+  geom_signif(comparisons=list(c("Cymodocea nodosa", "Zostera marina"), c("Cymodocea nodosa", "Zostera noltii"), 
+                               c("Zostera marina", "Zostera noltii"), c("Posidonia oceanica", "Cymodocea nodosa"),
+                               c("Posidonia oceanica", "Zostera marina"),c("Posidonia oceanica", "Zostera noltii")),
+              test = "wilcox.test",
+              na.rm = FALSE,
+              map_signif_level = TRUE,
+              col = "#5b5b5b",
+              size = 0.4, #change line size
+              y_position = 10,
+              step_increase = 0.02,
+              tip_length = 0.005)
+
+
         SS<-  ggplot(Sg,aes(Genus, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
@@ -1624,7 +1640,36 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
                       step_increase = 0.02,
                       tip_length = 0.005)
         
+
+
+
+
+
+ggplot(Sg,aes(Genus, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg"," ", m^-2, ")")))+
+  geom_boxplot()+
+  geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
+  scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank())+
+  #ylim(0,2)+
+  
+  geom_signif(comparisons=list(c("Cymodocea nodosa", "Zostera marina"), c("Cymodocea nodosa", "Zostera noltii"), 
+                               c("Zostera marina", "Zostera noltii"), c("Posidonia oceanica", "Cymodocea nodosa"),
+                               c("Posidonia oceanica", "Zostera marina"),c("Posidonia oceanica", "Zostera noltii")),
+              test = "wilcox.test",
+              na.rm = FALSE,
+              map_signif_level = TRUE,
+              col = "#5b5b5b",
+              size = 0.4, #change line size
+              y_position = 0.5,
+              step_increase = 0.008,
+              tip_length = 0.005)
         
+
+
+
+
         
         SB<-ggplot(Sg,aes(Genus, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
@@ -1646,8 +1691,29 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
                       step_increase = 0.008,
                       tip_length = 0.005)
         
+ ggplot(Sg,aes(Genus, Mean_Seq_rate))+ ylab(expression(paste("OC seq. rate last 100 yr (kg"," ", m^-2,yr^-1, ")")))+
+          geom_boxplot()+
+          geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
+          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 10))+
+          #ylim(0,0.08)+
+          theme(axis.title.x=element_blank(),
+                axis.text.x=element_text(face="italic"))+
+          
+   geom_signif(comparisons=list( c("Cymodocea nodosa", "Zostera noltii"), 
+                                 c("Posidonia oceanica", "Cymodocea nodosa"),c("Posidonia oceanica", "Zostera noltii")),
+                      test = "wilcox.test",
+                      na.rm = FALSE,
+                      map_signif_level = TRUE,
+                      col = "#5b5b5b",
+                      size = 0.4, #change line size
+                      y_position = 0.05,
+                      step_increase = 0.05,
+                      tip_length = 0.01)
+    
         
-        F100<-ggplot(Sg,aes(Genus, Mean_Flux))+ ylab(expression(paste("OC seq. rate last 100 yr (kg"," ", m^-2,yr^-1, ")")))+
+        
+        F100<-ggplot(Sg,aes(Genus, Mean_Seq_rate))+ ylab(expression(paste("OC seq. rate last 100 yr (kg"," ", m^-2,yr^-1, ")")))+
           geom_boxplot()+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
           scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
@@ -1666,13 +1732,40 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
                       step_increase = 0.05,
                       tip_length = 0.01)
         
-        SgPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Seagrass specie")
+        SgPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Seagrass species")
         
         ggsave(path = Folder,"Summary seagrass.jpg",SgPlot, units="cm", width = 13, height = 20)
         
 
         
-        ### add significance *** to high and medium
+       
+        
+        
+ggplot(Sm,aes(Tidal.R, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
+          geom_boxplot()+
+          #ylim(0,50)+
+          geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
+          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          theme(axis.title.x=element_blank(),
+                axis.text.x=element_blank(),
+                axis.ticks.x=element_blank())+
+          
+  geom_signif(comparisons=list(c("Medium", "Microtidal"), c("Medium", "Low"),
+                               c("Medium", "High"),
+                               c("Microtidal", "Low"), 
+                               c("High", "Low"),
+                               c("High", "Microtidal")),
+                      test = "wilcox.test",
+                      na.rm = FALSE,
+                      map_signif_level = TRUE,
+                      col = "#5b5b5b",
+                      size = 0.4, #change line size
+                      y_position = 20,
+                      step_increase = 0.02,
+                      tip_length = 0.005)        
+        
+        
+        
         SS<-ggplot(Sm,aes(Tidal.R, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
           ylim(0,50)+
@@ -1692,21 +1785,22 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
                       step_increase = 0.02,
                       tip_length = 0.005)
         
-        
-        
-        SB<-ggplot(Sm,aes(Tidal.R, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg"," ", m^-2, ")")))+
+ggplot(Sm,aes(Tidal.R, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
-          ylim(0,2)+
+          #ylim(0,2)+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
           scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_blank(),
                 axis.ticks.x=element_blank()) +
           
-          geom_signif(comparisons=list(c("Medium", "Microtidal"), 
-                                       c("Microtidal", "Low"), 
-                                       c("High", "Low"),
-                                       c("High", "Microtidal")),
+  geom_signif(comparisons=list(c("Medium", "Microtidal"), 
+                               c("Medium", "Low"),
+                               c("Medium", "High"),
+                               c("Microtidal", "Low"), 
+                               c("High", "Low")
+                               #,c("High", "Microtidal")
+                               ),
                       test = "wilcox.test",
                       na.rm = FALSE,
                       map_signif_level = TRUE,
@@ -1716,8 +1810,54 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
                       step_increase = 0.008,
                       tip_length = 0.005)
         
+     ##### add significance *** to high and medium and * to medium and low
         
-        F100<-ggplot(Sm,aes(Tidal.R, Mean_Flux))+ ylab(expression(paste("OC seq. rate last 100 yr (kg"," ", m^-2,yr^-1, ")")))+
+        SB<-ggplot(Sm,aes(Tidal.R, Mean_Biomass))+ ylab(expression(paste("Above Biomass OC stock (kg"," ", m^-2, ")")))+
+          geom_boxplot()+
+          ylim(0,2)+
+          geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
+          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          theme(axis.title.x=element_blank(),
+                axis.text.x=element_blank(),
+                axis.ticks.x=element_blank()) +
+          
+          geom_signif(comparisons=list(c("Medium", "Microtidal"),
+                                       c("Microtidal", "Low"), 
+                                       c("Medium", "Low"),
+                                       c("High", "Low")),
+                      test = "wilcox.test",
+                      na.rm = FALSE,
+                      map_signif_level = TRUE,
+                      col = "#5b5b5b",
+                      size = 0.4, #change line size
+                      y_position = 0.6,
+                      step_increase = 0.008,
+                      tip_length = 0.005)
+        
+
+ggplot(Sm,aes(Tidal.R, Mean_Seq_rate))+ ylab(expression(paste("OC seq. rate last 100 yr (kg"," ", m^-2,yr^-1, ")")))+
+          geom_boxplot()+
+          ylim(0,0.08)+
+          geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
+          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 10))+
+          theme(axis.title.x=element_blank(),
+                axis.text.x=element_text(face="italic"))+
+          
+  geom_signif(comparisons=list( c("Medium", "Low"),
+                               c("Medium", "High"),
+                               c("High", "Low")),
+                      test = "wilcox.test",
+                      na.rm = FALSE,
+                      map_signif_level = TRUE,
+                      col = "#5b5b5b",
+                      size = 0.4, #change line size
+                      y_position = 0.05,
+                      step_increase = 0.05,
+                      tip_length = 0.01)
+
+
+        F100<-ggplot(Sm,aes(Tidal.R, Mean_Seq_rate))+ ylab(expression(paste("OC seq. rate last 100 yr (kg"," ", m^-2,yr^-1, ")")))+
           geom_boxplot()+
           #ylim(0,0.08)+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
@@ -1739,7 +1879,38 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
         SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
         ggsave(path = Folder,"Summary salt marsh.jpg",SmPlot, units="cm", width = 13, height = 20)
         
+
         
+
+# Effect of tidal range in seagrass meadows --------------------------------
+
+temp<-subset(Sg, Sg$Genus=="Posidonia oceanica")      
+        
+        pairwise.wilcox.test(temp$Mean_Biomass, temp$Tidal.R, #### are significantly different (p < 0.05)
+                             p.adjust.method = "BH")
+        
+        pairwise.wilcox.test(temp$Mean_Stock, temp$Tidal.R, #### are significantly different (p < 0.05)
+                             p.adjust.method = "BH")
+        
+        pairwise.wilcox.test(temp$Mean_Seq_rate, temp$Tidal.R, #### are significantly different (p < 0.05)
+                             p.adjust.method = "BH")
+
+        
+        temp<-subset(temp, !is.na(temp$Mean_Stock))  
+        plyr::count(temp, "Tidal.R")
+        
+        
+        
+        
+        SgT<-ggplot(Sg,aes(Genus, Mean_Stock, color=factor(Tidal.R)))+ xlab("Seagrass species")+
+          ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
+          geom_boxplot()+
+          geom_point(position = position_jitterdodge(), alpha = 0.5)+
+          ylim(0,50)+
+          scale_x_discrete(labels = function(x) str_wrap(x, width = 10))   
+        
+        ggsave(path = Folder,"Tidal seagrass.jpg", SgT, units="cm", width = 12, height = 7)      
+
 
 # Comparison with literature data ----------------------------------------
 
@@ -1753,11 +1924,12 @@ L<-as.data.frame(L)
 LSg<-subset(L, Ecosystem=="Seagrass")
 LSg_ib<-subset(L, Specie=="Posidonia oceanica" | Specie=="Zostera noltii" | Specie=="Zostera marina"| Specie=="Cymodocea nodosa")
 
-comp1<-Sg[,c("Ecosystem", "Genus", "lat","long", "Mean_Biomass", "Mean_Stock", "Mean_Flux")]
-colnames(comp1)<-c("Ecosystem", "Specie","lat","long", "Biomass",  "Stock", "Flux.100")
+comp1<-Sg[,c("Ecosystem", "Genus", "lat","long", "Mean_Biomass", "Mean_Stock", "Mean_Seq_rate")]
+colnames(comp1)<-c("Ecosystem", "Specie","lat","long", "Biomass",  "Stock", "Seq.rate")
 comp1$ref<-"This Study"
 comp2<-LSg_ib[,c("Ecosystem", "Specie","lat","long", "Biomass", "Stock", "Flux.100")]
-comp2$ref<-"Published"
+comp2$ref<-"Literature"
+colnames(comp2)<-c("Ecosystem", "Specie","lat","long", "Biomass", "Stock", "Seq.rate", "ref")
 comp_sg<-rbind(comp1, comp2)
 
 comp_sg2<-comp_sg
@@ -1785,7 +1957,7 @@ pl_sg2<-  ggplot(comp_sg_f,aes(Specie, Stock, color=factor(ref)))+ ylab(expressi
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10))
 
 
-pl_sg3<-ggplot(comp_sg_f,aes(Specie, Flux.100, color=factor(ref)))+ ylab(expression(paste("OC Seq. rate  (kg"," ", m^-2,y^-1, ")")))+
+pl_sg3<-ggplot(comp_sg_f,aes(Specie, Seq.rate, color=factor(ref)))+ ylab(expression(paste("OC Seq. rate  (kg"," ", m^-2,y^-1, ")")))+
   geom_boxplot()+
   geom_point(position = position_jitterdodge(), alpha = 0.5) +
   ylim(0,0.1)+
@@ -1801,18 +1973,19 @@ pairwise.wilcox.test(temp$Biomass, temp$ref, #### are significantly different (p
 pairwise.wilcox.test(temp$Stock, temp$ref, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
 
-pairwise.wilcox.test(temp$Flux.100, temp$ref, #### are significantly different (p < 0.05)
+pairwise.wilcox.test(temp$Mean_Seq_rate, temp$ref, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
 
 # salt marshes
 
 LSm<-subset(L, Ecosystem=="Salt Marsh")
 
-comp1<-Sm[,c("Ecosystem", "Tidal.R", "lat","long", "Mean_Biomass", "Mean_Stock", "Mean_Flux")]
-colnames(comp1)<-c("Ecosystem", "Tidal.R","lat","long", "Biomass",  "Stock", "Flux.100")
+comp1<-Sm[,c("Ecosystem", "Tidal.R", "lat","long", "Mean_Biomass", "Mean_Stock", "Mean_Seq_rate")]
+colnames(comp1)<-c("Ecosystem", "Tidal.R","lat","long", "Biomass",  "Stock", "Seq.rate")
 comp1$ref<-"This Study"
 comp2<-LSm[,c("Ecosystem", "Tidal.R", "lat","long","Biomass", "Stock", "Flux.100")]
-comp2$ref<-"Published"
+comp2$ref<-"Literature"
+colnames(comp2)<-c("Ecosystem", "Tidal.R","lat","long", "Biomass", "Stock", "Seq.rate", "ref")
 comp_sm<-rbind(comp1, comp2)
 comp_sm<-comp_sm[!comp_sm$Tidal.R=="",]
 
@@ -1833,7 +2006,7 @@ pl_sm2<-ggplot(comp_sm_f,aes(Tidal.R, Stock, color=factor(ref)))+ ylab(expressio
   ylim(0,40)
 
 
-pl_sm3<-ggplot(comp_sm_f,aes(Tidal.R, Flux.100, color=factor(ref)))+ ylab(expression(paste("OC Seq. rate  (kg"," ", m^-2,y^-1, ")")))+
+pl_sm3<-ggplot(comp_sm_f,aes(Tidal.R, Seq.rate, color=factor(ref)))+ ylab(expression(paste("OC Seq. rate  (kg"," ", m^-2,y^-1, ")")))+
   geom_boxplot()+
   geom_point(position = position_jitterdodge(), alpha = 0.5) 
 
@@ -1855,7 +2028,7 @@ pairwise.wilcox.test(temp$Biomass, temp$ref, #### are significantly different (p
 pairwise.wilcox.test(temp$Stock, temp$ref, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
 
-pairwise.wilcox.test(temp$Flux.100, temp$ref, #### are significantly different (p < 0.05)
+pairwise.wilcox.test(temp$Seq.rate, temp$ref, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
 
 
@@ -1870,7 +2043,7 @@ pairwise.wilcox.test(temp$Biomass, temp$ref, #### are significantly different (p
 pairwise.wilcox.test(temp$Stock, temp$ref, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
 
-pairwise.wilcox.test(temp$Flux.100, temp$ref, #### are significantly different (p < 0.05)
+pairwise.wilcox.test(temp$Seq.rate, temp$ref, #### are significantly different (p < 0.05)
                      p.adjust.method = "BH")
 
 
@@ -1969,9 +2142,9 @@ ggsave(path = Folder,"Posidonia biomass.jpg",SgPlot, units="cm", width = 13, hei
 ## median posi this study others
 
 
-aggregate(cymo_posi[,c("Biomass", "Stock", "Flux.100")], by=list(cymo_posi$ref), FUN=median, na.rm=TRUE)
+aggregate(cymo_posi[,c("Biomass", "Stock", "Seq.rate")], by=list(cymo_posi$ref), FUN=median, na.rm=TRUE)
 
-aggregate(cymo_posi[,c("Biomass", "Stock", "Flux.100")], by=list(cymo_posi$ref), FUN=max, na.rm=TRUE)
+aggregate(cymo_posi[,c("Biomass", "Stock", "Seq.rate")], by=list(cymo_posi$ref), FUN=max, na.rm=TRUE)
 
 aggregate(subset(BC_PI, Genus=="Cymodocea nodosa")[,c("Mean_Biomass")], by=list((subset(BC_PI, Genus=="Cymodocea nodosa"))[,"Coast"]), FUN=median, na.rm=TRUE)
 
@@ -1984,53 +2157,57 @@ aggregate(subset(BC_PI, Genus=="Cymodocea nodosa")[,c("Mean_Biomass")], by=list(
 
 
 iberian_peninsula_seagrass<-rbind(
-aggregate(subset(comp_sg, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_sg, ref=="This Study")$Specie), FUN=mean, na.rm=TRUE),
-aggregate(subset(comp_sg, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_sg, ref=="This Study")$Specie), FUN=median, na.rm=TRUE),
-aggregate(subset(comp_sg, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_sg, ref=="This Study")$Specie), FUN=std.error),
-aggregate(subset(comp_sg, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_sg, ref=="This Study")$Specie), FUN=contar))
-iberian_peninsula_seagrass$fun<-c("mean","mean","mean","mean", "median", "median", "median" , "median","se","se","se","se", "n", "n", "n" , "n")
+aggregate(subset(comp_sg, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_sg, ref=="This Study")$Specie), FUN=mean, na.rm=TRUE),
+aggregate(subset(comp_sg, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_sg, ref=="This Study")$Specie), FUN=median, na.rm=TRUE),
+aggregate(subset(comp_sg, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_sg, ref=="This Study")$Specie), FUN=mad, na.rm=T,low=F,high=F),
+aggregate(subset(comp_sg, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_sg, ref=="This Study")$Specie), FUN=contar))
+iberian_peninsula_seagrass$fun<-c("mean","mean","mean","mean", "median", "median", "median" , "median","mad","mad","mad","mad", "n", "n", "n" , "n")
 iberian_peninsula_seagrass$range<-"IB"
 
 
 global_seagrass<-rbind(
-aggregate(comp_sg[,c("Biomass", "Stock", "Flux.100")], by=list(comp_sg$Specie), FUN=mean, na.rm=TRUE),
-aggregate(comp_sg[,c("Biomass", "Stock", "Flux.100")], by=list(comp_sg$Specie), FUN=median, na.rm=TRUE),
-aggregate(comp_sg[,c("Biomass", "Stock", "Flux.100")], by=list(comp_sg$Specie), FUN=std.error),
-aggregate(comp_sg[,c("Biomass", "Stock", "Flux.100")], by=list(comp_sg$Specie), FUN=contar))
-global_seagrass$fun<-c("mean","mean","mean","mean", "median", "median", "median" , "median","se","se","se","se", "n", "n", "n" , "n" )
+aggregate(comp_sg[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_sg$Specie), FUN=mean, na.rm=TRUE),
+aggregate(comp_sg[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_sg$Specie), FUN=median, na.rm=TRUE),
+aggregate(comp_sg[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_sg$Specie), FUN=std.error),
+aggregate(comp_sg[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_sg$Specie), FUN=contar))
+global_seagrass$fun<-c("mean","mean","mean","mean", "median", "median", "median" , "median","mad","mad","mad","mad", "n", "n", "n" , "n" )
 global_seagrass$range<-"G"
 
 iberian_peninsula_sm<-rbind(
-  aggregate(subset(comp_sm, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_sm, ref=="This Study")$Tidal.R), FUN=mean, na.rm=TRUE),
-  aggregate(subset(comp_sm, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_sm, ref=="This Study")$Tidal.R), FUN=median, na.rm=TRUE),
-  aggregate(subset(comp_sm, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_sm, ref=="This Study")$Tidal.R), FUN=std.error),
-  aggregate(subset(comp_sm, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_sm, ref=="This Study")$Tidal.R), FUN=contar))
-iberian_peninsula_sm$fun<-c("mean","mean","mean","mean", "median", "median", "median" , "median","se","se","se","se", "n", "n", "n" , "n")
+  aggregate(subset(comp_sm, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_sm, ref=="This Study")$Tidal.R), FUN=mean, na.rm=TRUE),
+  aggregate(subset(comp_sm, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_sm, ref=="This Study")$Tidal.R), FUN=median, na.rm=TRUE),
+  aggregate(subset(comp_sm, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_sm, ref=="This Study")$Tidal.R), FUN=mad, na.rm=T,low=F,high=F),
+  aggregate(subset(comp_sm, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_sm, ref=="This Study")$Tidal.R), FUN=contar))
+iberian_peninsula_sm$fun<-c("mean","mean","mean","mean", "median", "median", "median" , "median","mad","mad","mad","mad", "n", "n", "n" , "n")
 iberian_peninsula_sm$range<-"IB"
 
 global_sm<-rbind(
-  aggregate(comp_sm[,c("Biomass", "Stock", "Flux.100")], by=list(comp_sm$Tidal.R), FUN=mean, na.rm=TRUE),
-  aggregate(comp_sm[,c("Biomass", "Stock", "Flux.100")], by=list(comp_sm$Tidal.R), FUN=median, na.rm=TRUE),
-  aggregate(comp_sm[,c("Biomass", "Stock", "Flux.100")], by=list(comp_sm$Tidal.R), FUN=std.error),
-  aggregate(comp_sm[,c("Biomass", "Stock", "Flux.100")], by=list(comp_sm$Tidal.R), FUN=contar))
-global_sm$fun<-c("mean","mean","mean","mean", "median", "median", "median" , "median","se","se","se","se", "n", "n", "n" , "n" )
+  aggregate(comp_sm[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_sm$Tidal.R), FUN=mean, na.rm=TRUE),
+  aggregate(comp_sm[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_sm$Tidal.R), FUN=median, na.rm=TRUE),
+  aggregate(comp_sm[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_sm$Tidal.R), FUN=std.error),
+  aggregate(comp_sm[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_sm$Tidal.R), FUN=contar))
+global_sm$fun<-c("mean","mean","mean","mean", "median", "median", "median" , "median","mad","mad","mad","mad", "n", "n", "n" , "n" )
 global_sm$range<-"G"
 
 
+comp_g<-rbind(comp_sg[,c(1,5:8)], comp_sm[,c(1,5:8)])
+
+
 iberian_peninsula_eco<-rbind(
-  aggregate(subset(comp_g, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_g, ref=="This Study")$Ecosystem), FUN=mean, na.rm=TRUE),
-  aggregate(subset(comp_g, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_g, ref=="This Study")$Ecosystem), FUN=median, na.rm=TRUE),
-  aggregate(subset(comp_g, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_g, ref=="This Study")$Ecosystem), FUN=std.error),
-  aggregate(subset(comp_g, ref=="This Study")[,c("Biomass", "Stock", "Flux.100")], by=list(subset(comp_g, ref=="This Study")$Ecosystem), FUN=contar))
-iberian_peninsula_eco$fun<-c("mean","mean", "median", "median","se","se" , "n", "n")
+  aggregate(subset(comp_g, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_g, ref=="This Study")$Ecosystem), FUN=mean, na.rm=TRUE),
+  aggregate(subset(comp_g, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_g, ref=="This Study")$Ecosystem), FUN=median, na.rm=TRUE),
+  aggregate(subset(comp_g, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_g, ref=="This Study")$Ecosystem), FUN=mad, na.rm=T,low=F,high=F),
+  aggregate(subset(comp_g, ref=="This Study")[,c("Biomass", "Stock", "Seq.rate")], by=list(subset(comp_g, ref=="This Study")$Ecosystem), FUN=contar))
+iberian_peninsula_eco$fun<-c("mean","mean", "median", "median","mad","mad" , "n", "n")
 iberian_peninsula_eco$range<-"IB"
 
+
 global_eco<-rbind(
-  aggregate(comp_g[,c("Biomass", "Stock", "Flux.100")], by=list(comp_g$Ecosystem), FUN=mean, na.rm=TRUE),
-  aggregate(comp_g[,c("Biomass", "Stock", "Flux.100")], by=list(comp_g$Ecosystem), FUN=median, na.rm=TRUE),
-  aggregate(comp_g[,c("Biomass", "Stock", "Flux.100")], by=list(comp_g$Ecosystem), FUN=std.error),
-  aggregate(comp_g[,c("Biomass", "Stock", "Flux.100")], by=list(comp_g$Ecosystem), FUN=contar))
-global_eco$fun<-c("mean","mean","median", "median", "se","se", "n", "n" )
+  aggregate(comp_g[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_g$Ecosystem), FUN=mean, na.rm=TRUE),
+  aggregate(comp_g[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_g$Ecosystem), FUN=median, na.rm=TRUE),
+  aggregate(comp_g[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_g$Ecosystem), FUN=mad, na.rm=T,low=F,high=F),
+  aggregate(comp_g[,c("Biomass", "Stock", "Seq.rate")], by=list(comp_g$Ecosystem), FUN=contar))
+global_eco$fun<-c("mean","mean","median", "median", "mad","mad", "n", "n" )
 global_eco$range<-"G"
 
 
@@ -2048,30 +2225,30 @@ write.csv(table_global,file.path(Folder,"Global table.csv"))
     Summary2<-Summary
     
     #get median and SE Zostera marina flux from global data 
-    Summary2[which(Summary2[,"Category"]=="Zostera marina"), which(colnames(Summary2)=="M.Flux")]<-
-      table_global[which(table_global$Group.1 == "Zostera marina" & table_global$fun == "median" & table_global$range == "G"), "Flux.100"]
+    Summary2[which(Summary2[,"Category"]=="Zostera marina"), which(colnames(Summary2)=="M.SeqRate")]<-
+      table_global[which(table_global$Group.1 == "Zostera marina" & table_global$fun == "median" & table_global$range == "G"), "Seq.rate"]
     
-    Summary2[which(Summary2[,"Category"]=="Zostera marina"), which(colnames(Summary2)=="SE.Flux")]<-
-      table_global[which(table_global$Group.1 == "Zostera marina" & table_global$fun == "se" & table_global$range == "G"), "Flux.100"]
+    Summary2[which(Summary2[,"Category"]=="Zostera marina"), which(colnames(Summary2)=="MAD.SeqRate")]<-
+      table_global[which(table_global$Group.1 == "Zostera marina" & table_global$fun == "mad" & table_global$range == "G"), "Seq.rate"]
     
     
     #get median and SE microtidal flux from global data 
-    Summary2[which(Summary2[,"Category"]=="Microtidal"), which(colnames(Summary2)=="M.Flux")]<-
-      table_global[which(table_global$Group.1 == "Microtidal" & table_global$fun == "median" & table_global$range == "G"), "Flux.100"]
+    Summary2[which(Summary2[,"Category"]=="Microtidal"), which(colnames(Summary2)=="M.SeqRate")]<-
+      table_global[which(table_global$Group.1 == "Microtidal" & table_global$fun == "median" & table_global$range == "G"), "Seq.rate"]
     
-    Summary2[which(Summary2[,"Category"]=="Microtidal"), which(colnames(Summary2)=="SE.Flux")]<-
-      table_global[which(table_global$Group.1 == "Microtidal" & table_global$fun == "se" & table_global$range == "G"), "Flux.100"]
+    Summary2[which(Summary2[,"Category"]=="Microtidal"), which(colnames(Summary2)=="MAD.SeqRate")]<-
+      table_global[which(table_global$Group.1 == "Microtidal" & table_global$fun == "mad" & table_global$range == "G"), "Seq.rate"]
 
 
-#built table with final stocks from Areas and Summary data frames (one table with median and one with SE)
+#built table with final stocks from Areas and Summary data frames (one table with median and one with MAD)
 Median_area_stock<-Area[,-c(3, 13, 14)]
 Median_area_stock[,c(3:11)]<-NA
-SE_area_stock<-Median_area_stock
+MAD_area_stock<-Median_area_stock
 
-Median_area_flux<-Median_area_stock
-SE_area_flux<-Median_area_stock
+Median_area_seq_rate<-Median_area_stock
+MAD_area_seq_rate<-Median_area_stock
 Median_area_biomass<-Median_area_stock
-SE_area_biomass<-Median_area_stock
+MAD_area_biomass<-Median_area_stock
 
 Area2<-Area[,-c(3, 13, 14)]
 
@@ -2100,13 +2277,13 @@ for (i in 3:length(df)) {
 
 #final values of T OC in each region and coast by category
 Median_area_biomass<- fill_final_table(Median_area_biomass, 6)
-SE_area_biomass<- fill_final_table(SE_area_biomass, 7)
+MAD_area_biomass<- fill_final_table(MAD_area_biomass, 7)
 
-Median_area_stock<- fill_final_table(Median_area_stock, 11)
-SE_area_stock<- fill_final_table(SE_area_stock, 12)
+Median_area_stock<- fill_final_table(Median_area_stock, 12)
+MAD_area_stock<- fill_final_table(MAD_area_stock, 13)
 
-Median_area_flux<- fill_final_table(Median_area_flux, 16)
-SE_area_flux<- fill_final_table(SE_area_flux, 17)
+Median_area_seq_rate<- fill_final_table(Median_area_seq_rate, 18)
+MAD_area_seq_rate<- fill_final_table(MAD_area_seq_rate, 19)
 
 
 #summary table per coasts 
@@ -2115,30 +2292,30 @@ Median_area_biomass$seagrass<-rowSums(Median_area_biomass[ , c(3:7)], na.rm=TRUE
 Median_area_biomass$"salt marsh"<-rowSums(Median_area_biomass[ , c(8:11)], na.rm=TRUE)
 Median_area_stock$seagrass<-rowSums(Median_area_stock[ , c(3:7)], na.rm=TRUE)
 Median_area_stock$"salt marsh"<-rowSums(Median_area_stock[ , c(8:11)], na.rm=TRUE)
-Median_area_flux$seagrass<-rowSums(Median_area_flux[ , c(3:7)], na.rm=TRUE)
-Median_area_flux$"salt marsh"<-rowSums(Median_area_flux[ , c(8:11)], na.rm=TRUE)
+Median_area_seq_rate$seagrass<-rowSums(Median_area_seq_rate[ , c(3:7)], na.rm=TRUE)
+Median_area_seq_rate$"salt marsh"<-rowSums(Median_area_seq_rate[ , c(8:11)], na.rm=TRUE)
 
 agg_biomass_coast <- aggregate(Median_area_biomass[,c(3:13)], by=list(Median_area_biomass$Coast), FUN=sum, na.rm=TRUE)
 agg_stock_coast <- aggregate(Median_area_stock[,c(3:13)], by=list(Median_area_stock$Coast), FUN=sum, na.rm=TRUE)
-agg_flux_coast <- aggregate(Median_area_flux[,c(3:13)], by=list(Median_area_flux$Coast), FUN=sum, na.rm=TRUE)
+agg_seq_rate_coast <- aggregate(Median_area_seq_rate[,c(3:13)], by=list(Median_area_seq_rate$Coast), FUN=sum, na.rm=TRUE)
 
 
 Median_area_biomass$country<-c("Spain","Spain","Spain","Spain","Spain","Spain","Spain","Spain","Spain","Portugal","Portugal","Portugal","Spain","Spain","Spain","Portugal","Portugal")
 Median_area_stock$country<-c("Spain","Spain","Spain","Spain","Spain","Spain","Spain","Spain","Spain","Portugal","Portugal","Portugal","Spain","Spain","Spain","Portugal","Portugal")
-Median_area_flux$country<-c("Spain","Spain","Spain","Spain","Spain","Spain","Spain","Spain","Spain","Portugal","Portugal","Portugal","Spain","Spain","Spain","Portugal","Portugal")
+Median_area_seq_rate$country<-c("Spain","Spain","Spain","Spain","Spain","Spain","Spain","Spain","Spain","Portugal","Portugal","Portugal","Spain","Spain","Spain","Portugal","Portugal")
 
 
 agg_biomass_country <- aggregate(Median_area_biomass[,c(3:13)], by=list(Median_area_biomass$country), FUN=sum, na.rm=TRUE)
 agg_stock_country <- aggregate(Median_area_stock[,c(3:13)], by=list(Median_area_stock$country), FUN=sum, na.rm=TRUE)
-agg_flux_country <- aggregate(Median_area_flux[,c(3:13)], by=list(Median_area_flux$country), FUN=sum, na.rm=TRUE)
+agg_seq_rate_country <- aggregate(Median_area_seq_rate[,c(3:13)], by=list(Median_area_seq_rate$country), FUN=sum, na.rm=TRUE)
 
 
 final_area_biomass<-rbind(agg_biomass_coast, agg_biomass_country)
 final_area_stock<-rbind(agg_stock_coast, agg_stock_country)
-final_area_flux<-rbind(agg_flux_coast, agg_flux_country)
+final_area_seq_rate<-rbind(agg_seq_rate_coast, agg_seq_rate_country)
 
 
-final_table4<-rbind(final_area_biomass, final_area_stock, final_area_flux)
+final_table4<-rbind(final_area_biomass, final_area_stock, final_area_seq_rate)
 write.csv(final_table4,file.path(Folder,"Table4_region.csv"))
 
 # % of stock and fluxes of Posidonia over the total
@@ -2147,6 +2324,9 @@ tot_stock<- rbind(agg_biomass_country, agg_stock_country)
 colSums(tot_stock[,c(2,11,12)])
 
 colSums(tot_stock[,c(2,11,12)])[1]*100/(colSums(tot_stock[,c(2,11,12)])[2]+colSums(tot_stock[,c(2,11,12)])[3])
+
+
+########### TE QUEDASTE AQUI ##############
 
 
 
