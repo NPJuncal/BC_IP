@@ -2326,9 +2326,6 @@ colSums(tot_stock[,c(2,11,12)])
 colSums(tot_stock[,c(2,11,12)])[1]*100/(colSums(tot_stock[,c(2,11,12)])[2]+colSums(tot_stock[,c(2,11,12)])[3])
 
 
-########### TE QUEDASTE AQUI ##############
-
-
 
 # biomass vs soil stock
 #% of seagrass biomass of total stock (biomass + top meter soil)
@@ -2337,7 +2334,7 @@ colSums(tot_stock[,c(2,11,12)])[1]*100/(colSums(tot_stock[,c(2,11,12)])[2]+colSu
 
 #% of salt marsh biomass of total stock (biomass + top meter soil)
 (sum(agg_biomass_country$`salt marsh`)*100)/(sum(agg_stock_country$`salt marsh`)+sum(agg_biomass_country$`salt marsh`))
-#[1] 3.067412
+#[1] 3.72984
 
 #summary figures 
 
@@ -2431,7 +2428,7 @@ p2<-ggplot(Summary[-c(1,2),], aes(Area, nS.Stock))+ ylab("Number of soil stock s
                             segment.color = 'grey50')
 
 
-p3<-ggplot(Summary[-c(1,2),], aes(Area, nS.Flux))+ylab("Number of seq. rate stations")+
+p3<-ggplot(Summary[-c(1,2),], aes(Area, nS.SeqRate))+ylab("Number of seq. rate stations")+
   xlab(expression(paste("Area (k", m^-2, ")")))+
   geom_point()+
   ggrepel::geom_label_repel(aes(label = Category),
