@@ -2340,7 +2340,7 @@ colSums(tot_stock[,c(2,11,12)])[1]*100/(colSums(tot_stock[,c(2,11,12)])[2]+colSu
 
 final<-as.data.frame(melt(final_area_biomass[,c("Group.1", "seagrass", "salt marsh")], ID="Group.1"))
 final$stock<-as.data.frame(melt(final_area_stock[,c("Group.1", "seagrass", "salt marsh")], ID="Group.1"))[,3]
-final$flux<-as.data.frame(melt(final_area_flux[,c("Group.1", "seagrass", "salt marsh")], ID="Group.1"))[,3]
+final$flux<-as.data.frame(melt(final_area_seq_rate[,c("Group.1", "seagrass", "salt marsh")], ID="Group.1"))[,3]
 colnames(final)<-c("Region", "Ecosystem", "Biomass", "Stock", "Flux")
 
 
@@ -2350,6 +2350,7 @@ m_final_c<-melt(subset(final, Region=="Portugal" | Region=="Spain"), ID=c("Regio
 # stock figures
 p_rsg<-ggplot(subset(m_final_r, Ecosystem=="seagrass" & !variable=="Flux"))+ ylab("Tg OC")+
   geom_bar(aes(x=Region, y=value, fill=variable), position = "stack", stat = "identity", width=0.5)+
+  scale_fill_manual(values=c("green4","burlywood3"))+
   ylim(0,21)+
   scale_y_break(c(4, 18))+
   theme(legend.position = "none",
@@ -2361,14 +2362,15 @@ p_rsg<-ggplot(subset(m_final_r, Ecosystem=="seagrass" & !variable=="Flux"))+ yla
 
 p_rsm<-ggplot(subset(m_final_r, Ecosystem=="salt marsh" & !variable=="Flux"))+ ylab("Tg OC")+
   geom_bar(aes(x=Region, y=value, fill=variable), width=0.5, position = "stack", stat = "identity")+
+  scale_fill_manual(values=c("green4","burlywood3"))+
   ylim(0,4)+
   theme(legend.position = "none")
   
-p_csg<-ggplot(subset(m_final_c, Ecosystem=="seagrass" & !variable=="Flux"))+ ylab("Tg OC")+
+p_csg<-  ggplot(subset(m_final_c, Ecosystem=="seagrass" & !variable=="Flux"))+ ylab("Tg OC")+
   geom_bar(aes(x=Region, y=value, fill=variable), position = "stack", stat = "identity")+
+  scale_fill_manual(values=c("green4","burlywood3"),labels=c('Biomass', 'Soil'))+
   ylim(0,21)+
   scale_y_break(c(3, 18))+
-  scale_fill_discrete(labels=c('Biomass', 'Soil'))+
   theme(axis.text.y.right = element_blank(),
         axis.line.y.right = element_blank(),
         axis.ticks.y.right = element_blank()
@@ -2377,19 +2379,20 @@ p_csg<-ggplot(subset(m_final_c, Ecosystem=="seagrass" & !variable=="Flux"))+ yla
 
 p_csm<-ggplot(subset(m_final_c, Ecosystem=="salt marsh" & !variable=="Flux"))+ ylab("Tg OC")+
   geom_bar(aes(x=Region, y=value, fill=variable), position = "stack", stat = "identity")+
-  ylim(0,4)+
-  scale_fill_discrete(labels=c('Biomass', 'Soil'))
+  scale_fill_manual(values=c("green4","burlywood3"), labels=c('Biomass', 'Soil'))+
+  ylim(0,4)
 
 #flux figure
 
-f_rsg <-ggplot(subset(m_final_r, variable=="Flux"), aes(x=Region, y=value, fill=Ecosystem))+ ylab(expression(paste("Tg OC ",y^-1,"")))+
+f_rsg <-   ggplot(subset(m_final_r, variable=="Flux"), aes(x=Region, y=value, fill=Ecosystem))+ ylab(expression(paste("Tg OC ",y^-1,"")))+
   geom_bar(stat = "identity",  position = "dodge")+
-  scale_fill_manual(values=c("green4", "blue"), labels=c('Seagrass', 'Salt Marsh'))+
+  scale_fill_manual(values=c("seagreen", "lightsalmon"), labels=c('Seagrass', 'Salt Marsh'))+
   ylim(0,0.035)+
   theme(legend.position = "none")
-f_csg <-ggplot(subset(m_final_c, variable=="Flux"), aes(x=Region, y=value, fill=Ecosystem))+ ylab(expression(paste("Tg OC ",y^-1,"")))+
+f_csg <-ggplot(subset(m_final_c, variable=="Flux"), aes(x=Region, y=value, fill=Ecosystem))+ 
+  ylab(expression(paste("Tg OC ",y^-1,"")))+ xlab("Country")+
   geom_bar(stat = "identity",  position = "dodge")+
-  scale_fill_manual(values=c("green4", "blue"), labels=c('Seagrass', 'Salt Marsh'))+
+  scale_fill_manual(values=c("seagreen", "lightsalmon"), labels=c('Seagrass', 'Salt Marsh'))+
   ylim(0,0.035)
 
 
