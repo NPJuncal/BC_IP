@@ -18,7 +18,7 @@ library(rbacon)
 library(tidyr)
 library(stringr) # function str_wrap for plot labels in two rows
 library(ggbreak) # scale_y_break function
-
+library(BlueCarbon)
 
 # load functions ----------------------------------------------------------
 
@@ -2406,6 +2406,79 @@ ggsave(path = Folder,"flux_Region.jpg",flux_by_region, units="cm", width = 22, h
 
 
 
+
+
+
+
+
+# 50 cm stocks ------------------------------------------------------------
+
+    BCS_50<-estimate_oc_stock(A, depth= 50,core="Core.ID", mind="DMin.D", maxd="DMax.D", dbd="DDBD", oc="POC")
+    
+    # Stock 50cm. Mean and sd by site
+    BCS_50$Site.ID<-NA
+    
+    for (i in 1:nrow(BCS_50)) {
+      
+      Site<- unique(A[c(which(A$Core.ID==BCS_50[i,which(colnames(BCS_50)=="core")])),which(colnames(A)=="Site.ID")])
+      BCS_50[i,which(colnames(BCS_50)=="Site.ID")]<- Site
+      
+    }
+    
+    # Estimate stocks per site
+    
+    S_by_Site_50 <-merge(aggregate( stock ~ Site.ID, BCS_50, mean), aggregate( stock ~ Site.ID, BCS_50, sd), by = "Site.ID")
+    colnames(S_by_Site_50)<-c("Site.ID", "Mean_Stock", "SD_Stock")
+    
+    
+    #get info by site
+    BC_PI_50 <-merge(B, S_by_Site_50, by = "Site.ID", all = TRUE)
+    BC_PI_50<-subset(BC_PI_50, !is.na(BC_PI_50$Mean_Stock))
+    BC_PI_50 [,c(13:14)]<- BC_PI_50 [,c(13:14)]*10 #from g cm2 to kg m2
+    
+    # Summary table
+    
+    Summary_50<- data.frame(Category=character(),
+                         Area=numeric(),
+                         nS.Stock=numeric(),
+                         SA.Stock=numeric(),
+                         Av.Stock=numeric(),
+                         M.Stock=numeric(),
+                         MAD.Stock=numeric(),
+                         cv.Stock=numeric()
+                         )
+    
+    
+    
+    
+    X<-split(BC_PI_50, BC_PI_50$Ecosystem)
+    Sg_50<-subset(BC_PI_50, Ecosystem=='Seagrass')
+    X2<-split(Sg_50, Sg_50$Genus)
+    Sm_50<-subset(BC_PI_50, Ecosystem=='Salt Marsh')
+    X3<-split(Sm_50, Sm_50$Tidal.R)
+    
+    X<-c(X,X2,X3)
+    
+    
+    # mad
+    
+    for(i in 1:length(X)) {
+      
+      
+      Data<-as.data.frame(X[i])
+      colnames(Data)<-colnames(BC_PI_50)
+      
+      Summary_50[i,1]<-names(X[i])
+      Summary_50[i,2]<-sum(Area[,names(X[i])], na.rm=TRUE)
+      
+      Summary_50[i,3]<-nrow(Data)
+      Summary_50[i,4]<-Summary_50[i,3]/Summary[i,2]
+      Summary_50[i,5]<-mean(Data$Mean_Stock)
+      Summary_50[i,6]<-median(Data$Mean_Stock)
+      Summary_50[i,7]<-mad(Data$Mean_Stock,center=median(Data$Mean_Stock),na.rm=T,low=F,high=F)
+      Summary_50[i,8]<-coef.var(Data$Mean_Stock)
+    }
+    
 
 
 # study limitations -------------------------------------------------------
