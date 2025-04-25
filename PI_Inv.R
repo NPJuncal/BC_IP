@@ -881,6 +881,12 @@ aggregate(sed_rate$sed_rate, by=list(sed_rate$Ecosystem), FUN=median, na.rm=T)
 aggregate(sed_rate$Age, by=list(sed_rate$Ecosystem), FUN=median, na.rm=T)
 
 
+#median and MAD age of the first meter
+
+median(sed_rate$Age)
+
+mad(sed_rate$Age,center=median(sed_rate$Age),na.rm=T,low=F,high=F)
+
 # Biomass -----------------------------------------------------------------
 
 File<-"Biomass.csv"
@@ -1119,7 +1125,7 @@ BSgp<-ggplot()+
   geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
   geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
   coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
-  geom_point(aes(BSg$long,BSg$lat), fill="green",pch=21,size=2.5)+
+  geom_point(aes(BSg$long,BSg$lat), fill="green",pch=21,size=2.5, alpha = 0.3)+
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         #axis.text.x=element_blank(),
@@ -1131,7 +1137,7 @@ BSmp<-ggplot()+  ylab("Latitude")+
   geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
   geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
   coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
-  geom_point(aes(BSm$long,BSm$lat), fill="blue",pch=21,size=2.5)+
+  geom_point(aes(BSm$long,BSm$lat), fill="blue",pch=21,size=2.5, alpha = 0.3)+
   theme(axis.title.x=element_blank(),
         #axis.text.x=element_blank(),
         #axis.ticks.x=element_blank()
@@ -1142,7 +1148,7 @@ SSgp<-ggplot()+
   geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
   geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
   coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
-  geom_point(aes(SSg$long,SSg$lat), fill="green",pch=21,size=2.5)+
+  geom_point(aes(SSg$long,SSg$lat), fill="green",pch=21,size=2.5, alpha = 0.3)+
   theme(axis.title.x=element_blank(),
         axis.title.y=element_blank(),
         #axis.text.x=element_blank(),
@@ -1153,7 +1159,7 @@ SSmp<-ggplot()+  ylab("Latitude")+
   geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
   geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
   coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
-  geom_point(aes(SSm$long,SSm$lat), fill="blue",pch=21,size=2.5)+
+  geom_point(aes(SSm$long,SSm$lat), fill="blue",pch=21,size=2.5, alpha = 0.3)+
   theme(axis.title.x=element_blank(),
         #axis.text.x=element_blank(),
         #axis.ticks.x=element_blank()
@@ -1164,7 +1170,7 @@ FSgp<-ggplot()+ xlab("Longitude")+ ylab("Latitude")+
   geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
   geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
   coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
-  geom_point(aes(FSg$long,FSg$lat), fill="green",pch=21,size=2.5)+
+  geom_point(aes(FSg$long,FSg$lat), fill="green",pch=21,size=2.5, alpha = 0.3)+
   theme(axis.title.y=element_blank(),
         #axis.text.y=element_blank(),
         #axis.ticks.y=element_blank()
@@ -1175,24 +1181,23 @@ FSmp<-ggplot()+ xlab("Longitude")+ ylab("Latitude")+
   geom_polygon(data = WM, aes(x=long, y = lat, group = group), fill = "white", color = "black")+
   geom_polygon(data = IP, aes(x=long, y = lat, group = group), fill = "grey", color = "black")+
   coord_map(xlim = c(-30, 5),ylim = c(27, 45))+
-  geom_point(aes(FSm$long,FSm$lat), fill="blue",pch=21,size=2.5)
+  geom_point(aes(FSm$long,FSm$lat), fill="blue",pch=21,size=2.5, alpha = 0.3)
 
 
 
-grid.arrange(arrangeGrob(BSmp,top="Salt Marsh", left=textGrob("Above Biomass stock",rot = 90,gp=gpar(fontsize=15))),arrangeGrob(BSgp, top="Seagrass"),
-             arrangeGrob(SSmp, left=textGrob("OC Soil stock",rot = 90,gp=gpar(fontsize=15))),SSgp,
-             arrangeGrob(FSmp, left=textGrob("OC sequestration rate",rot = 90, gp=gpar(fontsize=15))),FSgp,
+grid.arrange(arrangeGrob(BSmp,top="Salt Marsh", left=textGrob("Above Biomass Stock",rot = 90,gp=gpar(fontsize=15))),arrangeGrob(BSgp, top="Seagrass"),
+             arrangeGrob(SSmp, left=textGrob("OC Soil Stock",rot = 90,gp=gpar(fontsize=15))),SSgp,
+             arrangeGrob(FSmp, left=textGrob("OC Sequestration Rate",rot = 90, gp=gpar(fontsize=15))),FSgp,
              ncol=2, nrow=3,
              widths = c(1,0.9))
 
 
 # Figure 1
-final<-arrangeGrob(arrangeGrob(BSmp,top="Salt Marsh", left=textGrob("Above Biomass stock",rot = 90,gp=gpar(fontsize=15))),arrangeGrob(BSgp, top="Seagrass"),
-                                arrangeGrob(SSmp, left=textGrob("OC Soil stock",rot = 90,gp=gpar(fontsize=15))),SSgp,
-                                arrangeGrob(FSmp, left=textGrob("OC sequestration rate",rot = 90, gp=gpar(fontsize=15))),FSgp,
-                                ncol=2, nrow=3,
-                                widths = c(1,0.9))
-
+final<-grid.arrange(arrangeGrob(BSmp,top="Salt Marsh", left=textGrob("Above Biomass Stock",rot = 90,gp=gpar(fontsize=15))),arrangeGrob(BSgp, top="Seagrass"),
+               arrangeGrob(SSmp, left=textGrob("OC Soil Stock",rot = 90,gp=gpar(fontsize=15))),SSgp,
+               arrangeGrob(FSmp, left=textGrob("OC Sequestration Rate",rot = 90, gp=gpar(fontsize=15))),FSgp,
+               ncol=2, nrow=3,
+               widths = c(1,0.9))
 
 ggsave(path = Folder,"Sampling sites.jpg",final, units="cm", width = 20, height = 20)
 
@@ -1315,10 +1320,10 @@ ggplot(BC_PI, aes(x=Mean_Biomass)) +
 # the geom_signif test.
 # make sure that the level of signif is the same with and without ylim
 
-EB<-ggplot(BC_PI,aes(Ecosystem, Mean_Biomass))+ ylab(expression(paste("Above Biomass OC stock (kg"," ", m^-2, ")")))+
+EB<-ggplot(BC_PI,aes(Ecosystem, Mean_Biomass))+ ylab(expression(paste("Above Biomass OC Stock (kg"," ", m^-2, ")")))+
   geom_boxplot()+
   geom_jitter(aes(color=factor(Coast)), alpha = 0.5)+
-  scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+  scale_colour_manual(values = c("coral1","seagreen", "orange", "purple"))+
   ylim(0,2.25)+ 
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
@@ -1336,10 +1341,10 @@ EB<-ggplot(BC_PI,aes(Ecosystem, Mean_Biomass))+ ylab(expression(paste("Above Bio
 
 
 
-ESS<-ggplot(BC_PI,aes(Ecosystem, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
+ESS<-ggplot(BC_PI,aes(Ecosystem, Mean_Stock))+ ylab(expression(paste("Soil OC Stock (kg"," ", m^-2, ")")))+
   geom_boxplot()+
   geom_jitter(aes(color=factor(Coast)), alpha = 0.5)+ 
-  scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+  scale_colour_manual(values = c("coral1","seagreen", "orange", "purple"))+
   #ylim(0,55) + 
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
@@ -1355,10 +1360,10 @@ ESS<-ggplot(BC_PI,aes(Ecosystem, Mean_Stock))+ ylab(expression(paste("Soil OC st
               tip_length = 0.005)
 
 
-ESF<-ggplot(BC_PI,aes(Ecosystem, Mean_Seq_rate))+ ylab(expression(paste("OC Seq. rates last 100 years (kg"," ", m^-2,yr^-1, ")")))+
+ESF<-ggplot(BC_PI,aes(Ecosystem, Mean_Seq_rate))+ ylab(expression(paste("OC Seq. Rates last 100 years (kg"," ", m^-2,yr^-1, ")")))+
   geom_boxplot()+
   geom_jitter(aes(color=factor(Coast)), alpha = 0.5)+
-  scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+  scale_colour_manual(values = c("coral1","seagreen", "orange", "purple"))+
   ylim(0,0.08)+
   theme(axis.title.x=element_blank())+
   
@@ -1600,7 +1605,7 @@ SmPlot<-grid.arrange(SB,SS, F100, nrow=3, top="Salt Marsh Tidal Range")
 ggplot(Sg,aes(Genus, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
   geom_boxplot()+
   geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-  scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+  scale_colour_manual(values = c("coral1","seagreen", "orange", "purple"))+
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank())+
@@ -1622,7 +1627,7 @@ ggplot(Sg,aes(Genus, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," "
         SS<-  ggplot(Sg,aes(Genus, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_colour_manual(values = c("coral1","seagreen", "orange", "purple"))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_blank(),
                 axis.ticks.x=element_blank())+
@@ -1648,7 +1653,7 @@ ggplot(Sg,aes(Genus, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg"," "
 ggplot(Sg,aes(Genus, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg"," ", m^-2, ")")))+
   geom_boxplot()+
   geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-  scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+  scale_colour_manual(values = c("coral1","seagreen", "orange", "purple"))+
   theme(axis.title.x=element_blank(),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank())+
@@ -1674,7 +1679,7 @@ ggplot(Sg,aes(Genus, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg
         SB<-ggplot(Sg,aes(Genus, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg"," ", m^-2, ")")))+
           geom_boxplot()+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_colour_manual(values = c("coral1","seagreen", "orange", "purple"))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_blank(),
                 axis.ticks.x=element_blank())+
@@ -1694,7 +1699,7 @@ ggplot(Sg,aes(Genus, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg
  ggplot(Sg,aes(Genus, Mean_Seq_rate))+ ylab(expression(paste("OC seq. rate last 100 yr (kg"," ", m^-2,yr^-1, ")")))+
           geom_boxplot()+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_colour_manual(values = c("coral1","seagreen", "orange", "purple"))+
           scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 10))+
           #ylim(0,0.08)+
           theme(axis.title.x=element_blank(),
@@ -1716,7 +1721,7 @@ ggplot(Sg,aes(Genus, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (kg
         F100<-ggplot(Sg,aes(Genus, Mean_Seq_rate))+ ylab(expression(paste("OC seq. rate last 100 yr (kg"," ", m^-2,yr^-1, ")")))+
           geom_boxplot()+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_colour_manual(values = c("coral1","seagreen", "orange", "purple"))+
           scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 10))+
           ylim(0,0.08)+
           theme(axis.title.x=element_blank(),
@@ -1745,7 +1750,7 @@ ggplot(Sm,aes(Tidal.R, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg","
           geom_boxplot()+
           #ylim(0,50)+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_colour_manual(values = c("seagreen", "orange", "purple"))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_blank(),
                 axis.ticks.x=element_blank())+
@@ -1770,7 +1775,7 @@ ggplot(Sm,aes(Tidal.R, Mean_Stock))+ ylab(expression(paste("Soil OC stock (kg","
           geom_boxplot()+
           ylim(0,50)+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_colour_manual(values = c("seagreen", "orange", "purple"))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_blank(),
                 axis.ticks.x=element_blank())+
@@ -1789,7 +1794,7 @@ ggplot(Sm,aes(Tidal.R, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (
           geom_boxplot()+
           #ylim(0,2)+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_colour_manual(values = c("seagreen", "orange", "purple"))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_blank(),
                 axis.ticks.x=element_blank()) +
@@ -1816,15 +1821,18 @@ ggplot(Sm,aes(Tidal.R, Mean_Biomass))+ ylab(expression(paste("Biomass OC stock (
           geom_boxplot()+
           ylim(0,2)+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_colour_manual(values = c("seagreen", "orange", "purple"))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_blank(),
                 axis.ticks.x=element_blank()) +
           
-          geom_signif(comparisons=list(c("Medium", "Microtidal"),
-                                       c("Microtidal", "Low"), 
+          geom_signif(comparisons=list(c("Medium", "Microtidal"), 
                                        c("Medium", "Low"),
-                                       c("High", "Low")),
+                                       c("Medium", "High"),
+                                       c("Microtidal", "Low"), 
+                                       c("High", "Low")
+                                       #,c("High", "Microtidal")
+          ),
                       test = "wilcox.test",
                       na.rm = FALSE,
                       map_signif_level = TRUE,
@@ -1839,7 +1847,7 @@ ggplot(Sm,aes(Tidal.R, Mean_Seq_rate))+ ylab(expression(paste("OC seq. rate last
           geom_boxplot()+
           ylim(0,0.08)+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_colour_manual(values = c("seagreen", "orange", "purple"))+
           scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 10))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_text(face="italic"))+
@@ -1861,7 +1869,7 @@ ggplot(Sm,aes(Tidal.R, Mean_Seq_rate))+ ylab(expression(paste("OC seq. rate last
           geom_boxplot()+
           #ylim(0,0.08)+
           geom_jitter(aes(color=factor(Coast), alpha = 0.5))+
-          scale_colour_manual(values = c("coral1","seagreen", "skyblue", "purple"))+
+          scale_colour_manual(values = c("seagreen", "orange", "purple"))+
           scale_x_discrete(labels = function(x) stringr::str_wrap(x, width = 10))+
           theme(axis.title.x=element_blank(),
                 axis.text.x=element_text(face="italic"))+
