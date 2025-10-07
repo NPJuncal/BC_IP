@@ -1,0 +1,666 @@
+Site ID;Sample ID;Ecosystem;Specie;Tissue;TOC
+Life;L.Posi;Seagrass;Posidonia oceanica;Leaves;40
+Life;L.Cymo;Seagrass;Cymodocea nodosa;Leaves;36.3
+Life;L.Noltii;Seagrass;Zostera noltii;Leaves;38.7
+Life;L.SM.Abv;Salt Marsh;Mixed Salt Marsh;Aboveground;45
+S.ZN;Leaves-A;Seagrass;Zostera noltii;Leaves;35.3336727
+S.ZN;Leaves-B;Seagrass;Zostera noltii;Leaves;36.2381413
+S.ZN;Leaves-C;Seagrass;Zostera noltii;Leaves;37.5874288
+S.ZN;Roots-A;Seagrass;Zostera noltii;Roots;18.4489844
+S.ZN;Roots-B;Seagrass;Zostera noltii;Roots;23.3935904
+S.ZN;Roots-C;Seagrass;Zostera noltii;Roots;11.0267862
+S.ZN;Steam-A;Seagrass;Zostera noltii;Rhizomes;27.3782473
+S.ZN;Steam-B;Seagrass;Zostera noltii;Rhizomes;29.7742439
+S.ZN;Steam-C;Seagrass;Zostera noltii;Rhizomes;22.0331407
+S.ZM;Leaves-A;Seagrass;Zostera marina;Leaves;40.859663
+S.ZM;Leaves-B;Seagrass;Zostera marina;Leaves;38.8167353
+S.ZM;Leaves-C;Seagrass;Zostera marina;Leaves;34.8291499
+S.ZM;Roots-A;Seagrass;Zostera marina;Roots;39.0568003
+S.ZM;Roots-B;Seagrass;Zostera marina;Roots;31.042624
+S.ZM;Roots-C;Seagrass;Zostera marina;Roots;20.2107487
+S.ZM;Steam-A;Seagrass;Zostera marina;Rhizomes;36.216933
+S.ZM;Steam-B;Seagrass;Zostera marina;Rhizomes;32.9147043
+S.ZM;Steam-C;Seagrass;Zostera marina;Rhizomes;24.9847827
+Arinaga;;Seagrass;Cymodocea nodosa;Aboveground;42.52
+Castillo del Romeral;;Seagrass;Cymodocea nodosa;Aboveground;42.47
+Gando;;Seagrass;Cymodocea nodosa;Aboveground;41.85
+Gando;;Seagrass;Cymodocea nodosa;Aboveground;40.28
+P. del Ingl‚s;;Seagrass;Cymodocea nodosa;Aboveground;37.95
+P. del Ingl‚s;;Seagrass;Cymodocea nodosa;Belowground;35.96
+Caballo;;Seagrass;Cymodocea nodosa;Aboveground;41.28
+Burrero;;Seagrass;Cymodocea nodosa;Aboveground;41.65
+Pedre¤a;BA;Seagrass;Zostera noltii;Aboveground;36.8
+Pedre¤a;BA;Seagrass;Zostera noltii;Aboveground;39.16
+Pedre¤a;BA;Seagrass;Zostera noltii;Aboveground;40.86
+Pontejos;Bs_v;Seagrass;Zostera noltii;Belowground;23.18
+Pontejos;BA_Zn;Seagrass;Zostera noltii;Aboveground;36.47
+San Bartolom‚ ;BS_v;Seagrass;Zostera noltii;Belowground;30.95
+San Bartolom‚ ;BS_V;Seagrass;Zostera noltii;Belowground;33.52
+San Bartolom‚ ;BA;Seagrass;Zostera noltii;Aboveground;36.82
+San Bartolom‚ ;BA;Seagrass;Zostera noltii;Aboveground;38.67
+Somo;Bs_v;Seagrass;Zostera noltii;Belowground;33.46
+Somo;Bs_v;Seagrass;Zostera noltii;Belowground;33.66
+Somo;Bs_v;Seagrass;Zostera noltii;Belowground;35.45
+Somo;Ba;Seagrass;Zostera noltii;Aboveground;39.58
+Somo;Ba;Seagrass;Zostera noltii;Aboveground;39.6
+Somo;Ba;Seagrass;Zostera noltii;Aboveground;40.87
+a_ramallosa_ria_de_vigo;A31;Seagrass;Zostera noltii;Aboveground;40.9892386
+a_ramallosa_ria_de_vigo;A32;Seagrass;Zostera noltii;Aboveground;40.3161732
+a_ramallosa_ria_de_vigo;A33;Seagrass;Zostera noltii;Aboveground;35.5148875
+a_ramallosa_ria_de_vigo;B31;Seagrass;Zostera noltii;Aboveground;39.0134212
+a_ramallosa_ria_de_vigo;B32;Seagrass;Zostera noltii;Aboveground;40.9222391
+a_ramallosa_ria_de_vigo;B33;Seagrass;Zostera noltii;Aboveground;41.6403527
+a_ramallosa_ria_de_vigo;C31;Seagrass;Zostera noltii;Aboveground;38.0297927
+a_ramallosa_ria_de_vigo;C32;Seagrass;Zostera noltii;Aboveground;40.8899287
+a_ramallosa_ria_de_vigo;C33;Seagrass;Zostera noltii;Aboveground;41.3330053
+a_ramallosa_ria_de_vigo;FZ41;Seagrass;Zostera noltii;Aboveground;43.5634954
+a_ramallosa_ria_de_vigo;FZ42;Seagrass;Zostera noltii;Aboveground;42.4919444
+a_ramallosa_ria_de_vigo;FZ43;Seagrass;Zostera noltii;Aboveground;43.2471655
+a_ramallosa_ria_de_vigo;FZ71;Seagrass;Zostera noltii;Aboveground;44.0180611
+a_ramallosa_ria_de_vigo;FZ72;Seagrass;Zostera noltii;Aboveground;42.9466142
+a_ramallosa_ria_de_vigo;FZ73;Seagrass;Zostera noltii;Aboveground;43.7961624
+a_ramallosa_ria_de_vigo;MZ41;Seagrass;Zostera noltii;Aboveground;42.5961771
+a_ramallosa_ria_de_vigo;MZ42;Seagrass;Zostera noltii;Aboveground;40.9355906
+a_ramallosa_ria_de_vigo;MZ43;Seagrass;Zostera noltii;Aboveground;42.1507233
+a_ramallosa_ria_de_vigo;MZ71;Seagrass;Zostera noltii;Aboveground;44.2870699
+a_ramallosa_ria_de_vigo;MZ72;Seagrass;Zostera noltii;Aboveground;43.2341061
+a_ramallosa_ria_de_vigo;MZ73;Seagrass;Zostera noltii;Aboveground;43.594118
+a_ramallosa_ria_de_vigo;AZ41;Seagrass;Zostera noltii;Aboveground;40.6023144
+a_ramallosa_ria_de_vigo;AZ42;Seagrass;Zostera noltii;Aboveground;41.9342954
+a_ramallosa_ria_de_vigo;AZ43;Seagrass;Zostera noltii;Aboveground;41.6314768
+a_ramallosa_ria_de_vigo;AZ71;Seagrass;Zostera noltii;Aboveground;42.6607528
+a_ramallosa_ria_de_vigo;AZ72;Seagrass;Zostera noltii;Aboveground;43.1406308
+a_ramallosa_ria_de_vigo;AZ73;Seagrass;Zostera noltii;Aboveground;42.8100251
+a_ramallosa_ria_de_vigo;MYZ41;Seagrass;Zostera noltii;Aboveground;39.3172448
+a_ramallosa_ria_de_vigo;MYZ42;Seagrass;Zostera noltii;Aboveground;39.9922491
+a_ramallosa_ria_de_vigo;MYZ43;Seagrass;Zostera noltii;Aboveground;39.0710165
+a_ramallosa_ria_de_vigo;MYZ71;Seagrass;Zostera noltii;Aboveground;40.1872419
+a_ramallosa_ria_de_vigo;MYZ72;Seagrass;Zostera noltii;Aboveground;42.2665366
+a_ramallosa_ria_de_vigo;MYZ73;Seagrass;Zostera noltii;Aboveground;42.0026971
+a_ramallosa_ria_de_vigo;JZ41;Seagrass;Zostera noltii;Aboveground;41.24144365
+a_ramallosa_ria_de_vigo;JZ42;Seagrass;Zostera noltii;Aboveground;40.30751259
+a_ramallosa_ria_de_vigo;JZ43;Seagrass;Zostera noltii;Aboveground;41.2031344
+a_ramallosa_ria_de_vigo;JZ71;Seagrass;Zostera noltii;Aboveground;41.24213013
+a_ramallosa_ria_de_vigo;JZ72;Seagrass;Zostera noltii;Aboveground;41.82181031
+a_ramallosa_ria_de_vigo;JZ73;Seagrass;Zostera noltii;Aboveground;41.53407104
+a_ramallosa_ria_de_vigo;JLZ41;Seagrass;Zostera noltii;Aboveground;41.4590496
+a_ramallosa_ria_de_vigo;JLZ42;Seagrass;Zostera noltii;Aboveground;40.9882083
+a_ramallosa_ria_de_vigo;JLZ43;Seagrass;Zostera noltii;Aboveground;41.4203165
+a_ramallosa_ria_de_vigo;JLZ71;Seagrass;Zostera noltii;Aboveground;40.9928525
+a_ramallosa_ria_de_vigo;JLZ72;Seagrass;Zostera noltii;Aboveground;40.5097144
+a_ramallosa_ria_de_vigo;JLZ73;Seagrass;Zostera noltii;Aboveground;40.016737
+a_ramallosa_ria_de_vigo;AGZ41;Seagrass;Zostera noltii;Aboveground;41.4651812
+a_ramallosa_ria_de_vigo;AGZ42;Seagrass;Zostera noltii;Aboveground;40.9839531
+a_ramallosa_ria_de_vigo;AGZ43;Seagrass;Zostera noltii;Aboveground;41.697421
+a_ramallosa_ria_de_vigo;AGZ71;Seagrass;Zostera noltii;Aboveground;40.9440593
+a_ramallosa_ria_de_vigo;AGZ72;Seagrass;Zostera noltii;Aboveground;41.1852368
+a_ramallosa_ria_de_vigo;AGZ73;Seagrass;Zostera noltii;Aboveground;41.1313184
+a_ramallosa_ria_de_vigo;SZ41;Seagrass;Zostera noltii;Aboveground;43.1314209
+a_ramallosa_ria_de_vigo;SZ42;Seagrass;Zostera noltii;Aboveground;42.7895407
+a_ramallosa_ria_de_vigo;SZ43;Seagrass;Zostera noltii;Aboveground;43.7419968
+a_ramallosa_ria_de_vigo;SZ71;Seagrass;Zostera noltii;Aboveground;43.7354667
+a_ramallosa_ria_de_vigo;SZ72;Seagrass;Zostera noltii;Aboveground;42.7796304
+a_ramallosa_ria_de_vigo;SZ73;Seagrass;Zostera noltii;Aboveground;43.4880157
+a_ramallosa_ria_de_vigo;OZ41;Seagrass;Zostera noltii;Aboveground;42.1299812
+a_ramallosa_ria_de_vigo;OZ42;Seagrass;Zostera noltii;Aboveground;42.3224214
+a_ramallosa_ria_de_vigo;OZ43;Seagrass;Zostera noltii;Aboveground;41.9503035
+a_ramallosa_ria_de_vigo;OZ71;Seagrass;Zostera noltii;Aboveground;42.9580677
+a_ramallosa_ria_de_vigo;OZ72;Seagrass;Zostera noltii;Aboveground;43.2473124
+a_ramallosa_ria_de_vigo;OZ73;Seagrass;Zostera noltii;Aboveground;41.7127642
+a_ramallosa_ria_de_vigo;NZ 41;Seagrass;Zostera noltii;Aboveground;41.5877178
+a_ramallosa_ria_de_vigo;NZ 42;Seagrass;Zostera noltii;Aboveground;40.9886368
+a_ramallosa_ria_de_vigo;NZ 43;Seagrass;Zostera noltii;Aboveground;40.4564951
+a_ramallosa_ria_de_vigo;NZ 71;Seagrass;Zostera noltii;Aboveground;40.9897308
+a_ramallosa_ria_de_vigo;NZ 72;Seagrass;Zostera noltii;Aboveground;16.3499079
+a_ramallosa_ria_de_vigo;NZ 73;Seagrass;Zostera noltii;Aboveground;42.165223
+a_ramallosa_ria_de_vigo;DZ 41;Seagrass;Zostera noltii;Aboveground;42.6683509
+a_ramallosa_ria_de_vigo;DZ 42;Seagrass;Zostera noltii;Aboveground;42.2884614
+a_ramallosa_ria_de_vigo;DZ 43;Seagrass;Zostera noltii;Aboveground;42.7115088
+a_ramallosa_ria_de_vigo;DZ 71;Seagrass;Zostera noltii;Aboveground;43.4677441
+a_ramallosa_ria_de_vigo;DZ 72;Seagrass;Zostera noltii;Aboveground;43.6041704
+a_ramallosa_ria_de_vigo;DZ 73;Seagrass;Zostera noltii;Aboveground;42.6395296
+a_ramallosa_ria_de_vigo;ENZ41;Seagrass;Zostera noltii;Aboveground;42.6971053
+a_ramallosa_ria_de_vigo;ENZ42;Seagrass;Zostera noltii;Aboveground;43.3626368
+a_ramallosa_ria_de_vigo;ENZ43;Seagrass;Zostera noltii;Aboveground;43.537772
+a_ramallosa_ria_de_vigo;ENZ71;Seagrass;Zostera noltii;Aboveground;42.8869875
+a_ramallosa_ria_de_vigo;ENZ72;Seagrass;Zostera noltii;Aboveground;42.9710283
+a_ramallosa_ria_de_vigo;ENZ73;Seagrass;Zostera noltii;Aboveground;41.9203847
+carnota_caldebarcos;CZ1;Seagrass;Zostera noltii;Aboveground;38.8494993
+carnota_caldebarcos;CZ2;Seagrass;Zostera noltii;Aboveground;37.7246282
+carnota_caldebarcos;CZ3;Seagrass;Zostera noltii;Aboveground;36.697224
+carnota_caldebarcos;CZ4;Seagrass;Zostera noltii;Aboveground;37.0606812
+ria_de_pontevedra_lourizan;LZ11;Seagrass;Zostera noltii;Aboveground;41.4780197
+ria_de_pontevedra_lourizan;LZ12;Seagrass;Zostera noltii;Aboveground;39.9226517
+ria_de_pontevedra_lourizan;LZ13;Seagrass;Zostera noltii;Aboveground;41.3373638
+ria_de_pontevedra_lourizan;LZ21;Seagrass;Zostera noltii;Aboveground;40.2386232
+ria_de_pontevedra_lourizan;LZ22;Seagrass;Zostera noltii;Aboveground;41.0672266
+ria_de_pontevedra_lourizan;LZ23;Seagrass;Zostera noltii;Aboveground;40.3693053
+ria_de_pontevedra_lourizan;LZ31;Seagrass;Zostera noltii;Aboveground;41.9485001
+ria_de_pontevedra_lourizan;LZ32;Seagrass;Zostera noltii;Aboveground;41.6258467
+ria_de_pontevedra_lourizan;LZ33;Seagrass;Zostera noltii;Aboveground;41.6995354
+ria_de_pontevedra_lourizan;LZ41;Seagrass;Zostera noltii;Aboveground;41.436891
+ria_de_pontevedra_lourizan;LZ42;Seagrass;Zostera noltii;Aboveground;41.6402525
+ria_de_pontevedra_lourizan;LZ43;Seagrass;Zostera noltii;Aboveground;41.2266012
+ria_de_pontevedra_lourizan;LZ51;Seagrass;Zostera noltii;Aboveground;43.3659852
+ria_de_pontevedra_lourizan;LZ52;Seagrass;Zostera noltii;Aboveground;41.9553708
+ria_de_pontevedra_lourizan;LZ53;Seagrass;Zostera noltii;Aboveground;40.8927935
+neda;NEZ 11;Seagrass;Zostera noltii;Aboveground;41.132062
+neda;NEZ 12;Seagrass;Zostera noltii;Aboveground;42.059686
+neda;NEZ 13;Seagrass;Zostera noltii;Aboveground;37.6747449
+neda;NEZ 21;Seagrass;Zostera noltii;Aboveground;40.2818392
+neda;NEZ 22;Seagrass;Zostera noltii;Aboveground;41.7547434
+neda;NEZ 23;Seagrass;Zostera noltii;Aboveground;33.6408404
+cabanas;CAZ 11;Seagrass;Zostera noltii;Aboveground;39.3145884
+cabanas;CAZ 12;Seagrass;Zostera noltii;Aboveground;38.4813125
+cabanas;CAZ 13;Seagrass;Zostera noltii;Aboveground;39.1997244
+cabanas;CAZ 21;Seagrass;Zostera noltii;Aboveground;38.7168972
+cabanas;CAZ 22;Seagrass;Zostera noltii;Aboveground;38.9629197
+bergondo;BZ 11;Seagrass;Zostera noltii;Aboveground;35.4575464
+bergondo;BZ 12;Seagrass;Zostera noltii;Aboveground;37.6605882
+bergondo;BZ 13;Seagrass;Zostera noltii;Aboveground;38.1907347
+bergondo;BZ 21;Seagrass;Zostera noltii;Aboveground;36.7915848
+bergondo;BZ 22;Seagrass;Zostera noltii;Aboveground;38.1374768
+bergondo;BZ 23;Seagrass;Zostera noltii;Aboveground;37.7879762
+camari¤as;C¥Z 11;Seagrass;Zostera noltii;Aboveground;42.3562774
+camari¤as;C¥Z 12;Seagrass;Zostera noltii;Aboveground;41.4989482
+camari¤as;C¥Z 13;Seagrass;Zostera noltii;Aboveground;41.1593945
+camari¤as;C¥Z 21;Seagrass;Zostera noltii;Aboveground;41.527326
+camari¤as;C¥Z 22;Seagrass;Zostera noltii;Aboveground;41.8495568
+camari¤as;C¥Z 23;Seagrass;Zostera noltii;Aboveground;41.6555192
+rianxo;RXZ 11;Seagrass;Zostera noltii;Aboveground;41.6056605
+rianxo;RXZ 12;Seagrass;Zostera noltii;Aboveground;40.4316819
+rianxo;RXZ 13;Seagrass;Zostera noltii;Aboveground;40.4707904
+rianxo;RXZ 21;Seagrass;Zostera noltii;Aboveground;40.2872283
+rianxo;RXZ 22;Seagrass;Zostera noltii;Aboveground;40.3421517
+rianxo;RXZ 23;Seagrass;Zostera noltii;Aboveground;40.8315268
+o_grove;GZ11;Seagrass;Zostera noltii;Aboveground;39.7606769
+o_grove;GZ12;Seagrass;Zostera noltii;Aboveground;40.1814972
+o_grove;GZ13;Seagrass;Zostera noltii;Aboveground;41.392548
+o_grove;GZ21;Seagrass;Zostera noltii;Aboveground;39.0305658
+o_grove;GZ22;Seagrass;Zostera noltii;Aboveground;38.8870964
+o_grove;GZ23;Seagrass;Zostera noltii;Aboveground;38.7967197
+rio_maior;RIOZ 11;Seagrass;Zostera noltii;Aboveground;42.7968239
+rio_maior;RIOZ 12;Seagrass;Zostera noltii;Aboveground;41.0351049
+rio_maior;RIOZ 13;Seagrass;Zostera noltii;Aboveground;41.8843716
+rio_maior;RIOZ 21;Seagrass;Zostera noltii;Aboveground;40.7893522
+rio_maior;RIOZ 22;Seagrass;Zostera noltii;Aboveground;40.7300495
+rio_maior;RIOZ 23;Seagrass;Zostera noltii;Aboveground;40.2463244
+arcade;ARZ 11;Seagrass;Zostera noltii;Aboveground;40.7483573
+arcade;ARZ 12;Seagrass;Zostera noltii;Aboveground;41.1880361
+arcade;ARZ 13;Seagrass;Zostera noltii;Aboveground;40.9959885
+arcade;ARZ 21;Seagrass;Zostera noltii;Aboveground;41.4601503
+arcade;ARZ 22;Seagrass;Zostera noltii;Aboveground;40.5380103
+arcade;ARZ 23;Seagrass;Zostera noltii;Aboveground;40.1121899
+RF-031;Site 1;Seagrass;Zostera noltii;Leaves;43.62017804
+RF-032;Site 2;Seagrass;Zostera noltii;Leaves;42.99703264
+RF-033;Site 3;Seagrass;Zostera noltii;Leaves;43.35311573
+RF-034;Site 4;Seagrass;Zostera noltii;Leaves;43.4421365
+RF-031;Site 1;Seagrass;Zostera noltii;Leaves;45.13353116
+RF-032;Site 2;Seagrass;Zostera noltii;Leaves;44.51038576
+RF-033;Site 3;Seagrass;Zostera noltii;Leaves;44.95548961
+RF-010;Culatra;Seagrass;Mixed Seagrass;Leaves;34.4
+RF-040;25;Salt Marsh;Spartina maritima;Leaves;42.4187518
+RF-040;26;Salt Marsh;Spartina maritima;Leaves;41.2204152
+RF-040;27;Salt Marsh;Spartina maritima;Leaves;41.0808819
+RF-041;31;Seagrass;Zostera noltii;Leaves;40.2434544
+RF-041;32;Seagrass;Zostera noltii;Leaves;38.6120249
+RF-041;33;Seagrass;Zostera noltii;Leaves;42.1004715
+RF-042;Culatra (w);Seagrass;Zostera marina;Leaves;34.82291794
+RF-042;Culatra (w);Seagrass;Zostera marina;Leaves;34.03870392
+RF-042;Culatra (w);Seagrass;Zostera marina;Leaves;33.97163391
+RF-042;Culatra (s);Seagrass;Zostera marina;Leaves;34.84933472
+RF-042;Culatra (s);Seagrass;Zostera marina;Leaves;35.68482208
+RF-042;Culatra (s);Seagrass;Zostera marina;Leaves;34.36952972
+RF-037;Low intertidal;Seagrass;Zostera noltii;Leaves;44.8
+RF-037;Low intertidal;Seagrass;Zostera noltii;Leaves;45.1
+RF-037;Medium intertidal;Seagrass;Zostera noltii;Leaves;41.1
+RF-037;Medium intertidal;Seagrass;Zostera noltii;Leaves;46.9
+RF-037;High intertidal;Seagrass;Zostera noltii;Leaves;41.6
+RF-037;High intertidal;Seagrass;Zostera noltii;Leaves;45.8
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;40.192
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;40.494
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;42.603
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;36.158
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;42.016
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;45.661
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;41.99
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;52.217
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;42.096
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;38.655
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;38.082
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;36.152
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;37.362
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;40.661
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;38.833
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;42.591
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;41.999
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;40.236
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;39.862
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;41.531
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;39.27
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;41.862
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;40.706
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;41.452
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;36.98
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;41.528
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;43.47
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;40.523
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;35.571
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;36.145
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;35.581
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;36.23
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;37.122
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;39.468
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;39.601
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;35.878
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;35.142
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;34.829
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;35.945
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;34.56
+RF-043;Ramalhete-A;Seagrass;Zostera noltii;Leaves;35.376
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;41.982
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;40.544
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;38.812
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;42.493
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;44.123
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;41.891
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;43.083
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;43.05
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;42.805
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;37.816
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;40.168
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;38.966
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;40.281
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;39.691
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;39.969
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;40.627
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;47.421
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;51.004
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;47.887
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;48.408
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;43.445
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;44.159
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;44.81
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;44.81
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;40.181
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;36.503
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;37.59
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;37.46
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;38.088
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;37.059
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;39.817
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;40.011
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;39.74
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;40.307
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;40.084
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;41.557
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;32.747
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;31.999
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;33.873
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;32.749
+RF-043;Ramalhete-C;Seagrass;Zostera noltii;Leaves;34.376
+RF-038;Praia;Seagrass;Zostera noltii;Leaves;41.89228566
+RF-039;Quinta;Seagrass;Zostera noltii;Leaves;41.02975479
+RF-030;Control;Seagrass;Zostera noltii;Leaves;38.5
+RF-030;Control;Seagrass;Zostera noltii;Leaves;38.09162304
+RF-030;Control;Seagrass;Zostera noltii;Leaves;37.39267016
+RF-030;Control;Seagrass;Zostera noltii;Leaves;37.79319372
+RF-030;Control;Seagrass;Zostera noltii;Rhizomes;36.48863636
+RF-030;Control;Seagrass;Zostera noltii;Rhizomes;35.97727273
+RF-030;Control;Seagrass;Zostera noltii;Rhizomes;36.48863636
+RF-030;Control;Seagrass;Zostera noltii;Rhizomes;35.6875
+RF-040;25;Salt Marsh;Spartina maritima;Roots;37.9179935
+RF-040;26;Salt Marsh;Spartina maritima;Roots;32.9476332
+RF-040;27;Salt Marsh;Spartina maritima;Roots;37.1035997
+RF-041;31;Seagrass;Zostera noltii;Roots;32.1382481
+RF-041;32;Seagrass;Zostera noltii;Roots;28.8661138
+RF-041;33;Seagrass;Zostera noltii;Roots;34.882339
+RF-010;Culatra;Seagrass;Mixed Seagrass;Belowground;30.8
+Arenal;Arenal_2006;Seagrass;Posidonia oceanica;Leaves;37.59552511
+Biniancolla;Biniancolla_2009;Seagrass;Posidonia oceanica;Leaves;37.15597343
+Cala Blanca;Cala Blanca_2009;Seagrass;Posidonia oceanica;Leaves;37.1123848
+Cala Deia;Cala Deia_2008;Seagrass;Posidonia oceanica;Leaves;35.9592724
+Cala Deia;Cala Deia_2005;Seagrass;Posidonia oceanica;Leaves;39.04771996
+Cala DOr;Cala DOr_2008;Seagrass;Posidonia oceanica;Leaves;37.2725655
+Cala DOr;Cala DOr_2006;Seagrass;Posidonia oceanica;Leaves;36.66953659
+Cala Es Grau;Cala Es Grau_2009;Seagrass;Posidonia oceanica;Leaves;36.15769005
+Cala Figuera;Cala Figuera_2008;Seagrass;Posidonia oceanica;Leaves;36.2223916
+Cala Galdana;Cala Galdana_2009;Seagrass;Posidonia oceanica;Leaves;38.64051723
+Cala Galdana;Cala Galdana_2006;Seagrass;Posidonia oceanica;Leaves;39.88923073
+Cala Gamba;Cala Gamba_2008;Seagrass;Posidonia oceanica;Leaves;37.704215
+Cala Gamba;Cala Gamba_2006;Seagrass;Posidonia oceanica;Leaves;42.30105209
+Cala Llentisca;Cala Llentisca_2006;Seagrass;Posidonia oceanica;Leaves;39.81164932
+Cala Llenya;Cala Llenya_2009;Seagrass;Posidonia oceanica;Leaves;38.7368083
+Cala Llenya;Cala Llenya_2006;Seagrass;Posidonia oceanica;Leaves;36.62575404
+Cala Llonga;Cala Llonga_2008;Seagrass;Posidonia oceanica;Leaves;39.0809345
+Cala Llonga ;Cala Llonga _2005;Seagrass;Posidonia oceanica;Leaves;38.85330296
+Cala Marmacen;Cala Marmacen_2008;Seagrass;Posidonia oceanica;Leaves;36.9291277
+Cala Marmacen;Cala Marmacen_2005;Seagrass;Posidonia oceanica;Leaves;40.19759242
+Cala Matzoc;Cala Matzoc_2006;Seagrass;Posidonia oceanica;Leaves;41.97322083
+Cala Matzoc;Cala Matzoc_2009;Seagrass;Posidonia oceanica;Leaves;41.92143488
+Cala Millor;Cala Millor_2008;Seagrass;Posidonia oceanica;Leaves;35.8856897
+Cala Millor;Cala Millor_2005;Seagrass;Posidonia oceanica;Leaves;40.30740738
+Cala Mondrago;Cala Mondrago_2008;Seagrass;Posidonia oceanica;Leaves;39.525548
+Cala Morell;Cala Morell_2009;Seagrass;Posidonia oceanica;Leaves;37.25507069
+Cala Murta;Cala Murta_2005;Seagrass;Posidonia oceanica;Leaves;38.05548859
+Cala Ratjada;Cala Ratjada_2009;Seagrass;Posidonia oceanica;Leaves;41.9492178
+Cala Sahona;Cala Sahona_2006;Seagrass;Posidonia oceanica;Leaves;36.65089671
+Cala Tamida;Cala Tamida_2006;Seagrass;Posidonia oceanica;Leaves;39.21621704
+Cala Tarida;Cala Tarida_2009;Seagrass;Posidonia oceanica;Leaves;38.51609612
+Cala Torreta;Cala Torreta_2008;Seagrass;Posidonia oceanica;Leaves;40.2151966
+Cala Torreta ;Cala Torreta _2005;Seagrass;Posidonia oceanica;Leaves;38.80211067
+Cala Tuent;Cala Tuent_2009;Seagrass;Posidonia oceanica;Leaves;40.97614765
+Cala n Porter;Cala n Porter_2009;Seagrass;Posidonia oceanica;Leaves;38.24442959
+Cales Coves;Cales Coves_2006;Seagrass;Posidonia oceanica;Leaves;40.4817897
+Can Picafort;Can Picafort_2009;Seagrass;Posidonia oceanica;Leaves;37.94423866
+Can Picafort;Can Picafort_2005;Seagrass;Posidonia oceanica;Leaves;38.58863144
+Cap Blanc;Cap Blanc_2009;Seagrass;Posidonia oceanica;Leaves;40.3608551
+Cap Blanc;Cap Blanc_2006;Seagrass;Posidonia oceanica;Leaves;39.86330134
+Cap de Menorca;Cap de Menorca_2009;Seagrass;Posidonia oceanica;Leaves;39.93172026
+Cap de Menorca;Cap de Menorca_2006;Seagrass;Posidonia oceanica;Leaves;39.37446467
+Cap Enderrocat;Cap Enderrocat_2009;Seagrass;Posidonia oceanica;Leaves;41.85788488
+Cap Formentor;Cap Formentor_2009;Seagrass;Posidonia oceanica;Leaves;39.83078861
+Cap Llentrisca;Cap Llentrisca_2009;Seagrass;Posidonia oceanica;Leaves;40.75648499
+Cap Mussons;Cap Mussons_2009;Seagrass;Posidonia oceanica;Leaves;37.83635521
+Cap Negret;Cap Negret_2009;Seagrass;Posidonia oceanica;Leaves;43.20410442
+Cap Pentinat;Cap Pentinat_2006;Seagrass;Posidonia oceanica;Leaves;38.48425166
+Cap Pinar;Cap Pinar_2008;Seagrass;Posidonia oceanica;Leaves;38.167419
+Colonia Sant Jordi;Colonia Sant Jordi_2005;Seagrass;Posidonia oceanica;Leaves;39.93723202
+Colonia Sant Jordi;Colonia Sant Jordi_2008;Seagrass;Posidonia oceanica;Leaves;39.0565503
+Dragonera;Dragonera_2008;Seagrass;Posidonia oceanica;Leaves;36.8366241
+Dragonera;Dragonera_2005;Seagrass;Posidonia oceanica;Leaves;39.04771996
+El Toro;El Toro_2008;Seagrass;Posidonia oceanica;Leaves;39.405688
+Es Calo;Es Calo_2008;Seagrass;Posidonia oceanica;Leaves;36.7011042
+Es Caragol;Es Caragol_2008;Seagrass;Posidonia oceanica;Leaves;41.723649
+Es Castell ;Es Castell _2005;Seagrass;Posidonia oceanica;Leaves;39.05346584
+Es Castell;Es Castell_2008;Seagrass;Posidonia oceanica;Leaves;40.1542988
+Es Figueral;Es Figueral_2006;Seagrass;Posidonia oceanica;Leaves;38.01289764
+Es Pujols;Es Pujols_2008;Seagrass;Posidonia oceanica;Leaves;37.7440863
+Es Pujols;Es Pujols_2005;Seagrass;Posidonia oceanica;Leaves;39.21293449
+Fornells;Fornells_2009;Seagrass;Posidonia oceanica;Leaves;38.91566372
+Fornells;Fornells_2006;Seagrass;Posidonia oceanica;Leaves;38.22450821
+Hotel Delta;Hotel Delta_2009;Seagrass;Posidonia oceanica;Leaves;39.24999523
+Hotel Delta;Hotel Delta_2006;Seagrass;Posidonia oceanica;Leaves;41.42235819
+Illa de Formentor;Illa de Formentor_2008;Seagrass;Posidonia oceanica;Leaves;38.2529697
+Illa de Formentor;Illa de Formentor_2005;Seagrass;Posidonia oceanica;Leaves;40.14444542
+Illa Des Colom;Illa Des Colom_2006;Seagrass;Posidonia oceanica;Leaves;39.51892311
+Illes Bledes;Illes Bledes_2009;Seagrass;Posidonia oceanica;Leaves;38.71784306
+Illetas;Illetas_2005;Seagrass;Posidonia oceanica;Leaves;36.87808514
+Illetes formentera;Illetes formentera_2008;Seagrass;Posidonia oceanica;Leaves;36.4928112
+Illetes Mallorca;Illetes Mallorca_2008;Seagrass;Posidonia oceanica;Leaves;36.1658001
+Isla del Aire;Isla del Aire_2006;Seagrass;Posidonia oceanica;Leaves;40.3502661
+Islas Bledas;Islas Bledas_2006;Seagrass;Posidonia oceanica;Leaves;37.77791325
+LOlla;LOlla_2006;Seagrass;Posidonia oceanica;Leaves;39.93643316
+Magalluf;Magalluf_2008;Seagrass;Posidonia oceanica;Leaves;37.1980076
+Magalluf;Magalluf_2005;Seagrass;Posidonia oceanica;Leaves;40.98104223
+Mondrago;Mondrago_2006;Seagrass;Posidonia oceanica;Leaves;39.33078575
+Platja de Ses Salines;Platja de Ses Salines_2008;Seagrass;Posidonia oceanica;Leaves;37.397584
+Platja den Bossa;Platja den Bossa_2008;Seagrass;Posidonia oceanica;Leaves;38.4116856
+Platja den Bossa;Platja den Bossa_2005;Seagrass;Posidonia oceanica;Leaves;38.58007622
+Platja des Mitjorn;Platja des Mitjorn_2008;Seagrass;Posidonia oceanica;Leaves;41.9946098
+Platja des Mitjorn;Platja des Mitjorn_2005;Seagrass;Posidonia oceanica;Leaves;40.45970821
+Pollenca;Pollenca_2008;Seagrass;Posidonia oceanica;Leaves;38.1407094
+Pollenca;Pollenca_2005;Seagrass;Posidonia oceanica;Leaves;39.37888908
+Port Dalcudia;Port Dalcudia_2006;Seagrass;Posidonia oceanica;Leaves;41.15722402
+Port Dalcudia;Port Dalcudia_2009;Seagrass;Posidonia oceanica;Leaves;38.88356304
+Port de Mao;Port de Mao_2006;Seagrass;Posidonia oceanica;Leaves;40.29808553
+Port de Mao;Port de Mao_2009;Seagrass;Posidonia oceanica;Leaves;36.85113525
+Port de Soller;Port de Soller_2008;Seagrass;Posidonia oceanica;Leaves;37.7965101
+Portals Vells;Portals Vells_2006;Seagrass;Posidonia oceanica;Leaves;40.39548111
+Porto Colom;Porto Colom_2008;Seagrass;Posidonia oceanica;Leaves;38.8171306
+Porto Colom;Porto Colom_2005;Seagrass;Posidonia oceanica;Leaves;40.51480389
+Porto Cristo;Porto Cristo_2009;Seagrass;Posidonia oceanica;Leaves;42.50926685
+Punta de Sa Creu;Punta de Sa Creu_2008;Seagrass;Posidonia oceanica;Leaves;39.3988056
+Punta Dels Andreus;Punta Dels Andreus_2006;Seagrass;Posidonia oceanica;Leaves;35.50280635
+Punta den Valls;Punta den Valls_2009;Seagrass;Posidonia oceanica;Leaves;39.59752019
+Punta Des Gat;Punta Des Gat_2009;Seagrass;Posidonia oceanica;Leaves;45.13542576
+Punta Des Gat;Punta Des Gat_2006;Seagrass;Posidonia oceanica;Leaves;38.61376699
+Punta dets Andreus;Punta dets Andreus_2008;Seagrass;Posidonia oceanica;Leaves;39.839472
+Punta Galinda;Punta Galinda_2008;Seagrass;Posidonia oceanica;Leaves;37.9127121
+Punta Llobera;Punta Llobera_2009;Seagrass;Posidonia oceanica;Leaves;38.25805283
+Punta Rasa;Punta Rasa_2008;Seagrass;Posidonia oceanica;Leaves;37.5576992
+Punta Sa Creu;Punta Sa Creu_2009;Seagrass;Posidonia oceanica;Leaves;42.88058758
+SAlgar;SAlgar_2009;Seagrass;Posidonia oceanica;Leaves;35.43910122
+SAlgar;SAlgar_2006;Seagrass;Posidonia oceanica;Leaves;39.9400066
+Sant Antoni;Sant Antoni_2009;Seagrass;Posidonia oceanica;Leaves;38.47238064
+Sant Antoni;Sant Antoni_2005;Seagrass;Posidonia oceanica;Leaves;37.40912533
+Santa Eulalia;Santa Eulalia_2005;Seagrass;Posidonia oceanica;Leaves;38.77970505
+Santa Eulalia;Santa Eulalia_2009;Seagrass;Posidonia oceanica;Leaves;39.52984047
+Santa Maria;Santa Maria_2005;Seagrass;Posidonia oceanica;Leaves;37.86971664
+Santa Maria;Santa Maria_2008;Seagrass;Posidonia oceanica;Leaves;40.2795229
+Santa Ponca;Santa Ponca_2008;Seagrass;Posidonia oceanica;Leaves;38.4946918
+SArenal de SOlla;SArenal de SOlla_2009;Seagrass;Posidonia oceanica;Leaves;35.47435474
+SArenal de Son Saura;SArenal de Son Saura_2009;Seagrass;Posidonia oceanica;Leaves;33.23192358
+Ses Balandres;Ses Balandres_2005;Seagrass;Posidonia oceanica;Leaves;37.20895958
+Ses Illetas;Ses Illetas_2005;Seagrass;Posidonia oceanica;Leaves;43.32655716
+Ses Penyes;Ses Penyes_2009;Seagrass;Posidonia oceanica;Leaves;34.92370224
+Ses Salinas;Ses Salinas_2006;Seagrass;Posidonia oceanica;Leaves;29.93668874
+Sestany Den Mas;Sestany Den Mas_2006;Seagrass;Posidonia oceanica;Leaves;39.47756195
+SEstanyol;SEstanyol_2008;Seagrass;Posidonia oceanica;Leaves;39.266943
+SArenal de SOlla;SOlla_2008;Seagrass;Posidonia oceanica;Leaves;40.6354465
+Son Serra de Marina;Son Serra de Marina_2008;Seagrass;Posidonia oceanica;Leaves;38.3314667
+Son Veri;Son Veri_2008;Seagrass;Posidonia oceanica;Leaves;37.8313255
+Son Veri;Son Veri_2006;Seagrass;Posidonia oceanica;Leaves;42.29147466
+Santa Ponca;Sta. Ponca_2006;Seagrass;Posidonia oceanica;Leaves;41.93455633
+Talamanca;Talamanca_2008;Seagrass;Posidonia oceanica;Leaves;37.9533011
+Talamanca;Talamanca_2006;Seagrass;Posidonia oceanica;Leaves;39.52705129
+ME_Phf;Coura P1 10-02-2022;Salt Marsh;Phragmites australis;Aboveground;41.72
+ME_Phf;;Salt Marsh;Phragmites australis;Belowground;40.86
+ME_Smf;Coura P2 11-02-2022;Salt Marsh;Scirpus maritimus;Aboveground;35.09
+ME_Smf;;Salt Marsh;Scirpus maritimus;Belowground;36.30
+ME_Jf;Coura P3 11-02-2022;Salt Marsh;Juncus maritimus;Aboveground;37.65
+ME_Jf;;Salt Marsh;Juncus maritimus;Belowground;38.74
+ME_Spf;Coura P4 11-02-2022;Salt Marsh;Spartina patens;Aboveground;40.25
+ME_Spf;;Salt Marsh;Spartina patens;Belowground;27.67
+ME_Jf;Minho P1 10-02-2022;Salt Marsh;Juncus maritimus;Aboveground;37.65
+ME_Jf;;Salt Marsh;Juncus maritimus;Belowground;39.38
+ME_Spf;Minho P2 10-02-2022;Salt Marsh;Spartina patens;Aboveground;40.16
+ME_Spf;;Salt Marsh;Spartina patens;Belowground;26.53
+ME_Ph;Minho P3 26-07-2022;Salt Marsh;Phragmites australis;Aboveground;42.29
+ME_Ph;;Salt Marsh;Phragmites australis;Belowground;39.28
+ME_Sp;Minho P4 26-07-2022;Salt Marsh;Spartina patens;Aboveground;42.79
+ME_Sp;;Salt Marsh;Spartina patens;Belowground;38.73
+ME_J;Minho P6 27-07-2022;Salt Marsh;Juncus maritimus;Aboveground;38.04
+ME_J;;Salt Marsh;Juncus maritimus;Belowground;38.80
+ME_Ph;Minho P7 27-07-2022;Salt Marsh;Phragmites australis;Aboveground;41.65
+ME_Ph;;Salt Marsh;Phragmites australis;Belowground;41.93
+ME_Sm;Minho P8 27-07-2022;Salt Marsh;Scirpus maritimus;Aboveground;37.09
+ME_Sm;;Salt Marsh;Scirpus maritimus;Belowground;38.81
+ME_J;Minho P9 27-07-2022;Salt Marsh;Juncus maritimus;Aboveground;40.00
+ME_J;;Salt Marsh;Juncus maritimus;Belowground;37.10
+ME_Sp;Minho P11  28-07-2022;Salt Marsh;Spartina patens;Aboveground;41.86
+ME_Sp;;Salt Marsh;Spartina patens;Belowground;42.19
+ME_J;Minho P12 28-07-2022;Salt Marsh;Juncus maritimus;Aboveground;40.46
+ME_J;;Salt Marsh;Juncus maritimus;Belowground;38.30
+NPCB-CLICA_Sc;ES_2_VDE3_B;Salt Marsh;Sarcocornia;Aboveground;32.99101648
+NPCB-CLICA_Sc;ES_2_VDE4_B;Salt Marsh;Sarcocornia;Aboveground;28.70015702
+NPCB-CLICA_Sc;ES_2_VDE4_B;Salt Marsh;Sarcocornia;Aboveground;29.11425209
+NPCB-CLICA_Sc;ES_2_VDE8_B;Salt Marsh;Sarcocornia;Aboveground;30.36916475
+NPCB-CLICA_Sc;ES_2_VDE2_A;Salt Marsh;Sarcocornia;Aboveground;34.21932903
+NPCB-CLICA_Sc;ES_2_VDE3_A;Salt Marsh;Sarcocornia;Aboveground;29.04289265
+NPCB-CLICA_Sc;ES_2_VDE3_A;Salt Marsh;Sarcocornia;Aboveground;28.30079032
+NPCB-CLICA_Sc;ES_2_VDE4_A;Salt Marsh;Sarcocornia;Aboveground;30.53330462
+NPCB-CLICA_Sc;ES_2_VDE2_C;Salt Marsh;Sarcocornia;Aboveground;32.3240324
+NPCB-CLICA_Sc;ES_2_VDE3_C;Salt Marsh;Sarcocornia;Aboveground;34.8179946
+NPCB-CLICA_Sc;ES_2_VDE4_C;Salt Marsh;Sarcocornia;Aboveground;30.51706212
+NPCB-CLICA_Sc;ES_2_VDE2_D;Salt Marsh;Sarcocornia;Aboveground;24.11031301
+NPCB-CLICA_Sc;ES_2_VDE3_D;Salt Marsh;Sarcocornia;Aboveground;30.0631234
+NPCB-CLICA_Sc;ES_2_VDE3_D;Salt Marsh;Sarcocornia;Aboveground;30.58839144
+NPCB-CLICA_Sc;ES_2_VDE4_D;Salt Marsh;Sarcocornia;Aboveground;22.06469112
+NPCB-BOLI_Sm;ES_1_VDE2_A;Salt Marsh;Spartina maritima;Aboveground;40.95848355
+NPCB-BOLI_Sm;ES_1_VDE3_A;Salt Marsh;Spartina maritima;Aboveground;38.65021245
+NPCB-BOLI_Sm;ES_1_VDE4_A;Salt Marsh;Spartina maritima;Aboveground;38.3696932
+NPCB-BOLI_Sm;ES_1_VDE4_A;Salt Marsh;Spartina maritima;Aboveground;39.35520438
+NPCB-BOLI_Sc;ES_1_VDE10_A;Salt Marsh;Sarcocornia;Aboveground;31.24169532
+NPCB-BOLI_Sc;ES_1_VDE11_A;Salt Marsh;Sarcocornia;Aboveground;31.85427758
+NPCB-BOLI_Sc;ES_1_VDE12_A;Salt Marsh;Sarcocornia;Aboveground;28.43852295
+NPCB-BOLI_Sm;ES_1_VDE2_B;Salt Marsh;Spartina maritima;Aboveground;40.21940592
+NPCB-BOLI_Sm;ES_1_VDE3_B;Salt Marsh;Spartina maritima;Aboveground;39.95158527
+NPCB-BOLI_Sm;ES_1_VDE3_B;Salt Marsh;Spartina maritima;Aboveground;41.76895695
+NPCB-BOLI_Sm;ES_1_VDE4_B;Salt Marsh;Spartina maritima;Aboveground;40.12413811
+NPCB-BOLI_Sc;ES_1_VDE10_B;Salt Marsh;Sarcocornia;Aboveground;30.01348817
+NPCB-CLICA_Sc;ES_2_VDE6_A;Salt Marsh;Sarcocornia;Aboveground;31.60395327
+NPCB-BOLI_Sc;ES_1_VDE12_B;Salt Marsh;Sarcocornia;Aboveground;28.1481549
+NPCB-BOLI_Sc;ES_1_VDE10_C;Salt Marsh;Sarcocornia;Aboveground;30.40163951
+NPCB-CLICA_Sc;ES_2_VDE5_B;Salt Marsh;Sarcocornia;Aboveground;32.76811329
+NPCB-CLICA_Sc;ES_2_VDE5_B;Salt Marsh;Sarcocornia;Aboveground;23.4346295
+NPCB-CLICA_Sc;ES_2_VDE5_B;Salt Marsh;Sarcocornia;Aboveground;25.09242507
+NPCB-BOLI_Sm;ES_1_VDE3_D;Salt Marsh;Spartina maritima;Aboveground;39.61911627
+NPCB-CLICA_Sc;ES_2_VDE7_B;Salt Marsh;Sarcocornia;Aboveground;30.54960324
+NPCB-CLICA_Sc;ES_2_VDE5_C;Salt Marsh;Sarcocornia;Aboveground;29.81793558
+NPCB-CLICA_Sc;ES_2_VDE5_C;Salt Marsh;Sarcocornia;Aboveground;27.86286955
+NPCB-BOLI_Sc;ES_1_VDE12_D;Salt Marsh;Sarcocornia;Aboveground;29.91443375
+MB_Cadiz;MB_Cadiz;Salt Marsh;Salicornia;Aboveground;38.59
+MM_Cadiz;MM_Cadiz;Salt Marsh;Sarcocornia;Aboveground;39.58
+MA_Cadiz;MA_Cadiz;Salt Marsh;Limoniastrum monopetalum;Aboveground;43.88
+MMD_Cadiz;MMD_Cadiz;Salt Marsh;Sarcocornia;Aboveground;43.62
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_1;Salt Marsh;Juncus;Aboveground;40.419
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_2;Salt Marsh;Juncus;Aboveground;40.419
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_3;Salt Marsh;Juncus;Aboveground;40.419
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_4;Salt Marsh;Juncus;Aboveground;40.727
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_5;Salt Marsh;Juncus;Aboveground;40.727
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_6;Salt Marsh;Juncus;Aboveground;40.727
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_7;Salt Marsh;Juncus;Aboveground;41.1175
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_8;Salt Marsh;Juncus;Aboveground;41.1175
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_9;Salt Marsh;Juncus;Aboveground;41.1175
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_10;Salt Marsh;Juncus;Aboveground;40.3705
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_11;Salt Marsh;Juncus;Aboveground;40.3705
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_12;Salt Marsh;Juncus;Aboveground;40.3705
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_13;Salt Marsh;Juncus;Aboveground;40.4845
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_14;Salt Marsh;Juncus;Aboveground;40.4845
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_15;Salt Marsh;Juncus;Aboveground;40.4845
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_16;Salt Marsh;Juncus;Aboveground;41.4535
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_17;Salt Marsh;Juncus;Aboveground;41.4535
+Ria de Aveiro - 1_J;Ria de Aveiro - 1_J_18;Salt Marsh;Juncus;Aboveground;41.4535
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_19;Salt Marsh;Juncus;Aboveground;40.3255
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_20;Salt Marsh;Juncus;Aboveground;40.3255
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_21;Salt Marsh;Juncus;Aboveground;40.3255
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_22;Salt Marsh;Juncus;Aboveground;40.199
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_23;Salt Marsh;Juncus;Aboveground;40.199
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_24;Salt Marsh;Juncus;Aboveground;40.199
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_25;Salt Marsh;Juncus;Aboveground;41.886
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_26;Salt Marsh;Juncus;Aboveground;41.886
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_27;Salt Marsh;Juncus;Aboveground;41.886
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_28;Salt Marsh;Juncus;Aboveground;42.2665
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_29;Salt Marsh;Juncus;Aboveground;42.2665
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_30;Salt Marsh;Juncus;Aboveground;42.2665
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_31;Salt Marsh;Juncus;Aboveground;40.3695
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_32;Salt Marsh;Juncus;Aboveground;40.3695
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_33;Salt Marsh;Juncus;Aboveground;40.3695
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_34;Salt Marsh;Juncus;Aboveground;43.019
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_35;Salt Marsh;Juncus;Aboveground;43.019
+Ria de Aveiro - 2_J;Ria de Aveiro - 2_J_36;Salt Marsh;Juncus;Aboveground;43.019
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_37;Salt Marsh;Juncus;Aboveground;40.2365
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_38;Salt Marsh;Juncus;Aboveground;40.2365
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_39;Salt Marsh;Juncus;Aboveground;40.2365
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_40;Salt Marsh;Juncus;Aboveground;43.04
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_41;Salt Marsh;Juncus;Aboveground;43.04
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_42;Salt Marsh;Juncus;Aboveground;43.04
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_43;Salt Marsh;Juncus;Aboveground;42.05
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_44;Salt Marsh;Juncus;Aboveground;42.05
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_45;Salt Marsh;Juncus;Aboveground;42.05
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_46;Salt Marsh;Juncus;Aboveground;41.0495
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_47;Salt Marsh;Juncus;Aboveground;41.0495
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_48;Salt Marsh;Juncus;Aboveground;41.0495
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_49;Salt Marsh;Juncus;Aboveground;40.709
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_50;Salt Marsh;Juncus;Aboveground;40.709
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_51;Salt Marsh;Juncus;Aboveground;40.709
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_52;Salt Marsh;Juncus;Aboveground;42.2065
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_53;Salt Marsh;Juncus;Aboveground;42.2065
+Ria de Aveiro - 3_J;Ria de Aveiro - 3_J_54;Salt Marsh;Juncus;Aboveground;42.2065
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_55;Salt Marsh;Spartina maritima;Aboveground;40.3255
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_56;Salt Marsh;Spartina maritima;Aboveground;40.3255
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_57;Salt Marsh;Spartina maritima;Aboveground;40.3255
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_58;Salt Marsh;Spartina maritima;Aboveground;40.199
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_59;Salt Marsh;Spartina maritima;Aboveground;40.199
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_60;Salt Marsh;Spartina maritima;Aboveground;40.199
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_61;Salt Marsh;Spartina maritima;Aboveground;41.886
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_62;Salt Marsh;Spartina maritima;Aboveground;41.886
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_63;Salt Marsh;Spartina maritima;Aboveground;41.886
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_64;Salt Marsh;Spartina maritima;Aboveground;42.2665
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_65;Salt Marsh;Spartina maritima;Aboveground;42.2665
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_66;Salt Marsh;Spartina maritima;Aboveground;42.2665
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_67;Salt Marsh;Spartina maritima;Aboveground;40.3695
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_68;Salt Marsh;Spartina maritima;Aboveground;40.3695
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_69;Salt Marsh;Spartina maritima;Aboveground;40.3695
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_70;Salt Marsh;Spartina maritima;Aboveground;43.019
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_71;Salt Marsh;Spartina maritima;Aboveground;43.019
+Ria de Aveiro - 2_Sm;Ria de Aveiro - 2_Sm_72;Salt Marsh;Spartina maritima;Aboveground;43.019
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_73;Salt Marsh;Spartina maritima;Aboveground;40.2365
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_74;Salt Marsh;Spartina maritima;Aboveground;40.2365
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_75;Salt Marsh;Spartina maritima;Aboveground;40.2365
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_76;Salt Marsh;Spartina maritima;Aboveground;43.04
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_77;Salt Marsh;Spartina maritima;Aboveground;43.04
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_78;Salt Marsh;Spartina maritima;Aboveground;43.04
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_79;Salt Marsh;Spartina maritima;Aboveground;42.05
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_80;Salt Marsh;Spartina maritima;Aboveground;42.05
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_81;Salt Marsh;Spartina maritima;Aboveground;42.05
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_82;Salt Marsh;Spartina maritima;Aboveground;41.0495
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_83;Salt Marsh;Spartina maritima;Aboveground;41.0495
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_84;Salt Marsh;Spartina maritima;Aboveground;41.0495
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_85;Salt Marsh;Spartina maritima;Aboveground;40.709
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_86;Salt Marsh;Spartina maritima;Aboveground;40.709
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_87;Salt Marsh;Spartina maritima;Aboveground;40.709
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_88;Salt Marsh;Spartina maritima;Aboveground;42.2065
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_89;Salt Marsh;Spartina maritima;Aboveground;42.2065
+Ria de Aveiro - 3_Sm;Ria de Aveiro - 3_Sm_90;Salt Marsh;Spartina maritima;Aboveground;42.2065
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_1;Seagrass;Zostera noltii;Aboveground;39.7636502
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_2;Seagrass;Zostera noltii;Aboveground;39.7636502
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_3;Seagrass;Zostera noltii;Aboveground;39.7636502
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_4;Seagrass;Zostera noltii;Aboveground;39.7636502
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_5;Seagrass;Zostera noltii;Aboveground;39.7636502
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_6;Seagrass;Zostera noltii;Aboveground;39.29407473
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_7;Seagrass;Zostera noltii;Aboveground;39.29407473
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_8;Seagrass;Zostera noltii;Aboveground;39.29407473
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_9;Seagrass;Zostera noltii;Aboveground;39.29407473
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_10;Seagrass;Zostera noltii;Aboveground;39.29407473
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_11;Seagrass;Zostera noltii;Aboveground;39.25931157
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_12;Seagrass;Zostera noltii;Aboveground;39.25931157
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_13;Seagrass;Zostera noltii;Aboveground;39.25931157
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_14;Seagrass;Zostera noltii;Aboveground;39.25931157
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_15;Seagrass;Zostera noltii;Aboveground;39.25931157
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_16;Seagrass;Zostera noltii;Aboveground;39.7528304
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_17;Seagrass;Zostera noltii;Aboveground;39.7528304
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_18;Seagrass;Zostera noltii;Aboveground;39.7528304
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_19;Seagrass;Zostera noltii;Aboveground;39.7528304
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_20;Seagrass;Zostera noltii;Aboveground;39.7528304
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_21;Seagrass;Zostera noltii;Aboveground;37.20097987
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_22;Seagrass;Zostera noltii;Aboveground;37.20097987
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_23;Seagrass;Zostera noltii;Aboveground;37.20097987
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_24;Seagrass;Zostera noltii;Aboveground;37.20097987
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_25;Seagrass;Zostera noltii;Aboveground;37.20097987
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_26;Seagrass;Zostera noltii;Aboveground;40.2113402
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_27;Seagrass;Zostera noltii;Aboveground;40.2113402
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_28;Seagrass;Zostera noltii;Aboveground;40.2113402
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_29;Seagrass;Zostera noltii;Aboveground;40.2113402
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_30;Seagrass;Zostera noltii;Aboveground;40.2113402
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_31;Seagrass;Zostera noltii;Aboveground;38.1117043
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_32;Seagrass;Zostera noltii;Aboveground;38.1117043
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_33;Seagrass;Zostera noltii;Aboveground;38.1117043
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_34;Seagrass;Zostera noltii;Aboveground;38.1117043
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_35;Seagrass;Zostera noltii;Aboveground;38.1117043
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_36;Seagrass;Zostera noltii;Aboveground;38.16561767
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_37;Seagrass;Zostera noltii;Aboveground;38.16561767
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_38;Seagrass;Zostera noltii;Aboveground;38.16561767
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_39;Seagrass;Zostera noltii;Aboveground;38.16561767
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_40;Seagrass;Zostera noltii;Aboveground;38.16561767
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_41;Seagrass;Zostera noltii;Aboveground;39.03490157
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_42;Seagrass;Zostera noltii;Aboveground;39.03490157
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_43;Seagrass;Zostera noltii;Aboveground;39.03490157
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_44;Seagrass;Zostera noltii;Aboveground;39.03490157
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_45;Seagrass;Zostera noltii;Aboveground;39.03490157
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_46;Seagrass;Zostera noltii;Aboveground;36.99248787
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_47;Seagrass;Zostera noltii;Aboveground;36.99248787
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_48;Seagrass;Zostera noltii;Aboveground;36.99248787
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_49;Seagrass;Zostera noltii;Aboveground;36.99248787
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_50;Seagrass;Zostera noltii;Aboveground;36.99248787
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_51;Seagrass;Zostera noltii;Aboveground;38.67931217
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_52;Seagrass;Zostera noltii;Aboveground;38.67931217
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_53;Seagrass;Zostera noltii;Aboveground;38.67931217
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_54;Seagrass;Zostera noltii;Aboveground;38.67931217
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_55;Seagrass;Zostera noltii;Aboveground;38.67931217
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_56;Seagrass;Zostera noltii;Aboveground;38.19908817
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_57;Seagrass;Zostera noltii;Aboveground;38.19908817
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_58;Seagrass;Zostera noltii;Aboveground;38.19908817
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_59;Seagrass;Zostera noltii;Aboveground;38.19908817
+Ria de Aveiro - 1_Zn;Ria de Aveiro - 1_Zn_60;Seagrass;Zostera noltii;Aboveground;38.19908817
